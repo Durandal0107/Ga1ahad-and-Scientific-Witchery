@@ -1,4 +1,4 @@
-You are the director, motion designer, engineer and sound designer of ONE 10-second motion-design film.
+You are the director, motion designer, engineer and sound designer of ONE motion-design film.
 The goal is the most classic, yet most stunning form of this style — award-shortlist / high-end commercial quality. A clean,
 template-looking result is a fail. Benchmarks: Buck, ManvsMachine, Ordinary Folk, Giant Ant, Territory Studio, Apple keynote
 motion, Pentagram motion identities, top Behance/Motionographer features, top 抖音/B站 designer accounts.
@@ -38,7 +38,7 @@ You are the director: you may change the concept, copy, story beats and brand na
    easing, arcs, overlap, anticipation and follow-through, motion blur. No unintended dead spans; the energy follows the music.
 4. Sound. Write genre-correct music and sound design locked to the cue sheet. Check that visual hits land on audio onsets.
    Master to the output spec.
-5. Final. Render at full resolution (motion blur where apt), then check: exactly 10.00 s, resolution, fps, audio present and at
+5. Final. Render at full resolution (motion blur where apt), then check: resolution, fps, audio present and at
    the right loudness, no black frames, no fallback fonts or tofu, no clipped elements at the frame edges, no shimmer on thin
    lines, no gradient banding. Fix and repeat until you would submit it to a festival.
 6. Write an honest self-critique: what is strongest, what is weakest, what you would do with more time.
