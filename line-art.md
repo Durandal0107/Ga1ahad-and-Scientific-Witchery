@@ -7,7 +7,7 @@ motion, Pentagram motion identities, top Behance/Motionographer features, top �
 线条动画 Line Art / Line Animation
 
 # Output (fixed)
-- 1920×1080, 30 fps, exactly 10.000 s (300 frames), H.264 MP4 with stereo AAC audio (48 kHz), mastered to −14 LUFS
+- 1920×1080, 30 fps, H.264 MP4 with stereo AAC audio (48 kHz), mastered to −14 LUFS
   integrated, true peak ≤ −1 dBTP. Final file: video.mp4.
 
 # Suggested technical route
@@ -29,9 +29,7 @@ You are the director: you may change the concept, copy, story beats and brand na
 配合微小的端点圆头（round cap）与路径抖动可增加手绘感
 
 # How to work
-1. Treatment. Write down one clear idea: a hook in the first 0.5 s (never open on more than 0.3 s of empty or black), an
-   escalation, one unmistakable hero moment at ~60–75 % of the runtime, and a composed end frame held ~0.8–1.2 s with living
-   micro-motion. Map every signature feature above to a moment. Keep one cue sheet (beats and hit times) that both the
+1.  Map every signature feature above to a moment. Keep one cue sheet (beats and hit times) that both the
    picture and the sound read from.
 2. Key frames before motion. Build the look, render stills at 6–10 key times and actually look at them. Each still should be
    poster-worthy: composition, hierarchy, negative space, type set properly (kerning, line-height, weight contrast, CJK
