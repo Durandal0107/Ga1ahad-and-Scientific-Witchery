@@ -1,0 +1,11 @@
+{
+  "recorded_at": "2026-11-01T15:41:07.845645+08:00",
+  "python": "3.12.14",
+  "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "ffprobe": "ffprobe version 7.1.5-0+deb13u1 Copyright (c) 2007-2026 the FFmpeg developers",
+  "chromium": "Chromium 154.0.8037.57 built on Debian GNU/Linux 13 (trixie)",
+  "playwright": "1.62.0",
+  "Pillow": "12.3.0",
+  "fonts-urw-base35": "20200910-8",
+  "verification_scope": "版本探测；不是 Chromium/Playwright 渲染验证，也不是旧环境的锁定依赖。FFmpeg 功能验证见 README.md。"
+}

@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "purpose": "所有对视频制作或修改有价值的已归档文件及调用标注；缺失项单列。",
+  "path_base": "progress/",
+  "catalog_note": "catalog.json 本身是此清单，不对自身计算大小或哈希。files 仅包含实际文件，missing 为尚未取得的资料。",
+  "source_snapshot_commit": "519ba9d170993d6c3b7776d7bb68e1d817fcbcad",
+  "files": [
+    {
+      "path": "README.md",
+      "kind": "navigation",
+      "purpose": "项目资料与接续入口、目录约定和每轮保存流程",
+      "source": "当前对话：用户扩大归档范围的要求",
+      "status": "active",
+      "related_versions": [
+        "shared"
+      ],
+      "usage": "先阅读本文件，再读取 requirements.md 和 catalog.json。",
+      "depends_on": [],
+      "bytes": 6146,
+      "sha256": "ce99a02bc6449ea28d34a1b1ef2ef00a8569c434efb97355fe09ff49937f9f53"
+    },
+    {
+      "path": "requirements.md",
+      "kind": "requirements",
+      "purpose": "当前效果要求、讨论建议、历史反馈、接续状态与修改记录",
+      "source": "用户当前指令及 context/old.md；历史来源提交 93de6852ceee6ee7ab71b0636eee07a0b7dfad54",
+      "status": "active",
+      "related_versions": [
+        "shared"
+      ],
+      "usage": "每轮补充本文件；明确区分用户要求、候选建议和已完成结果。",
+      "depends_on": [
+        "context/old.md",
+        "references/line-art.md"
+      ],
+      "bytes": 13893,
+      "sha256": "467e48c7f9b3485056aaac861a70d27213d2df05c06cac744676f7e55c6d25df"
+    },
+    {
+      "path": "context/old.md",
+      "kind": "conversation",
+      "purpose": "原对话及旧工程源码/修改过程的恢复依据",
+      "source": "仓库根目录 old.md，来源提交 93de6852ceee6ee7ab71b0636eee07a0b7dfad54；归档时移除 6 个附件 URL 的临时查询参数，行号不变",
+      "status": "archived_text_only",
+      "related_versions": [
+        "legacy-five-lines-mv",
+        "legacy-five-lines-mv-v2"
+      ],
+      "usage": "先用 requirements.md 定位相关行；代码需逐段审查，不能直接批量执行旧命令；本地视频链接不代表附件已恢复。",
+      "depends_on": [],
+      "bytes": 147359,
+      "sha256": "e8d94a449bac4371f58213fbe1873bdf40c20882ea0cacdc99fa2d66363dbd39"
+    },
+    {
+      "path": "references/line-art.md",
+      "kind": "style_reference",
+      "purpose": "连续细线动画的当前风格、输出规格及质检要求",
+      "source": "仓库根目录 line-art.md，归档基于提交 519ba9d170993d6c3b7776d7bb68e1d817fcbcad",
+      "status": "active_reference",
+      "related_versions": [
+        "shared"
+      ],
+      "usage": "制作前阅读；具体要求以 requirements.md 中更新后的用户要求为准。",
+      "depends_on": [],
+      "bytes": 5473,
+      "sha256": "2991653ced65b956702383baa883c02035bc9c522b355c142cda9190e0f8feff"
+    },
+    {
+      "path": "references/prompts.md",
+      "kind": "historical_reference",
+      "purpose": "保留早期创作模板和技法参考",
+      "source": "仓库根目录 prompts，归档基于提交 519ba9d170993d6c3b7776d7bb68e1d817fcbcad",
+      "status": "historical",
+      "related_versions": [
+        "shared"
+      ],
+      "usage": "可参考技法；其 10 秒固定时长不直接适用于当前五句歌词短片。",
+      "depends_on": [],
+      "bytes": 5794,
+      "sha256": "4f45830a25258cb49a22663310969d716f735d8d02e3a02eff8b87bbc89d2589"
+    },
+    {
+      "path": "assets/source/Mili_Ga1ahad_and_Scientific_Witchery.mp4",
+      "kind": "source_media",
+      "purpose": "原曲、歌词及角色关系参考；声轨提取输入",
+      "source": "用户提供的仓库根目录同名视频，归档基于提交 519ba9d170993d6c3b7776d7bb68e1d817fcbcad",
+      "status": "archived_source",
+      "related_versions": [
+        "shared"
+      ],
+      "usage": "从此文件提取声音或参考帧；旧版使用 17.600–29.300 秒，实际逐词起音尚待核对。",
+      "depends_on": [],
+      "bytes": 23064817,
+      "sha256": "4093425dac457e7cf1d76d58466adf6936a2aebe4764912a411fc29d69340f64"
+    },
+    {
+      "path": "assets/fonts/NimbusRoman-Regular.otf",
+      "kind": "font",
+      "purpose": "旧工程所用字体的当前环境副本；便于后续恢复排版",
+      "source": "/usr/share/fonts/opentype/urw-base35/NimbusRoman-Regular.otf；包版本见 validation/onboarding/toolchain.json",
+      "status": "archived_current_environment",
+      "related_versions": [
+        "legacy-five-lines-mv"
+      ],
+      "usage": "以本地字体加载并连同 LICENSE.txt 使用；尚未证明与旧环境二进制一致，恢复时核对排版。",
+      "depends_on": [
+        "assets/fonts/LICENSE.txt"
+      ],
+      "bytes": 98200,
+      "sha256": "fd41669443616a7ae890c42e53a58f47fa24a940fd1e367acaff665cf5b6e9d8"
+    },
+    {
+      "path": "assets/fonts/NimbusRoman-Italic.otf",
+      "kind": "font",
+      "purpose": "旧工程所用字体的当前环境副本；便于后续恢复排版",
+      "source": "/usr/share/fonts/opentype/urw-base35/NimbusRoman-Italic.otf；包版本见 validation/onboarding/toolchain.json",
+      "status": "archived_current_environment",
+      "related_versions": [
+        "legacy-five-lines-mv"
+      ],
+      "usage": "以本地字体加载并连同 LICENSE.txt 使用；尚未证明与旧环境二进制一致，恢复时核对排版。",
+      "depends_on": [
+        "assets/fonts/LICENSE.txt"
+      ],
+      "bytes": 105684,
+      "sha256": "b7c424e6cb79baddfcdcd9a9d87f9fc4fdd06f0e5160066e2b2e47bcd647c7b9"
+    },
+    {
+      "path": "assets/fonts/Z003-MediumItalic.otf",
+      "kind": "font",
+      "purpose": "旧工程所用字体的当前环境副本；便于后续恢复排版",
+      "source": "/usr/share/fonts/opentype/urw-base35/Z003-MediumItalic.otf；包版本见 validation/onboarding/toolchain.json",
+      "status": "archived_current_environment",
+      "related_versions": [
+        "legacy-five-lines-mv-v2"
+      ],
+      "usage": "以本地字体加载并连同 LICENSE.txt 使用；尚未证明与旧环境二进制一致，恢复时核对排版。",
+      "depends_on": [
+        "assets/fonts/LICENSE.txt"
+      ],
+      "bytes": 114052,
+      "sha256": "a04947e59fc9339ea3c4b34c31fd46764f22af7512afc2c074ce190e79ed7a09"
+    },
+    {
+      "path": "assets/fonts/LICENSE.txt",
+      "kind": "license",
+      "purpose": "归档字体许可、版权及字体嵌入例外",
+      "source": "当前环境 /usr/share/doc/fonts-urw-base35/copyright",
+      "status": "archived_license",
+      "related_versions": [
+        "shared"
+      ],
+      "usage": "使用和交付字体时一并保留，读取对应字体许可条款。",
+      "depends_on": [],
+      "bytes": 52517,
+      "sha256": "1315a62758a603a3e6e87a79b8389563789c59c1740b9db8bc2b20e2e2145458"
+    },
+    {
+      "path": "validation/onboarding/README.md",
+      "kind": "validation_notes",
+      "purpose": "说明媒体工具验证资料、范围和样片复现方法",
+      "source": "本次归档与此前本对话云环境验证",
+      "status": "documented",
+      "related_versions": [
+        "shared"
+      ],
+      "usage": "按文中工作目录复现；样片不是 MV 输出，也不代表旧版声画验证通过。",
+      "depends_on": [
+        "validation/onboarding/smoke.mp4",
+        "validation/onboarding/source-media.json",
+        "validation/onboarding/smoke-media.json",
+        "validation/onboarding/toolchain.json",
+        "validation/onboarding/verification.json"
+      ],
+      "bytes": 1932,
+      "sha256": "7a3f6cfc91cd68c15e77435c8fedce9edc1eaa42268148fee2b3a5a467742fb8"
+    },
+    {
+      "path": "validation/onboarding/smoke.mp4",
+      "kind": "tool_smoke_video",
+      "purpose": "保留 1 秒 H.264/AAC 编码样片用于工具故障排查",
+      "source": "本对话环境初始化输出 /tmp/ga1ahad-onboarding-smoke.mp4；来源为原视频开头",
+      "status": "decode_verified",
+      "related_versions": [
+        "tool-onboarding"
+      ],
+      "usage": "可播放或用 ffprobe/ffmpeg 检查；不要作为风格确认片交付。",
+      "depends_on": [
+        "assets/source/Mili_Ga1ahad_and_Scientific_Witchery.mp4"
+      ],
+      "bytes": 78167,
+      "sha256": "2380f3889ce75961451bbaf8c5422e13a91f56099a852c5f41845e6987f9dfd0"
+    },
+    {
+      "path": "validation/onboarding/source-media.json",
+      "kind": "media_metadata",
+      "purpose": "原始素材的时长与音视频流参数",
+      "source": "本次对归档源视频执行 ffprobe 的 JSON 输出",
+      "status": "measured",
+      "related_versions": [
+        "shared"
+      ],
+      "usage": "读取 format/streams 字段；用于裁切和制作输入检查。",
+      "depends_on": [
+        "assets/source/Mili_Ga1ahad_and_Scientific_Witchery.mp4"
+      ],
+      "bytes": 460,
+      "sha256": "544cd2a0335563a8976cddc7b9fde70aa3f22105aa0d0bc54727e863148298d2"
+    },
+    {
+      "path": "validation/onboarding/smoke-media.json",
+      "kind": "media_metadata",
+      "purpose": "工具样片的实际音视频参数",
+      "source": "本次对归档 smoke.mp4 执行 ffprobe 的 JSON 输出",
+      "status": "measured",
+      "related_versions": [
+        "tool-onboarding"
+      ],
+      "usage": "用于检查工具编码输出，不是 MV 参数。",
+      "depends_on": [
+        "validation/onboarding/smoke.mp4"
+      ],
+      "bytes": 454,
+      "sha256": "ed80126e0a5738e85dc10b0fb9a2fb8855f6fe6bc4e150dcd7286f89f0fecf74"
+    },
+    {
+      "path": "validation/onboarding/toolchain.json",
+      "kind": "tool_versions",
+      "purpose": "记录当前 FFmpeg、Chromium、Python、Playwright、Pillow、字体包版本",
+      "source": "本次当前环境版本探测",
+      "status": "versions_detected_only",
+      "related_versions": [
+        "shared"
+      ],
+      "usage": "作为依赖排查线索；不是旧工程锁文件，不能证明 Chromium/Playwright 已通过渲染验证。",
+      "depends_on": [],
+      "bytes": 583,
+      "sha256": "b9879e5514f06dafdb472c051d5486abdb02918ebb58af6ca66c5293a4107d13"
+    },
+    {
+      "path": "validation/onboarding/verification.json",
+      "kind": "validation_result",
+      "purpose": "归档样片的完整解码检查命令、退出码及错误输出",
+      "source": "本次 ffmpeg 对归档样片执行完整解码",
+      "status": "passed",
+      "related_versions": [
+        "tool-onboarding"
+      ],
+      "usage": "查看 exit_code 和 stderr；仅涵盖工具样片。",
+      "depends_on": [
+        "validation/onboarding/smoke.mp4"
+      ],
+      "bytes": 365,
+      "sha256": "977f3e8952b5f3bbb3a418de0adc8ef4d24f89beb6d32ae4c3845c41e0609e4f"
+    },
+    {
+      "path": "templates/version-README.md",
+      "kind": "template",
+      "purpose": "新版本说明模板，覆盖目标、文件、复现、验证和中间资料",
+      "source": "当前对话的完整资料归档规则",
+      "status": "template",
+      "related_versions": [
+        "shared"
+      ],
+      "usage": "制作新版本时复制到 versions/vNNN/README.md，填写实际路径与结果。",
+      "depends_on": [],
+      "bytes": 1552,
+      "sha256": "9560abecd624a803a798e2c05217d1c6e0d5461fbe11e8b8a39bfcc38a0dd063"
+    },
+    {
+      "path": "tools/catalog.py",
+      "kind": "archive_tool",
+      "purpose": "检查每个实际文件已标注、依赖可找到及大小/哈希一致",
+      "source": "本次新增的 Python 标准库工具",
+      "status": "available",
+      "related_versions": [
+        "shared"
+      ],
+      "usage": "从仓库根目录运行 python3 progress/tools/catalog.py --refresh，再运行 --check；刷新不会自动为新文件编写说明。",
+      "depends_on": [],
+      "bytes": 3387,
+      "sha256": "02906cbec0a4b4bf4d19329398df0818aa05d961bde92889def9c784a0a19cbc"
+    },
+    {
+      "path": "versions/.gitkeep",
+      "kind": "directory_placeholder",
+      "purpose": "在 Git 中保留视频版本目录",
+      "source": "最初 progress 初始化",
+      "status": "placeholder",
+      "related_versions": [
+        "shared"
+      ],
+      "usage": "首个视频版本归档后可删除；删除时也需更新清单。",
+      "depends_on": [],
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "missing": [
+    {
+      "id": "legacy_videos",
+      "description": "旧第一、二版 video.mp4",
+      "source_reference": "context/old.md 第 3085、3563 行起",
+      "status": "not_recovered",
+      "recovery": "从可用备份取回，或审查旧代码后重建；重建文件须另标来源。",
+      "related_versions": [
+        "legacy-five-lines-mv",
+        "legacy-five-lines-mv-v2"
+      ]
+    },
+    {
+      "id": "legacy_keyframes",
+      "description": "旧版 stills/*.png 与 contact-sheet.jpg",
+      "source_reference": "context/old.md 中五句短片交付链接",
+      "status": "not_recovered",
+      "recovery": "取得旧文件或从恢复后的视频重新提取；不得只复用失效本地链接。",
+      "related_versions": [
+        "legacy-five-lines-mv",
+        "legacy-five-lines-mv-v2"
+      ]
+    },
+    {
+      "id": "legacy_projects",
+      "description": "旧 index.html、render.py、finish.py 独立工程",
+      "source_reference": "context/old.md 第 2807 行起、3199 行起及后续修改命令",
+      "status": "not_recovered",
+      "recovery": "归档对话保留源码片段；逐段审查并恢复到 project/，重新验证渲染。",
+      "related_versions": [
+        "legacy-five-lines-mv",
+        "legacy-five-lines-mv-v2"
+      ]
+    },
+    {
+      "id": "legacy_audio_checks",
+      "description": "旧 source-crop.wav、响度测量及 validation.json",
+      "source_reference": "context/old.md 第 2985、3003、3420 行起",
+      "status": "not_recovered",
+      "recovery": "可从已归档原始视频重建音频，重新进行响度和声画检查。",
+      "related_versions": [
+        "legacy-five-lines-mv",
+        "legacy-five-lines-mv-v2"
+      ]
+    },
+    {
+      "id": "reference_pv",
+      "description": "Ga1ahad_and_Scientific_Witchery_PV.mp4",
+      "source_reference": "context/old.md 第 2661 行起的素材读取记录",
+      "status": "not_recovered",
+      "recovery": "需要参考视频文件本体；目前只有旧助手的文字分析。",
+      "related_versions": [
+        "shared"
+      ]
+    },
+    {
+      "id": "reference_images",
+      "description": "用户的对话截图、情感参考及反馈截图",
+      "source_reference": "context/old.md 附件记录",
+      "status": "not_recovered",
+      "recovery": "需要图片本体；旧临时链接不是持久归档，不把文字转述当作已查看图片。",
+      "related_versions": [
+        "shared"
+      ]
+    }
+  ]
+}

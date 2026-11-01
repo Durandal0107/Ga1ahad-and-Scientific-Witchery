@@ -1,0 +1,18 @@
+{
+  "check": "full_decode_of_archived_tool_smoke_video",
+  "command": [
+    "ffmpeg",
+    "-nostdin",
+    "-v",
+    "error",
+    "-xerror",
+    "-i",
+    "progress/validation/onboarding/smoke.mp4",
+    "-f",
+    "null",
+    "-"
+  ],
+  "exit_code": 0,
+  "stderr": "",
+  "scope": "仅解码归档的工具验证样片，不代表 MV 或旧版重绘通过验证。"
+}
