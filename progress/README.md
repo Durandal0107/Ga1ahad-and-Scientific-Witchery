@@ -21,8 +21,8 @@
 | [assets/source/Mili_Ga1ahad_and_Scientific_Witchery.mp4](assets/source/Mili_Ga1ahad_and_Scientific_Witchery.mp4) | 原始音乐视频，与根目录源文件逐字节一致。 |
 | `assets/fonts/` | 旧工程使用过的三种字体及 [许可](assets/fonts/LICENSE.txt)，从当前环境取得；未证明与旧环境二进制一致。 |
 | `project/` | 后续当前可编辑工程、脚本、依赖清单/锁文件及配置；尚未恢复，不是现有工程链接。 |
-| `planning/` | 后续分镜、节拍表、歌词时间轴、音频分析与设计草稿；目前尚未制作。 |
-| `versions/vNNN/` | 每轮视频、关键帧、对应源码/配置/时间轴快照和说明；尚无已归档 MV 版本。 |
+| [planning/legacy-upload-001-revision-plan.md](planning/legacy-upload-001-revision-plan.md) | 针对用户上传上一版短片的修改方向、画面定位和建议分镜。 |
+| `versions/` | 已归档用户提供的 [上一版评审片](versions/legacy-upload-001/README.md) 及 13 张关键帧；后续新制作使用 vNNN。 |
 | [validation/onboarding/README.md](validation/onboarding/README.md) | 已有工具验证样片、参数、当前版本信息和验证记录，不是 MV 设计版本。 |
 | [tools/catalog.py](tools/catalog.py) | 更新和检查清单，仅使用 Python 标准库。 |
 | [templates/version-README.md](templates/version-README.md) | 版本说明模板，包含修改、复现、验证及待办。 |
@@ -43,17 +43,18 @@
 
 ## 视频版本索引
 
-尚无已归档的 MV 输出。原始音乐视频与工具验证样片不占用制作版本号。
+已收到一份用户提供的上一版 MV，作为修改基准归档；本轮未制作新版本。原始音乐视频与工具验证样片不占用制作版本号。
 
 | 版本 | 日期（北京时间） | 修改概要 | 视频 | 关键帧、工程与说明 | 状态 |
 | --- | --- | --- | --- | --- | --- |
+| legacy-upload-001 | 2026-11-01 | 用户上传的旧版，附本轮分析 | [视频](versions/legacy-upload-001/video.mp4) | [关键帧与说明](versions/legacy-upload-001/README.md)；工程待恢复 | 已归档，待修改 |
 
 ## 历史版本（文件待恢复）
 
 | 旧版名称 | 历史报告 | 最后反馈 | 当前文件状态 |
 | --- | --- | --- | --- |
 | `five-lines-mv` | 12.8 秒、1080p、30 fps，包含原声。 | 意象太小，文字力量、线条作用与人物情感表达不足。 | 视频、关键帧和独立工程未找到。 |
-| `five-lines-mv-v2` | 12.8 秒、1080p、30 fps，重绘连笔字体及意象。 | 人物意象、冲击、转场、无意义线条及歌词退场仍需修改。 | 视频、关键帧和独立工程未找到；对话保留代码与修改步骤。 |
+| `five-lines-mv-v2` | 12.8 秒、1080p、30 fps，重绘连笔字体及意象。 | 人物意象、冲击、转场、无意义线条及歌词退场仍需修改。 | 用户已提供与此描述吻合的旧版评审片，归档为 legacy-upload-001；原工程及旧关键帧仍未恢复。 |
 
 历史报告不能代替本轮质检；恢复或重新渲染后再建立带实际文件的版本条目。完整要求、来源定位和恢复清单见 [requirements.md](requirements.md)。
 
@@ -62,4 +63,5 @@
 - 已归档原始音乐视频、两份风格资料、旧对话、当前可用字体和媒体工具验证资料。
 - 当前范围是前五句歌词的确认短片，六项最新修改目标见 `requirements.md`。
 - 尖帽/针/剑组合、约 2 帧红闪、镜头滞后等属于候选方案，尚未逐项确认。
-- 可从归档对话恢复制作代码；旧视频、关键帧、参考 PV 和截图仍待恢复。本轮扩充资料归档，未制作新 MV。
+- 用户已提供上一版短片，视频与本轮抽取的关键帧已存档；[修改方向](planning/legacy-upload-001-revision-plan.md) 将六项反馈落实到五句的具体动作。
+- 旧独立工程、其他历史视频、原关键帧、参考 PV 和截图仍待恢复；可从对话代码重建工程。本轮为评审分析，未制作新 MV。

@@ -1,0 +1,346 @@
+{
+  "source": "../video.mp4",
+  "source_sha256": "de0a4fc914f021c1f9d6d7ac5b775450790ebcef1bbc451e3f62fbce5def5cf6",
+  "fps": 30,
+  "frame_number_origin": 0,
+  "keyframes": [
+    {
+      "path": "keyframes/frame-000038.png",
+      "frame": 38,
+      "time_seconds": 1.2666666666666666
+    },
+    {
+      "path": "keyframes/frame-000075.png",
+      "frame": 75,
+      "time_seconds": 2.5
+    },
+    {
+      "path": "keyframes/frame-000120.png",
+      "frame": 120,
+      "time_seconds": 4.0
+    },
+    {
+      "path": "keyframes/frame-000160.png",
+      "frame": 160,
+      "time_seconds": 5.333333333333333
+    },
+    {
+      "path": "keyframes/frame-000183.png",
+      "frame": 183,
+      "time_seconds": 6.1
+    },
+    {
+      "path": "keyframes/frame-000195.png",
+      "frame": 195,
+      "time_seconds": 6.5
+    },
+    {
+      "path": "keyframes/frame-000240.png",
+      "frame": 240,
+      "time_seconds": 8.0
+    },
+    {
+      "path": "keyframes/frame-000255.png",
+      "frame": 255,
+      "time_seconds": 8.5
+    },
+    {
+      "path": "keyframes/frame-000288.png",
+      "frame": 288,
+      "time_seconds": 9.6
+    },
+    {
+      "path": "keyframes/frame-000306.png",
+      "frame": 306,
+      "time_seconds": 10.2
+    },
+    {
+      "path": "keyframes/frame-000312.png",
+      "frame": 312,
+      "time_seconds": 10.4
+    },
+    {
+      "path": "keyframes/frame-000321.png",
+      "frame": 321,
+      "time_seconds": 10.7
+    },
+    {
+      "path": "keyframes/frame-000360.png",
+      "frame": 360,
+      "time_seconds": 12.0
+    }
+  ],
+  "sheets": {
+    "overview.jpg": [
+      {
+        "frame": 0,
+        "time_seconds": 0.0
+      },
+      {
+        "frame": 15,
+        "time_seconds": 0.5
+      },
+      {
+        "frame": 38,
+        "time_seconds": 1.2666666666666666
+      },
+      {
+        "frame": 75,
+        "time_seconds": 2.5
+      },
+      {
+        "frame": 90,
+        "time_seconds": 3.0
+      },
+      {
+        "frame": 120,
+        "time_seconds": 4.0
+      },
+      {
+        "frame": 160,
+        "time_seconds": 5.333333333333333
+      },
+      {
+        "frame": 170,
+        "time_seconds": 5.666666666666667
+      },
+      {
+        "frame": 183,
+        "time_seconds": 6.1
+      },
+      {
+        "frame": 195,
+        "time_seconds": 6.5
+      },
+      {
+        "frame": 210,
+        "time_seconds": 7.0
+      },
+      {
+        "frame": 240,
+        "time_seconds": 8.0
+      },
+      {
+        "frame": 255,
+        "time_seconds": 8.5
+      },
+      {
+        "frame": 270,
+        "time_seconds": 9.0
+      },
+      {
+        "frame": 288,
+        "time_seconds": 9.6
+      },
+      {
+        "frame": 306,
+        "time_seconds": 10.2
+      },
+      {
+        "frame": 312,
+        "time_seconds": 10.4
+      },
+      {
+        "frame": 321,
+        "time_seconds": 10.7
+      },
+      {
+        "frame": 345,
+        "time_seconds": 11.5
+      },
+      {
+        "frame": 381,
+        "time_seconds": 12.7
+      }
+    ],
+    "transitions.jpg": [
+      {
+        "frame": 165,
+        "time_seconds": 5.5
+      },
+      {
+        "frame": 168,
+        "time_seconds": 5.6
+      },
+      {
+        "frame": 171,
+        "time_seconds": 5.7
+      },
+      {
+        "frame": 174,
+        "time_seconds": 5.8
+      },
+      {
+        "frame": 177,
+        "time_seconds": 5.9
+      },
+      {
+        "frame": 180,
+        "time_seconds": 6.0
+      },
+      {
+        "frame": 183,
+        "time_seconds": 6.1
+      },
+      {
+        "frame": 186,
+        "time_seconds": 6.2
+      },
+      {
+        "frame": 189,
+        "time_seconds": 6.3
+      },
+      {
+        "frame": 192,
+        "time_seconds": 6.4
+      },
+      {
+        "frame": 195,
+        "time_seconds": 6.5
+      },
+      {
+        "frame": 249,
+        "time_seconds": 8.3
+      },
+      {
+        "frame": 252,
+        "time_seconds": 8.4
+      },
+      {
+        "frame": 255,
+        "time_seconds": 8.5
+      },
+      {
+        "frame": 258,
+        "time_seconds": 8.6
+      },
+      {
+        "frame": 261,
+        "time_seconds": 8.7
+      },
+      {
+        "frame": 264,
+        "time_seconds": 8.8
+      },
+      {
+        "frame": 267,
+        "time_seconds": 8.9
+      },
+      {
+        "frame": 270,
+        "time_seconds": 9.0
+      },
+      {
+        "frame": 273,
+        "time_seconds": 9.1
+      },
+      {
+        "frame": 276,
+        "time_seconds": 9.2
+      }
+    ],
+    "impact.jpg": [
+      {
+        "frame": 303,
+        "time_seconds": 10.1
+      },
+      {
+        "frame": 304,
+        "time_seconds": 10.133333333333333
+      },
+      {
+        "frame": 305,
+        "time_seconds": 10.166666666666666
+      },
+      {
+        "frame": 306,
+        "time_seconds": 10.2
+      },
+      {
+        "frame": 307,
+        "time_seconds": 10.233333333333333
+      },
+      {
+        "frame": 308,
+        "time_seconds": 10.266666666666667
+      },
+      {
+        "frame": 309,
+        "time_seconds": 10.3
+      },
+      {
+        "frame": 310,
+        "time_seconds": 10.333333333333334
+      },
+      {
+        "frame": 311,
+        "time_seconds": 10.366666666666667
+      },
+      {
+        "frame": 312,
+        "time_seconds": 10.4
+      },
+      {
+        "frame": 313,
+        "time_seconds": 10.433333333333334
+      },
+      {
+        "frame": 314,
+        "time_seconds": 10.466666666666667
+      },
+      {
+        "frame": 315,
+        "time_seconds": 10.5
+      },
+      {
+        "frame": 316,
+        "time_seconds": 10.533333333333333
+      },
+      {
+        "frame": 317,
+        "time_seconds": 10.566666666666666
+      },
+      {
+        "frame": 318,
+        "time_seconds": 10.6
+      },
+      {
+        "frame": 319,
+        "time_seconds": 10.633333333333333
+      },
+      {
+        "frame": 320,
+        "time_seconds": 10.666666666666666
+      },
+      {
+        "frame": 321,
+        "time_seconds": 10.7
+      },
+      {
+        "frame": 322,
+        "time_seconds": 10.733333333333333
+      },
+      {
+        "frame": 323,
+        "time_seconds": 10.766666666666667
+      },
+      {
+        "frame": 324,
+        "time_seconds": 10.8
+      },
+      {
+        "frame": 325,
+        "time_seconds": 10.833333333333334
+      },
+      {
+        "frame": 326,
+        "time_seconds": 10.866666666666667
+      },
+      {
+        "frame": 327,
+        "time_seconds": 10.9
+      }
+    ]
+  },
+  "limits": "Visual samples and frame-by-frame impact review; no word-level audio alignment is claimed."
+}

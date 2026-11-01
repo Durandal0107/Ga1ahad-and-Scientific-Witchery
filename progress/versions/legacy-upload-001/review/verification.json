@@ -1,0 +1,17 @@
+{
+  "command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-nostdin",
+    "-xerror",
+    "-i",
+    "/workspace/Ga1ahad-and-Scientific-Witchery/progress/versions/legacy-upload-001/video.mp4",
+    "-af",
+    "ebur128=peak=true",
+    "-f",
+    "null",
+    "-"
+  ],
+  "exit_code": 0,
+  "audio_alignment": "not_performed"
+}

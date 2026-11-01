@@ -16,8 +16,8 @@
       ],
       "usage": "先阅读本文件，再读取 requirements.md 和 catalog.json。",
       "depends_on": [],
-      "bytes": 6146,
-      "sha256": "ce99a02bc6449ea28d34a1b1ef2ef00a8569c434efb97355fe09ff49937f9f53"
+      "bytes": 6787,
+      "sha256": "35f4376e643343f61ee56b51490534dcfa3da6379f0f831c96cfa3c0aa243257"
     },
     {
       "path": "requirements.md",
@@ -33,8 +33,8 @@
         "context/old.md",
         "references/line-art.md"
       ],
-      "bytes": 13893,
-      "sha256": "467e48c7f9b3485056aaac861a70d27213d2df05c06cac744676f7e55c6d25df"
+      "bytes": 15848,
+      "sha256": "3a09066d41e3b43d1d95c04955fc3cb7783c7f31b949304b124c7755bf793a54"
     },
     {
       "path": "context/old.md",
@@ -294,29 +294,440 @@
       "depends_on": [],
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "versions/legacy-upload-001/video.mp4",
+      "kind": "review_baseline_video",
+      "purpose": "用户提供的上次五句歌词短片；下一版修改基准",
+      "source": "用户上传 video.mp4；file_0000000068108230836075f78227a75e；原字节保存，未重新编码",
+      "status": "uploaded_and_decode_verified",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "结合本目录 README.md 和 planning 中的修改分析观看。",
+      "depends_on": [],
+      "bytes": 2536837,
+      "sha256": "de0a4fc914f021c1f9d6d7ac5b775450790ebcef1bbc451e3f62fbce5def5cf6"
+    },
+    {
+      "path": "versions/legacy-upload-001/README.md",
+      "kind": "version_notes",
+      "purpose": "归档来源、实测参数、关键帧用途与分析范围",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "documented",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "从此进入视频、关键帧、评审计划及检查证据。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4",
+        "planning/legacy-upload-001-revision-plan.md"
+      ],
+      "bytes": 2835,
+      "sha256": "e189f6aab511c3319cc825ee19165b5c33689e6e4f65d3f64639f09264b27ad3"
+    },
+    {
+      "path": "planning/legacy-upload-001-revision-plan.md",
+      "kind": "revision_plan",
+      "purpose": "结合实际画面与旧反馈，整理六项修改方向及五句建议分镜",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "proposal_not_implemented",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "后续制作以此为讨论和行动依据；区分明确反馈与尚未确认的方案。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4",
+        "context/old.md",
+        "requirements.md"
+      ],
+      "bytes": 9709,
+      "sha256": "d7a5a09b875d88110d7d60b8f7bd2e57b764a6f9513aade74585279a935efd64"
+    },
+    {
+      "path": "tools/review_uploaded_video.py",
+      "kind": "analysis_tool",
+      "purpose": "可复现的关键帧、连续帧总览、媒体参数及解码/响度检查",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "executed",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "python3 progress/tools/review_uploaded_video.py 新输出目录；依赖 ffmpeg、ffprobe、Pillow。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4"
+      ],
+      "bytes": 4044,
+      "sha256": "c8bcc6d41f447bd7787d9d31465d47d6d9626edcd3af59616030eadd58543e00"
+    },
+    {
+      "path": "versions/legacy-upload-001/review/overview.jpg",
+      "kind": "contact_sheet",
+      "purpose": "全片主要画面，定位人物意象、文字与构图",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "measured_or_reviewed",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "已查看，按帧号/秒定位；不是全部帧连续播放。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4",
+        "tools/review_uploaded_video.py"
+      ],
+      "bytes": 522998,
+      "sha256": "a64b910151ea7779dc32f853920e9f008388209d6ce2fa497fbed827bd17c8a9"
+    },
+    {
+      "path": "versions/legacy-upload-001/review/transitions.jpg",
+      "kind": "contact_sheet",
+      "purpose": "两次扫屏转场的密集采样",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "measured_or_reviewed",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "已查看，比较意象接续与底色遮挡。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4",
+        "tools/review_uploaded_video.py"
+      ],
+      "bytes": 551485,
+      "sha256": "64eef8b9f6d8bb76ceffbf02a4fa058c8b88cb0810cf729382955ef8719bd09b"
+    },
+    {
+      "path": "versions/legacy-upload-001/review/impact.jpg",
+      "kind": "contact_sheet",
+      "purpose": "第 303–327 帧逐帧观察 kill 滑入及暗红变化",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "measured_or_reviewed",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "已查看，按连续帧判断运动；不等于已核对演唱起音。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4",
+        "tools/review_uploaded_video.py"
+      ],
+      "bytes": 681249,
+      "sha256": "05300ee47d68527e5248f301a3c53626e330a189dc4a5e97c9ba59c881b12987"
+    },
+    {
+      "path": "versions/legacy-upload-001/review/media.json",
+      "kind": "media_metadata",
+      "purpose": "本次上传文件的实际媒体参数及计数",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "measured_or_reviewed",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "读取 format/streams；对应视频规格。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4",
+        "tools/review_uploaded_video.py"
+      ],
+      "bytes": 485,
+      "sha256": "e2263053780761cf7bcc25adbe52a5d010a029e52de9bfd8ca1d250816665977"
+    },
+    {
+      "path": "versions/legacy-upload-001/review/samples.json",
+      "kind": "sample_index",
+      "purpose": "关键帧与总览的帧号、时间码、源视频 SHA-256",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "measured_or_reviewed",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "帧号从 0 起，时间单位为秒；用于精确定位。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4",
+        "tools/review_uploaded_video.py"
+      ],
+      "bytes": 6472,
+      "sha256": "77d32701f2605f7388c8e9f774ea6f861e4eb0098c01eeefcf328e5e86e04bac"
+    },
+    {
+      "path": "versions/legacy-upload-001/review/verification.json",
+      "kind": "validation_result",
+      "purpose": "完整解码与音频测量的命令和退出码",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "measured_or_reviewed",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "exit_code 为 0；audio_alignment 标注未执行逐词对齐。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4",
+        "tools/review_uploaded_video.py"
+      ],
+      "bytes": 316,
+      "sha256": "3c26c4038540fa2f24aad8d7a1ee34ede3fa2a402e7e6369f2610bbc22130c36"
+    },
+    {
+      "path": "versions/legacy-upload-001/review/decode-loudness.log",
+      "kind": "validation_log",
+      "purpose": "完整解码及 EBU R128 响度/真峰值测量日志",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "measured_or_reviewed",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "查看 Summary 与末尾帧计数；不代表声画对齐检查。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4",
+        "tools/review_uploaded_video.py"
+      ],
+      "bytes": 24135,
+      "sha256": "1c585e1445d5f20b56d50fdc1483af7d479d522e7840ec06bf002af71a30b3d4"
+    },
+    {
+      "path": "versions/legacy-upload-001/review/keyframes/frame-000038.png",
+      "kind": "keyframe",
+      "purpose": "上传旧片第 38 帧，1.266667 秒；用途见版本 README",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "extracted_from_uploaded_video",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "结合 review/samples.json 和版本 README 定位；本轮直接抽取，未重绘。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4",
+        "versions/legacy-upload-001/review/samples.json"
+      ],
+      "bytes": 118697,
+      "sha256": "4275d076f2e5b6ae729ace8bc5f264c0b1804b0fd1a6a60259e48c25b2c23a82"
+    },
+    {
+      "path": "versions/legacy-upload-001/review/keyframes/frame-000075.png",
+      "kind": "keyframe",
+      "purpose": "上传旧片第 75 帧，2.500000 秒；用途见版本 README",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "extracted_from_uploaded_video",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "结合 review/samples.json 和版本 README 定位；本轮直接抽取，未重绘。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4",
+        "versions/legacy-upload-001/review/samples.json"
+      ],
+      "bytes": 386093,
+      "sha256": "dde85bf44fcb37bc66d2bd38b7c445807ff6ee7af46c2f60a4c0d66c5200edaf"
+    },
+    {
+      "path": "versions/legacy-upload-001/review/keyframes/frame-000120.png",
+      "kind": "keyframe",
+      "purpose": "上传旧片第 120 帧，4.000000 秒；用途见版本 README",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "extracted_from_uploaded_video",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "结合 review/samples.json 和版本 README 定位；本轮直接抽取，未重绘。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4",
+        "versions/legacy-upload-001/review/samples.json"
+      ],
+      "bytes": 518742,
+      "sha256": "240850c62fc1215308991d0917c03a107e51e2f7b6b2c2b417264a17e488bce6"
+    },
+    {
+      "path": "versions/legacy-upload-001/review/keyframes/frame-000160.png",
+      "kind": "keyframe",
+      "purpose": "上传旧片第 160 帧，5.333333 秒；用途见版本 README",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "extracted_from_uploaded_video",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "结合 review/samples.json 和版本 README 定位；本轮直接抽取，未重绘。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4",
+        "versions/legacy-upload-001/review/samples.json"
+      ],
+      "bytes": 653895,
+      "sha256": "e92d7c2a11d8dc69ef440b98f339a466fa4ea25879efb33a2648d24ce9b756f0"
+    },
+    {
+      "path": "versions/legacy-upload-001/review/keyframes/frame-000183.png",
+      "kind": "keyframe",
+      "purpose": "上传旧片第 183 帧，6.100000 秒；用途见版本 README",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "extracted_from_uploaded_video",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "结合 review/samples.json 和版本 README 定位；本轮直接抽取，未重绘。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4",
+        "versions/legacy-upload-001/review/samples.json"
+      ],
+      "bytes": 249106,
+      "sha256": "7e3b32cc7a107d1105b0257ae48b43f7c41f2c31cb26c32718f70260dfe0e511"
+    },
+    {
+      "path": "versions/legacy-upload-001/review/keyframes/frame-000195.png",
+      "kind": "keyframe",
+      "purpose": "上传旧片第 195 帧，6.500000 秒；用途见版本 README",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "extracted_from_uploaded_video",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "结合 review/samples.json 和版本 README 定位；本轮直接抽取，未重绘。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4",
+        "versions/legacy-upload-001/review/samples.json"
+      ],
+      "bytes": 184734,
+      "sha256": "d456e99293094691b2890ec28734fcbb5e5abac8dccb57641bb1dc015c3a43b2"
+    },
+    {
+      "path": "versions/legacy-upload-001/review/keyframes/frame-000240.png",
+      "kind": "keyframe",
+      "purpose": "上传旧片第 240 帧，8.000000 秒；用途见版本 README",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "extracted_from_uploaded_video",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "结合 review/samples.json 和版本 README 定位；本轮直接抽取，未重绘。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4",
+        "versions/legacy-upload-001/review/samples.json"
+      ],
+      "bytes": 368913,
+      "sha256": "cd4fe796dff43c75fb032e6223bfe7b9ca704ab01617af614b01039fcf8fcbba"
+    },
+    {
+      "path": "versions/legacy-upload-001/review/keyframes/frame-000255.png",
+      "kind": "keyframe",
+      "purpose": "上传旧片第 255 帧，8.500000 秒；用途见版本 README",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "extracted_from_uploaded_video",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "结合 review/samples.json 和版本 README 定位；本轮直接抽取，未重绘。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4",
+        "versions/legacy-upload-001/review/samples.json"
+      ],
+      "bytes": 379839,
+      "sha256": "fab6091af92d5dad439eea02e50e031a3bbb0087494513cd23d43024af2d2e69"
+    },
+    {
+      "path": "versions/legacy-upload-001/review/keyframes/frame-000288.png",
+      "kind": "keyframe",
+      "purpose": "上传旧片第 288 帧，9.600000 秒；用途见版本 README",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "extracted_from_uploaded_video",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "结合 review/samples.json 和版本 README 定位；本轮直接抽取，未重绘。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4",
+        "versions/legacy-upload-001/review/samples.json"
+      ],
+      "bytes": 246361,
+      "sha256": "f34e98ee67e99b53bcc2dee297db943f501a803b3d629abf139c48b42c1821ed"
+    },
+    {
+      "path": "versions/legacy-upload-001/review/keyframes/frame-000306.png",
+      "kind": "keyframe",
+      "purpose": "上传旧片第 306 帧，10.200000 秒；用途见版本 README",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "extracted_from_uploaded_video",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "结合 review/samples.json 和版本 README 定位；本轮直接抽取，未重绘。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4",
+        "versions/legacy-upload-001/review/samples.json"
+      ],
+      "bytes": 261448,
+      "sha256": "79dd9f27b3195d7d7578b462f4525001f8ce2eed9960fe1eb5d38b636c80f4fe"
+    },
+    {
+      "path": "versions/legacy-upload-001/review/keyframes/frame-000312.png",
+      "kind": "keyframe",
+      "purpose": "上传旧片第 312 帧，10.400000 秒；用途见版本 README",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "extracted_from_uploaded_video",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "结合 review/samples.json 和版本 README 定位；本轮直接抽取，未重绘。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4",
+        "versions/legacy-upload-001/review/samples.json"
+      ],
+      "bytes": 350462,
+      "sha256": "4cae3329bebdf6aaad8bafd62a48ece07152795def6210d11253d9293c21fa98"
+    },
+    {
+      "path": "versions/legacy-upload-001/review/keyframes/frame-000321.png",
+      "kind": "keyframe",
+      "purpose": "上传旧片第 321 帧，10.700000 秒；用途见版本 README",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "extracted_from_uploaded_video",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "结合 review/samples.json 和版本 README 定位；本轮直接抽取，未重绘。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4",
+        "versions/legacy-upload-001/review/samples.json"
+      ],
+      "bytes": 375151,
+      "sha256": "c771a19aea73b69c4f97e9d935f94661da849abeaf2a9540477f6a47c4836c9f"
+    },
+    {
+      "path": "versions/legacy-upload-001/review/keyframes/frame-000360.png",
+      "kind": "keyframe",
+      "purpose": "上传旧片第 360 帧，12.000000 秒；用途见版本 README",
+      "source": "本轮对用户上传旧片的独立分析与提取",
+      "status": "extracted_from_uploaded_video",
+      "related_versions": [
+        "legacy-upload-001"
+      ],
+      "usage": "结合 review/samples.json 和版本 README 定位；本轮直接抽取，未重绘。",
+      "depends_on": [
+        "versions/legacy-upload-001/video.mp4",
+        "versions/legacy-upload-001/review/samples.json"
+      ],
+      "bytes": 370146,
+      "sha256": "a4bc908e64002a14a69e1d9de39229260f51175a6d83a3959531344868d53286"
     }
   ],
   "missing": [
     {
       "id": "legacy_videos",
-      "description": "旧第一、二版 video.mp4",
+      "description": "其他历史成片（旧第一版等）仍未恢复；当前已收到用户提供的上一版评审片",
       "source_reference": "context/old.md 第 3085、3563 行起",
-      "status": "not_recovered",
-      "recovery": "从可用备份取回，或审查旧代码后重建；重建文件须另标来源。",
+      "status": "partially_recovered",
+      "recovery": "后续取回其他版本另行归档；不要将当前上传文件当作所有旧版本均已恢复。",
       "related_versions": [
         "legacy-five-lines-mv",
         "legacy-five-lines-mv-v2"
+      ],
+      "recovered_paths": [
+        "versions/legacy-upload-001/video.mp4"
       ]
     },
     {
       "id": "legacy_keyframes",
-      "description": "旧版 stills/*.png 与 contact-sheet.jpg",
+      "description": "旧环境原关键帧和原 contact-sheet 仍未恢复；本轮已从上传视频提取新评审图",
       "source_reference": "context/old.md 中五句短片交付链接",
-      "status": "not_recovered",
-      "recovery": "取得旧文件或从恢复后的视频重新提取；不得只复用失效本地链接。",
+      "status": "original_files_not_recovered",
+      "recovery": "本轮评审可使用新抽帧；若需要旧版原始文件，仍需另行取回。",
       "related_versions": [
         "legacy-five-lines-mv",
         "legacy-five-lines-mv-v2"
+      ],
+      "recovered_paths": [
+        "versions/legacy-upload-001/review/samples.json"
       ]
     },
     {
@@ -339,6 +750,10 @@
       "related_versions": [
         "legacy-five-lines-mv",
         "legacy-five-lines-mv-v2"
+      ],
+      "current_independent_checks": [
+        "versions/legacy-upload-001/review/verification.json",
+        "versions/legacy-upload-001/review/decode-loudness.log"
       ]
     },
     {
