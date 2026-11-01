@@ -16,8 +16,8 @@
       ],
       "usage": "先阅读本文件，再读取 requirements.md 和 catalog.json。",
       "depends_on": [],
-      "bytes": 8144,
-      "sha256": "2a34fe5b6a0c9572f5a909616977d74ec6198cca6301f6fb2ae658575ca0ad46"
+      "bytes": 8555,
+      "sha256": "07ee9985743fdaaf720873421b43c0b540b02d4275f8cf8a616959df7a0e1c9a"
     },
     {
       "path": "requirements.md",
@@ -33,8 +33,8 @@
         "context/old.md",
         "references/line-art.md"
       ],
-      "bytes": 21827,
-      "sha256": "e3f2b9e0fbef36f39ffda97ac49dcc8bebf33dc2f6c8ceea59562656f54ce042"
+      "bytes": 23500,
+      "sha256": "56a45eac06064b1119f238a22ff7a243b12821fd332890d5e11b2d6f6fad69de"
     },
     {
       "path": "context/old.md",
@@ -2940,6 +2940,138 @@
       ],
       "bytes": 5826,
       "sha256": "15ffb979b7831b1dd514e929aed6834f8876dbac85762785478391782b519e54"
+    },
+    {
+      "path": "previews/v002-style-001/README.md",
+      "kind": "preview_notes",
+      "purpose": "两张静态关键帧设计稿的入口、用途、生成过程、复用方法与局限",
+      "source": "当前用户要求先看两张关键帧；image_gen.imagegen 生成与编辑，未从视频抽帧",
+      "status": "ready_for_user_review",
+      "related_versions": [
+        "v002-style-001"
+      ],
+      "usage": "先看两张正式 PNG，再读本说明；不是成片抽帧。",
+      "depends_on": [
+        "previews/v002-style-001/01-see.png",
+        "previews/v002-style-001/02-kill.png",
+        "previews/v002-style-001/generation.json"
+      ],
+      "bytes": 2299,
+      "sha256": "e9678c1179df2146b2a999a3256faabda0cdde36b15fc496ea2895b71dafc6f2"
+    },
+    {
+      "path": "previews/v002-style-001/01-see.png",
+      "kind": "concept_keyframe",
+      "purpose": "see：纯黑剪影靠近、红线相连、优雅衬线字与暖象牙底的静态效果稿",
+      "source": "当前用户要求先看两张关键帧；image_gen.imagegen 生成与编辑，未从视频抽帧",
+      "status": "ready_for_user_review",
+      "related_versions": [
+        "v002-style-001"
+      ],
+      "usage": "用于造型与排版评审；无真实视频时间码，未验证连续运动。",
+      "depends_on": [
+        "previews/v002-style-001/prompt-02-flat-silhouette.txt",
+        "previews/v002-style-001/drafts/01-see-textured.png"
+      ],
+      "bytes": 1537548,
+      "sha256": "664b274431eae9687aec70c6a19cad127661c8e33914ec4e1bb16fb5e093ec73"
+    },
+    {
+      "path": "previews/v002-style-001/02-kill.png",
+      "kind": "concept_keyframe",
+      "purpose": "kill：剑身错开、连接断裂、姿态变化和红色情绪词的静态效果稿",
+      "source": "当前用户要求先看两张关键帧；image_gen.imagegen 生成与编辑，未从视频抽帧",
+      "status": "ready_for_user_review",
+      "related_versions": [
+        "v002-style-001"
+      ],
+      "usage": "与 01-see.png 成对评审前后变化；后续动画需单独构建。",
+      "depends_on": [
+        "previews/v002-style-001/prompt-03-kill.txt",
+        "previews/v002-style-001/01-see.png"
+      ],
+      "bytes": 1494514,
+      "sha256": "172667a6eb3755b19d55765d880e83d99965a18713fa312f9d1595b9bcf7bb76"
+    },
+    {
+      "path": "previews/v002-style-001/drafts/01-see-textured.png",
+      "kind": "design_draft",
+      "purpose": "带纹理、亮线及多余缝线的第一轮生成稿，未满足干净实心剪影要求",
+      "source": "当前用户要求先看两张关键帧；image_gen.imagegen 生成与编辑，未从视频抽帧",
+      "status": "superseded_diagnostic",
+      "related_versions": [
+        "v002-style-001"
+      ],
+      "usage": "仅作问题复盘与后续生成参考；正式第一张为 01-see.png。",
+      "depends_on": [
+        "previews/v002-style-001/prompt-01-initial.txt"
+      ],
+      "bytes": 2103405,
+      "sha256": "e74b9647a449643fea823c72b739badc36d1536ae039aa582e77966e46025c0d"
+    },
+    {
+      "path": "previews/v002-style-001/prompt-01-initial.txt",
+      "kind": "generation_prompt",
+      "purpose": "第一张靠近场面的完整初始提示词",
+      "source": "当前用户要求先看两张关键帧；image_gen.imagegen 生成与编辑，未从视频抽帧",
+      "status": "archived_generation_input",
+      "related_versions": [
+        "v002-style-001"
+      ],
+      "usage": "交给 image_gen.imagegen 新生成；不保证逐像素重现。",
+      "depends_on": [],
+      "bytes": 3173,
+      "sha256": "9a40b93552aa5694d03b4e937e26eec15791c41bd3e29bf26669c418493775b0"
+    },
+    {
+      "path": "previews/v002-style-001/prompt-02-flat-silhouette.txt",
+      "kind": "generation_prompt",
+      "purpose": "去除初稿纹理和高光，制作纯黑实心剪影的完整编辑提示词",
+      "source": "当前用户要求先看两张关键帧；image_gen.imagegen 生成与编辑，未从视频抽帧",
+      "status": "archived_generation_input",
+      "related_versions": [
+        "v002-style-001"
+      ],
+      "usage": "结合 drafts/01-see-textured.png 交给 image_gen.imagegen 编辑。",
+      "depends_on": [
+        "previews/v002-style-001/drafts/01-see-textured.png"
+      ],
+      "bytes": 1556,
+      "sha256": "e01abc9f589e6daac42c4d19e098531b61735b77554b58373509468b1c007023"
+    },
+    {
+      "path": "previews/v002-style-001/prompt-03-kill.txt",
+      "kind": "generation_prompt",
+      "purpose": "第二张字体、断裂与姿态变化的完整编辑提示词",
+      "source": "当前用户要求先看两张关键帧；image_gen.imagegen 生成与编辑，未从视频抽帧",
+      "status": "archived_generation_input",
+      "related_versions": [
+        "v002-style-001"
+      ],
+      "usage": "结合 01-see.png 交给 image_gen.imagegen 编辑。",
+      "depends_on": [
+        "previews/v002-style-001/01-see.png"
+      ],
+      "bytes": 2831,
+      "sha256": "ca52eff96aa1633649ffc6bda409185434522fa9642a2b431186471a2ccb56b7"
+    },
+    {
+      "path": "previews/v002-style-001/generation.json",
+      "kind": "generation_record",
+      "purpose": "实际文件尺寸、格式、大小、SHA-256、生成依赖和字体状态",
+      "source": "当前用户要求先看两张关键帧；image_gen.imagegen 生成与编辑，未从视频抽帧",
+      "status": "measured",
+      "related_versions": [
+        "v002-style-001"
+      ],
+      "usage": "用本记录核实来源；字体为生成参考，不冒称具体字体已安装。",
+      "depends_on": [
+        "previews/v002-style-001/01-see.png",
+        "previews/v002-style-001/02-kill.png",
+        "previews/v002-style-001/drafts/01-see-textured.png"
+      ],
+      "bytes": 1673,
+      "sha256": "0cab8860cfd54032f9a8cde08377c198e8a00245de85c4e846fd14682ab2a209"
     }
   ],
   "missing": [

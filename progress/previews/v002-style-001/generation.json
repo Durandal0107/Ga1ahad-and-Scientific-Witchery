@@ -1,0 +1,47 @@
+{
+  "recorded_at": "2026-11-01T12:47:24.704670+00:00",
+  "tool": "image_gen.imagegen",
+  "transparent_background": false,
+  "media_type": "static_concept_frames_not_video_extractions",
+  "generation_is_deterministic": false,
+  "font_status": "Generated serif lettering reference, not an installed or verified Cormorant Garamond font. Exact typography must be typeset in the future editable animation project.",
+  "palette_status": "Solid black silhouette direction confirmed by user; ivory background and cranberry accents are proposed for review.",
+  "files": [
+    {
+      "path": "drafts/01-see-textured.png",
+      "prompt": "prompt-01-initial.txt",
+      "reference_image": null,
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2103405,
+      "sha256": "e74b9647a449643fea823c72b739badc36d1536ae039aa582e77966e46025c0d",
+      "status": "superseded_textured_draft"
+    },
+    {
+      "path": "01-see.png",
+      "prompt": "prompt-02-flat-silhouette.txt",
+      "reference_image": "drafts/01-see-textured.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1537548,
+      "sha256": "664b274431eae9687aec70c6a19cad127661c8e33914ec4e1bb16fb5e093ec73",
+      "status": "concept_frame_for_review"
+    },
+    {
+      "path": "02-kill.png",
+      "prompt": "prompt-03-kill.txt",
+      "reference_image": "01-see.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1494514,
+      "sha256": "172667a6eb3755b19d55765d880e83d99965a18713fa312f9d1595b9bcf7bb76",
+      "status": "concept_frame_for_review"
+    }
+  ]
+}

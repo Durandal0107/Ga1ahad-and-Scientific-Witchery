@@ -24,6 +24,7 @@
 | [assets/audio/five-lines-17.6-29.3.wav](assets/audio/five-lines-17.6-29.3.wav) | 从原始视频 17.600–29.300 秒新提取的无损原声片段，供后期处理使用。 |
 | [planning/legacy-upload-001-revision-plan.md](planning/legacy-upload-001-revision-plan.md) | 针对用户上传上一版短片的修改方向、画面定位和建议分镜。 |
 | [planning/v001-composition-discussion.md](planning/v001-composition-discussion.md) | v001 最新反馈：双方距离过远、动作过小及黑色背景；保留待讨论构图、动作与配色建议。 |
+| [previews/v002-style-001/README.md](previews/v002-style-001/README.md) | 最新两张静态关键帧设计稿：纯黑实心剪影、优雅衬线字、暖象牙底；含提示词和问题草稿，不是成片抽帧。 |
 | `versions/` | 最新重做 [v001](versions/v001/README.md) 及 17 张实际成片关键帧；保留用户提供的 [上一版评审片](versions/legacy-upload-001/README.md)。 |
 | [validation/onboarding/README.md](validation/onboarding/README.md) | 已有工具验证样片、参数、当前版本信息和验证记录，不是 MV 设计版本。 |
 | [tools/catalog.py](tools/catalog.py) | 更新和检查清单，仅使用 Python 标准库。 |
@@ -45,6 +46,8 @@
 
 ## 视频版本索引
 
+最新视觉讨论材料为 [v002 风格预览 001](previews/v002-style-001/README.md)，包含 see / kill 两张静态效果稿；尚无 v002 视频。
+
 最新重做版本为 v001：12.8 秒、1080p、30 fps，含原声。原始音乐视频与工具验证样片不占用制作版本号。
 
 | 版本 | 日期（北京时间） | 修改概要 | 视频 | 关键帧、工程与说明 | 状态 |
@@ -63,7 +66,7 @@
 
 ## 接续状态
 
-- 最新反馈：帽子与剑相隔太远、移动幅度小，黑色背景不好看；已确认帽子与剑整体填实，采用纯黑实心剪影，字体改为更优雅的方向。具体字体和底色继续讨论，尚未制作新版本，见 [构图与字体讨论](planning/v001-composition-discussion.md)。
+- 最新要求：先看两张关键帧效果。已制作 [两张静态设计稿](previews/v002-style-001/README.md)，采用已确认的纯黑实心剪影，试验优雅衬线字与暖象牙底；具体字体、配色及姿态等待评审。尚未制作新动画，背景讨论见 [构图与字体讨论](planning/v001-composition-discussion.md)。
 - 已归档原始音乐视频、两份风格资料、旧对话、当前可用字体和媒体工具验证资料。
 - 当前范围是前五句歌词的确认短片，六项最新修改目标见 `requirements.md`。
 - 用户随后要求“重做并上传”“继续完成动画”；本轮选择帽形/针/剑与两帧红闪方案实施，等待对成片的评价。历史建议中的镜头滞后未单独采用。
