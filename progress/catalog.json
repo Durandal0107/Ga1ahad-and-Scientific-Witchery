@@ -16,8 +16,8 @@
       ],
       "usage": "先阅读本文件，再读取 requirements.md 和 catalog.json。",
       "depends_on": [],
-      "bytes": 6787,
-      "sha256": "35f4376e643343f61ee56b51490534dcfa3da6379f0f831c96cfa3c0aa243257"
+      "bytes": 7579,
+      "sha256": "cfbb5005d4da95f573bb2caf97f52ea846482ba50f14d33211aca10e80677a7b"
     },
     {
       "path": "requirements.md",
@@ -33,8 +33,8 @@
         "context/old.md",
         "references/line-art.md"
       ],
-      "bytes": 15848,
-      "sha256": "3a09066d41e3b43d1d95c04955fc3cb7783c7f31b949304b124c7755bf793a54"
+      "bytes": 17685,
+      "sha256": "7b44f3809c5ddcca5fc640ba3587dddae3f969ab6c961ef12866a838aca5f42c"
     },
     {
       "path": "context/old.md",
@@ -699,6 +699,2230 @@
       ],
       "bytes": 370146,
       "sha256": "a4bc908e64002a14a69e1d9de39229260f51175a6d83a3959531344868d53286"
+    },
+    {
+      "path": "assets/audio/five-lines-17.6-29.3.wav",
+      "kind": "audio_source_excerpt",
+      "purpose": "原曲 17.600–29.300 秒新提取无损片段：11.7 秒、PCM24、48kHz 双声道",
+      "source": "本轮从已归档原始音乐视频提取",
+      "status": "reconstructed_from_source",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "供 finish.py 做淡出、补齐和双遍响度处理；并非找回旧 source-crop.wav。",
+      "depends_on": [
+        "assets/source/Mili_Ga1ahad_and_Scientific_Witchery.mp4",
+        "versions/v001/source/timeline.json"
+      ],
+      "bytes": 3369702,
+      "sha256": "0afdd33ed2fc84755ccbc20b86f8a076170d4e94ffb40920327bb48390a00350"
+    },
+    {
+      "path": "project/v001/README.md",
+      "kind": "documentation",
+      "purpose": "工程入口、文件用途与可复现渲染命令（当前可编辑工程）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "editable_current",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "按说明配置依赖，再选择不存在的输出路径。",
+      "depends_on": [],
+      "bytes": 2677,
+      "sha256": "05af1400262d9462910c5cb488e325772dc24592baffedc7172e98c5c260d68e"
+    },
+    {
+      "path": "project/v001/audio-review/envelope.json",
+      "kind": "audio_envelope",
+      "purpose": "音频 20ms RMS/采样差包络与五句动作标记数据",
+      "source": "本轮用 audio_review.py 从新提取原声测量",
+      "status": "timing_reference_not_word_aligned",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "用于定位节奏、动态和候选时点；不证明精确歌词起音。",
+      "depends_on": [
+        "assets/audio/five-lines-17.6-29.3.wav",
+        "project/v001/timeline.json",
+        "project/v001/audio_review.py"
+      ],
+      "bytes": 74477,
+      "sha256": "b1e0ede1eec891d105b7e0a4d28ff3446233e43e523bda67cf4bf61b6678364a"
+    },
+    {
+      "path": "project/v001/audio-review/waveform.png",
+      "kind": "waveform_plot",
+      "purpose": "音频 20ms RMS/采样差包络与五句动作标记图",
+      "source": "本轮用 audio_review.py 从新提取原声测量",
+      "status": "timing_reference_not_word_aligned",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "用于定位节奏、动态和候选时点；不证明精确歌词起音。",
+      "depends_on": [
+        "assets/audio/five-lines-17.6-29.3.wav",
+        "project/v001/timeline.json",
+        "project/v001/audio_review.py"
+      ],
+      "bytes": 12903,
+      "sha256": "5a2750916fb725fa3c44afbb359a87a78e77329530798b247c06b80274a65d5c"
+    },
+    {
+      "path": "project/v001/audio_review.py",
+      "kind": "analysis_script",
+      "purpose": "20ms 音频包络及动作标记图生成工具（当前可编辑工程）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "editable_current",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "读取脚本中的输入输出配置后运行；不做语音识别。",
+      "depends_on": [
+        "project/v001/timeline.json",
+        "project/v001/requirements.txt",
+        "assets/audio/five-lines-17.6-29.3.wav"
+      ],
+      "bytes": 2191,
+      "sha256": "4581658e1d1c14e52a266ed2106ef1debf8b0c2ce731c400853bd3f8a69b6ec2"
+    },
+    {
+      "path": "project/v001/design-notes.md",
+      "kind": "production_notes",
+      "purpose": "设计、运动与高清检查中的问题、修正和最终验证记录",
+      "source": "本轮实际制作与检查",
+      "status": "active",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "修改前阅读以避免重犯触边、错位和歌词重叠问题。",
+      "depends_on": [],
+      "bytes": 1442,
+      "sha256": "f40f41a675da830b5764e7288d8aa747a1784f8ce79b3537cdcf9cabaf0bcc1c"
+    },
+    {
+      "path": "project/v001/design-pass-01/contact-sheet.jpg",
+      "kind": "design_contact_sheet",
+      "purpose": "第 01 轮静态构图参考总览",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md",
+        "project/v001/design-pass-01/frame-000015.png",
+        "project/v001/design-pass-01/frame-000060.png",
+        "project/v001/design-pass-01/frame-000078.png",
+        "project/v001/design-pass-01/frame-000120.png",
+        "project/v001/design-pass-01/frame-000156.png",
+        "project/v001/design-pass-01/frame-000180.png",
+        "project/v001/design-pass-01/frame-000222.png",
+        "project/v001/design-pass-01/frame-000252.png",
+        "project/v001/design-pass-01/frame-000282.png",
+        "project/v001/design-pass-01/frame-000305.png",
+        "project/v001/design-pass-01/frame-000309.png",
+        "project/v001/design-pass-01/frame-000321.png",
+        "project/v001/design-pass-01/frame-000366.png"
+      ],
+      "bytes": 249249,
+      "sha256": "50a3d5d48c7f88d706bfc74bf187e5c06fd5be3297d43de3306445acd0a8ac74"
+    },
+    {
+      "path": "project/v001/design-pass-01/frame-000015.png",
+      "kind": "design_still",
+      "purpose": "第 01 轮静态构图参考：设计时间 0.500000 秒（拟用帧号 15）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 140683,
+      "sha256": "6340607333d5c072eca059f27ba8805d76329cf0812b245972d12d679d515c44"
+    },
+    {
+      "path": "project/v001/design-pass-01/frame-000060.png",
+      "kind": "design_still",
+      "purpose": "第 01 轮静态构图参考：设计时间 2.000000 秒（拟用帧号 60）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 216326,
+      "sha256": "0be2929023bdfaf9733c69dad9c7d4a81f6c19b046b06688676b95276c66e12d"
+    },
+    {
+      "path": "project/v001/design-pass-01/frame-000078.png",
+      "kind": "design_still",
+      "purpose": "第 01 轮静态构图参考：设计时间 2.600000 秒（拟用帧号 78）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 215281,
+      "sha256": "2c62fadba1f6aefcf67e25a145290e934a1348be8bf84473d9c89dd85971501f"
+    },
+    {
+      "path": "project/v001/design-pass-01/frame-000120.png",
+      "kind": "design_still",
+      "purpose": "第 01 轮静态构图参考：设计时间 4.000000 秒（拟用帧号 120）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 205693,
+      "sha256": "694a814957d5ba039f2332ee9e75472d54c586bfbf8f3b3ca3b3c5eb12f91bec"
+    },
+    {
+      "path": "project/v001/design-pass-01/frame-000156.png",
+      "kind": "design_still",
+      "purpose": "第 01 轮静态构图参考：设计时间 5.200000 秒（拟用帧号 156）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 225335,
+      "sha256": "b492c6c3e8d520c8ec87751b339ecd32218734542f89c8e6ef11ed920473db59"
+    },
+    {
+      "path": "project/v001/design-pass-01/frame-000180.png",
+      "kind": "design_still",
+      "purpose": "第 01 轮静态构图参考：设计时间 6.000000 秒（拟用帧号 180）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 183808,
+      "sha256": "8d3f17a59bfe6b352031489bd8b17a73a147845c1cd7a0509eb8dd1bc6dda2af"
+    },
+    {
+      "path": "project/v001/design-pass-01/frame-000222.png",
+      "kind": "design_still",
+      "purpose": "第 01 轮静态构图参考：设计时间 7.400000 秒（拟用帧号 222）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 211472,
+      "sha256": "9865262a3e0a3beaada35800858e39cbfaa1e3af7bc804a7c0eea1680aa5b3e7"
+    },
+    {
+      "path": "project/v001/design-pass-01/frame-000252.png",
+      "kind": "design_still",
+      "purpose": "第 01 轮静态构图参考：设计时间 8.400000 秒（拟用帧号 252）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 222287,
+      "sha256": "3c6e2337060e444add3f0b32f8750d9b392778519d9d35fe2096464859654663"
+    },
+    {
+      "path": "project/v001/design-pass-01/frame-000282.png",
+      "kind": "design_still",
+      "purpose": "第 01 轮静态构图参考：设计时间 9.400000 秒（拟用帧号 282）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 192108,
+      "sha256": "7c3332acb036c88bf91b49784bd15e36bfd9c855fdb471a9f654acf7f4c8ed51"
+    },
+    {
+      "path": "project/v001/design-pass-01/frame-000305.png",
+      "kind": "design_still",
+      "purpose": "第 01 轮静态构图参考：设计时间 10.166667 秒（拟用帧号 305）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 193929,
+      "sha256": "3d2e132f0fd441bf9ed881308f1c23a064bf8dbb81902935f19f96a3b6ebd5e4"
+    },
+    {
+      "path": "project/v001/design-pass-01/frame-000309.png",
+      "kind": "design_still",
+      "purpose": "第 01 轮静态构图参考：设计时间 10.300000 秒（拟用帧号 309）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 220816,
+      "sha256": "be53558c92e0b8f9916066f1d179d89b0845dbca76526e592de7ace1fb89b061"
+    },
+    {
+      "path": "project/v001/design-pass-01/frame-000321.png",
+      "kind": "design_still",
+      "purpose": "第 01 轮静态构图参考：设计时间 10.700000 秒（拟用帧号 321）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 204136,
+      "sha256": "213cf0abee7f20cd0ca65ec9d9db7802e48e2b9992fb7e190e5495b0da05d167"
+    },
+    {
+      "path": "project/v001/design-pass-01/frame-000366.png",
+      "kind": "design_still",
+      "purpose": "第 01 轮静态构图参考：设计时间 12.200000 秒（拟用帧号 366）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 166653,
+      "sha256": "b8eeed9b75116bd9c2ddfaff87121720ac8a145e2e3ec356efe84bb8a38e3ca2"
+    },
+    {
+      "path": "project/v001/design-pass-02/frame-000015.png",
+      "kind": "design_still",
+      "purpose": "第 02 轮静态构图参考：设计时间 0.500000 秒（拟用帧号 15）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 144643,
+      "sha256": "375aa4378f452ab39df6831aa896f653c46438c8c883bbaf8c00f903b42de367"
+    },
+    {
+      "path": "project/v001/design-pass-02/frame-000060.png",
+      "kind": "design_still",
+      "purpose": "第 02 轮静态构图参考：设计时间 2.000000 秒（拟用帧号 60）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 217516,
+      "sha256": "fe94e975ed5f142e356c65d6c0912d14d192c1eeeb8ba56b3b7aeedfd30fa43b"
+    },
+    {
+      "path": "project/v001/design-pass-02/frame-000078.png",
+      "kind": "design_still",
+      "purpose": "第 02 轮静态构图参考：设计时间 2.600000 秒（拟用帧号 78）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 219513,
+      "sha256": "61ccb2975ab70f5ed84db8bed3cd37b7504390306e061dc370f5b834681895ba"
+    },
+    {
+      "path": "project/v001/design-pass-02/frame-000120.png",
+      "kind": "design_still",
+      "purpose": "第 02 轮静态构图参考：设计时间 4.000000 秒（拟用帧号 120）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 209342,
+      "sha256": "5350dcd5fe92deca1e44e7ba07a058134f3f1fea0cd9bd72e147fbb416c4109a"
+    },
+    {
+      "path": "project/v001/design-pass-02/frame-000156.png",
+      "kind": "design_still",
+      "purpose": "第 02 轮静态构图参考：设计时间 5.200000 秒（拟用帧号 156）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 228823,
+      "sha256": "bb53a1f4963aba34d3596e5a2fdaedc08fb9b67ad42e1db57b67f3b48d13f72c"
+    },
+    {
+      "path": "project/v001/design-pass-02/frame-000180.png",
+      "kind": "design_still",
+      "purpose": "第 02 轮静态构图参考：设计时间 6.000000 秒（拟用帧号 180）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 188526,
+      "sha256": "e713817de2cea429478dc55c1555a8056d33f4176fcbf0ccdef0ca0b174cdcf3"
+    },
+    {
+      "path": "project/v001/design-pass-02/frame-000222.png",
+      "kind": "design_still",
+      "purpose": "第 02 轮静态构图参考：设计时间 7.400000 秒（拟用帧号 222）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 216902,
+      "sha256": "70bac41c47668a0f2e78565fae79e90775f12684b3179632e2139545e7f8c227"
+    },
+    {
+      "path": "project/v001/design-pass-02/frame-000252.png",
+      "kind": "design_still",
+      "purpose": "第 02 轮静态构图参考：设计时间 8.400000 秒（拟用帧号 252）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 219878,
+      "sha256": "c2b72252952c64fca434a6522225f79a7510c98b14cf036b4a974eb4b8cff54e"
+    },
+    {
+      "path": "project/v001/design-pass-02/frame-000282.png",
+      "kind": "design_still",
+      "purpose": "第 02 轮静态构图参考：设计时间 9.400000 秒（拟用帧号 282）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 194045,
+      "sha256": "99010de9778edee2adfa7cd159447c3b0b7eb918109c8a847d80bfab9678914e"
+    },
+    {
+      "path": "project/v001/design-pass-02/frame-000305.png",
+      "kind": "design_still",
+      "purpose": "第 02 轮静态构图参考：设计时间 10.166667 秒（拟用帧号 305）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 195277,
+      "sha256": "32ae004421a9d75c8296745cc8138dd67c87bf7678cdc3bd0ce11beefa93eedb"
+    },
+    {
+      "path": "project/v001/design-pass-02/frame-000309.png",
+      "kind": "design_still",
+      "purpose": "第 02 轮静态构图参考：设计时间 10.300000 秒（拟用帧号 309）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 223344,
+      "sha256": "643116c4c1f5d2cb85f78313b538b9d086d23aa11516250e663ba22f3a81d03f"
+    },
+    {
+      "path": "project/v001/design-pass-02/frame-000321.png",
+      "kind": "design_still",
+      "purpose": "第 02 轮静态构图参考：设计时间 10.700000 秒（拟用帧号 321）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 205390,
+      "sha256": "f9aca092e72cc76eebb3ae596915ffdfd00447e09ed4bc03085d6c02b94a9ec8"
+    },
+    {
+      "path": "project/v001/design-pass-02/frame-000366.png",
+      "kind": "design_still",
+      "purpose": "第 02 轮静态构图参考：设计时间 12.200000 秒（拟用帧号 366）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 165328,
+      "sha256": "518efe95b3add086f6473cead596138232b5fa975fca89ec4f0a97fbc21d71e5"
+    },
+    {
+      "path": "project/v001/design-pass-03/frame-000015.png",
+      "kind": "design_still",
+      "purpose": "第 03 轮静态构图参考：设计时间 0.500000 秒（拟用帧号 15）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 258345,
+      "sha256": "eb38a60fc3525d2ed363f74776d03f3695c6ad4e731704e21464d199d7b057ed"
+    },
+    {
+      "path": "project/v001/design-pass-03/frame-000060.png",
+      "kind": "design_still",
+      "purpose": "第 03 轮静态构图参考：设计时间 2.000000 秒（拟用帧号 60）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 385773,
+      "sha256": "693770ab0d97e99747f0e1310495215f3327189ccbe2f06802a78430d8d5518d"
+    },
+    {
+      "path": "project/v001/design-pass-03/frame-000078.png",
+      "kind": "design_still",
+      "purpose": "第 03 轮静态构图参考：设计时间 2.600000 秒（拟用帧号 78）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 389627,
+      "sha256": "fee5e1904af4e4c5221ab5da894b47993e9e5e6150ad1545a69bdd2600c9e60c"
+    },
+    {
+      "path": "project/v001/design-pass-03/frame-000120.png",
+      "kind": "design_still",
+      "purpose": "第 03 轮静态构图参考：设计时间 4.000000 秒（拟用帧号 120）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 375096,
+      "sha256": "649eb6882a5649cf1c784e02b0854aa5f106b3fb62ca325b11c08c432e284c28"
+    },
+    {
+      "path": "project/v001/design-pass-03/frame-000156.png",
+      "kind": "design_still",
+      "purpose": "第 03 轮静态构图参考：设计时间 5.200000 秒（拟用帧号 156）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 406235,
+      "sha256": "30b4f7aac818c59b8d73c51480b353ea512447ec640655af410f3dbbd956c9ad"
+    },
+    {
+      "path": "project/v001/design-pass-03/frame-000180.png",
+      "kind": "design_still",
+      "purpose": "第 03 轮静态构图参考：设计时间 6.000000 秒（拟用帧号 180）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 333476,
+      "sha256": "85bee7b4ab48614f2da2b34ebf897458388e3aa2642f4f1cfaf699962ccb8eb4"
+    },
+    {
+      "path": "project/v001/design-pass-03/frame-000222.png",
+      "kind": "design_still",
+      "purpose": "第 03 轮静态构图参考：设计时间 7.400000 秒（拟用帧号 222）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 375769,
+      "sha256": "fe5894a99bde285cd42afeaf0488b0369634a76d90926c11ddd2acb5d925d813"
+    },
+    {
+      "path": "project/v001/design-pass-03/frame-000252.png",
+      "kind": "design_still",
+      "purpose": "第 03 轮静态构图参考：设计时间 8.400000 秒（拟用帧号 252）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 380931,
+      "sha256": "2bb360aa10da0ddb5447bf4d644279df629ecc7de13fcb07af84403b747c48ce"
+    },
+    {
+      "path": "project/v001/design-pass-03/frame-000282.png",
+      "kind": "design_still",
+      "purpose": "第 03 轮静态构图参考：设计时间 9.400000 秒（拟用帧号 282）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 346862,
+      "sha256": "c38d5f555ca2935712aed3e9acce451b224f1cc5f8af3ab2c7005e767a8f1855"
+    },
+    {
+      "path": "project/v001/design-pass-03/frame-000305.png",
+      "kind": "design_still",
+      "purpose": "第 03 轮静态构图参考：设计时间 10.166667 秒（拟用帧号 305）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 352370,
+      "sha256": "c19dc91bc566eb8903aa8cfd380e72847cf4ccbbe46d687ac538a205ef4eeba5"
+    },
+    {
+      "path": "project/v001/design-pass-03/frame-000309.png",
+      "kind": "design_still",
+      "purpose": "第 03 轮静态构图参考：设计时间 10.300000 秒（拟用帧号 309）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 393745,
+      "sha256": "85d0ce38c963021f87da20f392f17bd6c55e694a7f568922b52e3b41739dd436"
+    },
+    {
+      "path": "project/v001/design-pass-03/frame-000321.png",
+      "kind": "design_still",
+      "purpose": "第 03 轮静态构图参考：设计时间 10.700000 秒（拟用帧号 321）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 362201,
+      "sha256": "bff473daccea48b241aab247100283cfff9c09e6996fd4141941318f202c7302"
+    },
+    {
+      "path": "project/v001/design-pass-03/frame-000366.png",
+      "kind": "design_still",
+      "purpose": "第 03 轮静态构图参考：设计时间 12.200000 秒（拟用帧号 366）",
+      "source": "本轮 HTML/SVG 在设计阶段直接渲染的静态图，非成片抽帧",
+      "status": "superseded_design_reference",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 project/v001/design-notes.md 理解修正；不可冒充正式成片关键帧。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 304555,
+      "sha256": "dde6d11bb4dd88cfd5d8c81a8f50ad35a5115d846e413b3e3061ee11942e4f6c"
+    },
+    {
+      "path": "project/v001/finish.py",
+      "kind": "postproduction_script",
+      "purpose": "原声裁切、双遍响度处理和 AAC 合成脚本（当前可编辑工程）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "editable_current",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "python3 finish.py --silent 静音视频 --output-dir 新目录。",
+      "depends_on": [
+        "project/v001/timeline.json",
+        "assets/source/Mili_Ga1ahad_and_Scientific_Witchery.mp4",
+        "assets/audio/five-lines-17.6-29.3.wav"
+      ],
+      "bytes": 2308,
+      "sha256": "8d8ad4c431167c17e348de115f3abd176ac5a27fb53fd3300b34859be1b94a6a"
+    },
+    {
+      "path": "project/v001/index.html",
+      "kind": "source",
+      "purpose": "HTML/SVG 画布与字体、脚本入口（当前可编辑工程）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "editable_current",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "由 render.py 内嵌字体与脚本载入。",
+      "depends_on": [
+        "project/v001/scene.js",
+        "project/v001/lettering.js",
+        "assets/fonts/Z003-MediumItalic.otf"
+      ],
+      "bytes": 548,
+      "sha256": "f9fcdd3816515a17da817ad19323d70b0dee2a82907522b126ca2b630e2e3d6d"
+    },
+    {
+      "path": "project/v001/layout-draft-source/audio_review.py",
+      "kind": "analysis_script",
+      "purpose": "20ms 音频包络及动作标记图生成工具（早段剑柄触边的高清布局稿快照）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "读取脚本中的输入输出配置后运行；不做语音识别。 对照 project/v001/layout-draft.mp4；不是最终版本。",
+      "depends_on": [
+        "project/v001/layout-draft-source/timeline.json",
+        "project/v001/layout-draft-source/requirements.txt",
+        "assets/audio/five-lines-17.6-29.3.wav"
+      ],
+      "bytes": 2191,
+      "sha256": "4581658e1d1c14e52a266ed2106ef1debf8b0c2ce731c400853bd3f8a69b6ec2"
+    },
+    {
+      "path": "project/v001/layout-draft-source/finish.py",
+      "kind": "postproduction_script",
+      "purpose": "原声裁切、双遍响度处理和 AAC 合成脚本（早段剑柄触边的高清布局稿快照）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "python3 finish.py --silent 静音视频 --output-dir 新目录。 对照 project/v001/layout-draft.mp4；不是最终版本。",
+      "depends_on": [
+        "project/v001/layout-draft-source/timeline.json",
+        "assets/source/Mili_Ga1ahad_and_Scientific_Witchery.mp4",
+        "assets/audio/five-lines-17.6-29.3.wav"
+      ],
+      "bytes": 2308,
+      "sha256": "8d8ad4c431167c17e348de115f3abd176ac5a27fb53fd3300b34859be1b94a6a"
+    },
+    {
+      "path": "project/v001/layout-draft-source/index.html",
+      "kind": "source",
+      "purpose": "HTML/SVG 画布与字体、脚本入口（早段剑柄触边的高清布局稿快照）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "由 render.py 内嵌字体与脚本载入。 对照 project/v001/layout-draft.mp4；不是最终版本。",
+      "depends_on": [
+        "project/v001/layout-draft-source/scene.js",
+        "project/v001/layout-draft-source/lettering.js",
+        "assets/fonts/Z003-MediumItalic.otf"
+      ],
+      "bytes": 548,
+      "sha256": "f9fcdd3816515a17da817ad19323d70b0dee2a82907522b126ca2b630e2e3d6d"
+    },
+    {
+      "path": "project/v001/layout-draft-source/lettering.js",
+      "kind": "glyph_data",
+      "purpose": "单线连笔字形数据，修正 t/x/T/B 并补 I（早段剑柄触边的高清布局稿快照）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "由 scene.js 组织描绘；保留历史来源。 对照 project/v001/layout-draft.mp4；不是最终版本。",
+      "depends_on": [
+        "context/old.md"
+      ],
+      "bytes": 2714,
+      "sha256": "f2c777f915755375925e334183179156e2e8f13808a8d7f46106544c51981144"
+    },
+    {
+      "path": "project/v001/layout-draft-source/render.py",
+      "kind": "render_script",
+      "purpose": "系统 Chromium/Playwright 逐帧渲染静态图或静音视频（早段剑柄触边的高清布局稿快照）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "python3 render.py --output 新路径；静态设计稿添加 --stills。 对照 project/v001/layout-draft.mp4；不是最终版本。",
+      "depends_on": [
+        "project/v001/layout-draft-source/index.html",
+        "project/v001/layout-draft-source/scene.js",
+        "project/v001/layout-draft-source/lettering.js",
+        "project/v001/layout-draft-source/timeline.json",
+        "project/v001/layout-draft-source/requirements.txt",
+        "assets/fonts/Z003-MediumItalic.otf"
+      ],
+      "bytes": 2560,
+      "sha256": "5c94be51c157ef7be6d8a72f8a7170231922cde6822393b74db0b669f738c4a4"
+    },
+    {
+      "path": "project/v001/layout-draft-source/requirements.txt",
+      "kind": "dependency_manifest",
+      "purpose": "Python 包的精确版本：Playwright、Pillow（早段剑柄触边的高清布局稿快照）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "使用 pip install -r requirements.txt 安装；系统工具另见 toolchain.json。 对照 project/v001/layout-draft.mp4；不是最终版本。",
+      "depends_on": [],
+      "bytes": 34,
+      "sha256": "6fac60545c168c475ef17f9ed5028e64686a4fa9c212d90597bcf904f92736a1"
+    },
+    {
+      "path": "project/v001/layout-draft-source/scene.js",
+      "kind": "source",
+      "purpose": "根据时间计算帽形、针线、裂剑、歌词及冲击的确定性动画（早段剑柄触边的高清布局稿快照）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "修改意象、排版或动作后重新渲染。 对照 project/v001/layout-draft.mp4；不是最终版本。",
+      "depends_on": [
+        "project/v001/layout-draft-source/lettering.js",
+        "project/v001/layout-draft-source/timeline.json"
+      ],
+      "bytes": 8852,
+      "sha256": "d942d0b79d9a33f1e76a830a7a2a3d3f74e04c29d0c9ae53e522bd477b822c7b"
+    },
+    {
+      "path": "project/v001/layout-draft-source/timeline.json",
+      "kind": "timeline",
+      "purpose": "五句动作窗口、歌词退场、两帧红闪与音源裁切参数（早段剑柄触边的高清布局稿快照）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "制作节拍依据；尚未人工逐词听审。 对照 project/v001/layout-draft.mp4；不是最终版本。",
+      "depends_on": [
+        "assets/source/Mili_Ga1ahad_and_Scientific_Witchery.mp4"
+      ],
+      "bytes": 924,
+      "sha256": "75d2aa520ea8670d59530c7f57cc273fc67e9852601db8e7a2b9cddae4238a5d"
+    },
+    {
+      "path": "project/v001/layout-draft-source/validate.py",
+      "kind": "validation_script",
+      "purpose": "全帧解码与图像检查、闪动识别、参数和响度检测及抽帧（早段剑柄触边的高清布局稿快照）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "python3 validate.py --video 视频 --output 新目录；静音稿加 --silent。 对照 project/v001/layout-draft.mp4；不是最终版本。",
+      "depends_on": [
+        "project/v001/layout-draft-source/requirements.txt"
+      ],
+      "bytes": 4926,
+      "sha256": "cc5b22846104aab7b24ec6f2746f0372f035b84c50554cc628960ea99495efb1"
+    },
+    {
+      "path": "project/v001/layout-draft.mp4",
+      "kind": "layout_draft",
+      "purpose": "1920×1080 静音高清布局稿，保留早段剑柄触边问题",
+      "source": "本轮第一轮高清渲染",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "使用 layout-draft-source 复盘布局问题；不可作为正式交付。",
+      "depends_on": [
+        "project/v001/layout-draft-source/render.py",
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 1858742,
+      "sha256": "d57ed3f1daedca5d950e6856dc17c1619fd3921db38b35d90ca84478f9cb1c6c"
+    },
+    {
+      "path": "project/v001/lettering.js",
+      "kind": "glyph_data",
+      "purpose": "单线连笔字形数据，修正 t/x/T/B 并补 I（当前可编辑工程）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "editable_current",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "由 scene.js 组织描绘；保留历史来源。",
+      "depends_on": [
+        "context/old.md"
+      ],
+      "bytes": 2714,
+      "sha256": "f2c777f915755375925e334183179156e2e8f13808a8d7f46106544c51981144"
+    },
+    {
+      "path": "project/v001/motion-draft.mp4",
+      "kind": "motion_draft",
+      "purpose": "960×540 静音运动草稿，保留早段及末段剑柄触边问题",
+      "source": "本轮中间阶段 render.py 渲染",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 motion-review 和 design-notes 复盘；当前源码已修正，未保存此早期草稿完整源码快照。",
+      "depends_on": [
+        "project/v001/design-notes.md"
+      ],
+      "bytes": 825166,
+      "sha256": "69639a6c512293f2c07d345664a8193f558c80129b4ec183673c012cb55cc630"
+    },
+    {
+      "path": "project/v001/motion-review/frame-audit.json",
+      "kind": "frame_audit",
+      "purpose": "全部 384 帧的图像信号测量记录（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "定位触边、空白及红闪；图像阈值检查不能代替审美判断。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/validate.py"
+      ],
+      "bytes": 59774,
+      "sha256": "e525cb61c9798af11272e41678030c470407375fa2ae98db40d9b9f34f4e65b2"
+    },
+    {
+      "path": "project/v001/motion-review/impact.jpg",
+      "kind": "contact_sheet",
+      "purpose": "实际视频第 300–319 帧连续冲击总览（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "逐格检查 see、两帧红闪、kill 落位与裂口变化。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/validate.py"
+      ],
+      "bytes": 537581,
+      "sha256": "2bd1b4896c6fe24f97e6beec157399e529c1cedb7ead9a263942496d751be094"
+    },
+    {
+      "path": "project/v001/motion-review/keyframes/frame-000015.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 15 帧，0.500000 秒（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/motion-review/samples.json"
+      ],
+      "bytes": 87000,
+      "sha256": "a6b12afaa39ad26cea0511a449160016e37097a1b3a3f7fff99525217ca37f57"
+    },
+    {
+      "path": "project/v001/motion-review/keyframes/frame-000060.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 60 帧，2.000000 秒（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/motion-review/samples.json"
+      ],
+      "bytes": 195356,
+      "sha256": "3ff020acea96a8d39c34a8842edb41d3de60e225bc9677caea7e36c8f8cd70fd"
+    },
+    {
+      "path": "project/v001/motion-review/keyframes/frame-000078.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 78 帧，2.600000 秒（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/motion-review/samples.json"
+      ],
+      "bytes": 199337,
+      "sha256": "31ac7ee3823b8d37a86e23ec8ab9d949d97a59a5f13286e8fe8c6dc8f2f5699b"
+    },
+    {
+      "path": "project/v001/motion-review/keyframes/frame-000120.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 120 帧，4.000000 秒（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/motion-review/samples.json"
+      ],
+      "bytes": 176570,
+      "sha256": "4916cfdf1e74600d5e257939531f76826c24b9668ff04176135a6b845c138543"
+    },
+    {
+      "path": "project/v001/motion-review/keyframes/frame-000156.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 156 帧，5.200000 秒（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/motion-review/samples.json"
+      ],
+      "bytes": 220075,
+      "sha256": "a0cb046cc134f57b0e751a100813506a2a8944cdabf00711cf6c1244b443f616"
+    },
+    {
+      "path": "project/v001/motion-review/keyframes/frame-000180.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 180 帧，6.000000 秒（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/motion-review/samples.json"
+      ],
+      "bytes": 169536,
+      "sha256": "5dc4da3fcc725df95e48efdf1b37d8ba2c7b6d9e74f3eeaafb58722144179d15"
+    },
+    {
+      "path": "project/v001/motion-review/keyframes/frame-000222.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 222 帧，7.400000 秒（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/motion-review/samples.json"
+      ],
+      "bytes": 212681,
+      "sha256": "b9f34b9946c6de8b171d25335d0fcbaa3b69a45663d2c73a83ef13f42844de70"
+    },
+    {
+      "path": "project/v001/motion-review/keyframes/frame-000252.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 252 帧，8.400000 秒（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/motion-review/samples.json"
+      ],
+      "bytes": 210552,
+      "sha256": "4dc595a2c1bc8c8bd2be5bd71c5bdfc984dfa6c09e527f6e873d59681f49b04e"
+    },
+    {
+      "path": "project/v001/motion-review/keyframes/frame-000282.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 282 帧，9.400000 秒（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/motion-review/samples.json"
+      ],
+      "bytes": 178033,
+      "sha256": "116bb9854ec4fbfc26251f9d76bb0744580baf93497d060872ce3cb70a32688d"
+    },
+    {
+      "path": "project/v001/motion-review/keyframes/frame-000305.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 305 帧，10.166667 秒（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/motion-review/samples.json"
+      ],
+      "bytes": 178227,
+      "sha256": "08211323b667cc8540b7812566e4056e3ce8f5f1c472ee6b83b7a5e556127dad"
+    },
+    {
+      "path": "project/v001/motion-review/keyframes/frame-000306.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 306 帧，10.200000 秒（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/motion-review/samples.json"
+      ],
+      "bytes": 80410,
+      "sha256": "875acec9b7ec695d49f52de46ef0f60ebc336cb761ce103f38d0cdcaa7e41758"
+    },
+    {
+      "path": "project/v001/motion-review/keyframes/frame-000307.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 307 帧，10.233333 秒（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/motion-review/samples.json"
+      ],
+      "bytes": 140257,
+      "sha256": "e8aa01f9c60e2d4654d1bfda948b4ec84f9e75d3c149eeb6a21661df0b076637"
+    },
+    {
+      "path": "project/v001/motion-review/keyframes/frame-000308.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 308 帧，10.266667 秒（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/motion-review/samples.json"
+      ],
+      "bytes": 215174,
+      "sha256": "bf2584575e402d8513a8ec845200749753130f1910e23673ca3d58c39ba2d37b"
+    },
+    {
+      "path": "project/v001/motion-review/keyframes/frame-000310.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 310 帧，10.333333 秒（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/motion-review/samples.json"
+      ],
+      "bytes": 213740,
+      "sha256": "647705133852c2d5a388c209364bef1b698c4b611bc00d70cbee99866ebb05ea"
+    },
+    {
+      "path": "project/v001/motion-review/keyframes/frame-000321.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 321 帧，10.700000 秒（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/motion-review/samples.json"
+      ],
+      "bytes": 195628,
+      "sha256": "7b8df64fea7edb973a5023f1b930c2fd8638a62bd20f72f55bebdd8051903b87"
+    },
+    {
+      "path": "project/v001/motion-review/keyframes/frame-000366.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 366 帧，12.200000 秒（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/motion-review/samples.json"
+      ],
+      "bytes": 135648,
+      "sha256": "e34f4939d01c5cf73dfc65ffd725316c5097e01aa25d99178d97672a791bf746"
+    },
+    {
+      "path": "project/v001/motion-review/keyframes/frame-000383.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 383 帧，12.766667 秒（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/motion-review/samples.json"
+      ],
+      "bytes": 135908,
+      "sha256": "c350a65abf50eba2f552cf6efc957366bba72bb39931215539610c168a8826e2"
+    },
+    {
+      "path": "project/v001/motion-review/media.json",
+      "kind": "media_metadata",
+      "purpose": "FFprobe 实测音视频编码、尺寸、时长和帧数（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "用于核实该视频输出规格。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/validate.py"
+      ],
+      "bytes": 303,
+      "sha256": "3daf06d5916fc85b0df279e3bcc19ebcce537e8db2fe683b5ac88bcc366bb8c7"
+    },
+    {
+      "path": "project/v001/motion-review/overview.jpg",
+      "kind": "contact_sheet",
+      "purpose": "实际视频全片关键时点总览（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 samples.json 和视频查看整体构图与段落。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/validate.py"
+      ],
+      "bytes": 323421,
+      "sha256": "97ed473db8a8a32fd92a51e4bfa2877a92326cd059547a217575e634408834cf"
+    },
+    {
+      "path": "project/v001/motion-review/samples.json",
+      "kind": "frame_index",
+      "purpose": "关键帧和总览的帧号、时间码、用途及哈希（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "按时间码回到视频并核对抽帧。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/validate.py"
+      ],
+      "bytes": 2600,
+      "sha256": "8ed986ddf3933114b9cafc0ed43eeef11411d43ebfb52280e0f2c91be2a3b894"
+    },
+    {
+      "path": "project/v001/motion-review/summary.json",
+      "kind": "verification_summary",
+      "purpose": "解码、空白/触边、红闪及响度结果汇总（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "先读汇总；word_level_alignment 未验证。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/validate.py"
+      ],
+      "bytes": 2424,
+      "sha256": "32956d8635079b4b09388554873a2b934f5bc8192d28c59d6731c63a6068c783"
+    },
+    {
+      "path": "project/v001/motion-review/transitions.jpg",
+      "kind": "contact_sheet",
+      "purpose": "实际视频 16 个转场时点总览（含触边问题的低清运动稿）",
+      "source": "本轮直接解码并分析 project/v001/motion-draft.mp4",
+      "status": "superseded_layout_diagnostic",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "检查文字交叠、退场及连接连续性。 仅用于问题复盘，交付参见 versions/v001/。",
+      "depends_on": [
+        "project/v001/motion-draft.mp4",
+        "project/v001/validate.py"
+      ],
+      "bytes": 431973,
+      "sha256": "ee1793e5607b730d4ced52c32f41da2637c5b4002b186568263e8dbe3d98628a"
+    },
+    {
+      "path": "project/v001/render.py",
+      "kind": "render_script",
+      "purpose": "系统 Chromium/Playwright 逐帧渲染静态图或静音视频（当前可编辑工程）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "editable_current",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "python3 render.py --output 新路径；静态设计稿添加 --stills。",
+      "depends_on": [
+        "project/v001/index.html",
+        "project/v001/scene.js",
+        "project/v001/lettering.js",
+        "project/v001/timeline.json",
+        "project/v001/requirements.txt",
+        "assets/fonts/Z003-MediumItalic.otf"
+      ],
+      "bytes": 2560,
+      "sha256": "5c94be51c157ef7be6d8a72f8a7170231922cde6822393b74db0b669f738c4a4"
+    },
+    {
+      "path": "project/v001/requirements.txt",
+      "kind": "dependency_manifest",
+      "purpose": "Python 包的精确版本：Playwright、Pillow（当前可编辑工程）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "editable_current",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "使用 pip install -r requirements.txt 安装；系统工具另见 toolchain.json。",
+      "depends_on": [],
+      "bytes": 34,
+      "sha256": "6fac60545c168c475ef17f9ed5028e64686a4fa9c212d90597bcf904f92736a1"
+    },
+    {
+      "path": "project/v001/scene.js",
+      "kind": "source",
+      "purpose": "根据时间计算帽形、针线、裂剑、歌词及冲击的确定性动画（当前可编辑工程）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "editable_current",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "修改意象、排版或动作后重新渲染。",
+      "depends_on": [
+        "project/v001/lettering.js",
+        "project/v001/timeline.json"
+      ],
+      "bytes": 8852,
+      "sha256": "47c6fd004f3444bced95fe5144b0befeddf80c9ef852cb51a5008eee86157212"
+    },
+    {
+      "path": "project/v001/timeline.json",
+      "kind": "timeline",
+      "purpose": "五句动作窗口、歌词退场、两帧红闪与音源裁切参数（当前可编辑工程）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "editable_current",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "制作节拍依据；尚未人工逐词听审。",
+      "depends_on": [
+        "assets/source/Mili_Ga1ahad_and_Scientific_Witchery.mp4"
+      ],
+      "bytes": 924,
+      "sha256": "75d2aa520ea8670d59530c7f57cc273fc67e9852601db8e7a2b9cddae4238a5d"
+    },
+    {
+      "path": "project/v001/toolchain.json",
+      "kind": "tool_versions",
+      "purpose": "实际使用的 Python、FFmpeg、Chromium 和字体包版本（当前可编辑工程）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "editable_current",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "重建环境或定位版本差异时查阅。",
+      "depends_on": [],
+      "bytes": 583,
+      "sha256": "b9879e5514f06dafdb472c051d5486abdb02918ebb58af6ca66c5293a4107d13"
+    },
+    {
+      "path": "project/v001/validate.py",
+      "kind": "validation_script",
+      "purpose": "全帧解码与图像检查、闪动识别、参数和响度检测及抽帧（当前可编辑工程）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "editable_current",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "python3 validate.py --video 视频 --output 新目录；静音稿加 --silent。",
+      "depends_on": [
+        "project/v001/requirements.txt"
+      ],
+      "bytes": 4926,
+      "sha256": "cc5b22846104aab7b24ec6f2746f0372f035b84c50554cc628960ea99495efb1"
+    },
+    {
+      "path": "versions/v001/CREDITS.md",
+      "kind": "credits",
+      "purpose": "音乐、字体许可、旧字形数据及新编写动画代码的来源说明",
+      "source": "本轮素材来源记录",
+      "status": "active",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "复用或发布时保留来源及字体许可。",
+      "depends_on": [
+        "assets/fonts/LICENSE.txt",
+        "assets/source/Mili_Ga1ahad_and_Scientific_Witchery.mp4",
+        "context/old.md"
+      ],
+      "bytes": 924,
+      "sha256": "3f3854020014c677a6ed674192edad4eabbb4c18c55cc7f4e92afaa3d0acc6b0"
+    },
+    {
+      "path": "versions/v001/README.md",
+      "kind": "version_notes",
+      "purpose": "v001 成果入口、六项变化、时间表、复现命令与实测局限",
+      "source": "本轮制作与验证结果",
+      "status": "ready_for_user_review",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "观看 video.mp4 后结合关键帧评审；复现使用 source 快照。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/validation/summary.json"
+      ],
+      "bytes": 4013,
+      "sha256": "bd51c6ab775d75a706addc59078b4985ff776ecfceb6cc4c613d98cde04bcea9"
+    },
+    {
+      "path": "versions/v001/production/loudness-pass1.json",
+      "kind": "postproduction_record",
+      "purpose": "双遍响度处理第一遍的解析参数",
+      "source": "versions/v001/source/finish.py 实际运行生成",
+      "status": "measured",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "复核响度处理与合成参数；最终实测以 validation/summary.json 为准。",
+      "depends_on": [
+        "versions/v001/source/finish.py",
+        "assets/audio/five-lines-17.6-29.3.wav"
+      ],
+      "bytes": 261,
+      "sha256": "f547b805e2412570316e5d521fb089f64c31bea5ab55e6a264dfe9c805f495f4"
+    },
+    {
+      "path": "versions/v001/production/loudness-pass1.log",
+      "kind": "postproduction_record",
+      "purpose": "双遍响度处理第一遍的原始测量日志",
+      "source": "versions/v001/source/finish.py 实际运行生成",
+      "status": "measured",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "复核响度处理与合成参数；最终实测以 validation/summary.json 为准。",
+      "depends_on": [
+        "versions/v001/source/finish.py",
+        "assets/audio/five-lines-17.6-29.3.wav"
+      ],
+      "bytes": 1074,
+      "sha256": "45a660f35a512b700c2821f617258db98e7d3335c3f588371750eff69d7e0e86"
+    },
+    {
+      "path": "versions/v001/production/mux.json",
+      "kind": "postproduction_record",
+      "purpose": "实际音频滤镜、合成命令及原声依赖",
+      "source": "versions/v001/source/finish.py 实际运行生成",
+      "status": "measured",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "复核响度处理与合成参数；最终实测以 validation/summary.json 为准。",
+      "depends_on": [
+        "versions/v001/source/finish.py",
+        "assets/audio/five-lines-17.6-29.3.wav"
+      ],
+      "bytes": 1011,
+      "sha256": "a0057735bb843a844712250ddd51b7344dd666b80f3110405a0b342b3e4e2fe9"
+    },
+    {
+      "path": "versions/v001/production/silent.mp4",
+      "kind": "render_intermediate",
+      "purpose": "正式合成前的全高清静音动画，384 帧",
+      "source": "versions/v001/source/render.py 实际输出",
+      "status": "final_picture_intermediate",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "可用同版 finish.py 重新处理音频，无需再次渲染画面。",
+      "depends_on": [
+        "versions/v001/source/render.py"
+      ],
+      "bytes": 1876395,
+      "sha256": "ac1eae7c1542866a5148f55d5ca5b26dcd935f9756da2eb3890c60fadc6f8af0"
+    },
+    {
+      "path": "versions/v001/source/README.md",
+      "kind": "documentation",
+      "purpose": "工程入口、文件用途与可复现渲染命令（对应正式 v001 的冻结快照）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "frozen_v001_source",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "按说明配置依赖，再选择不存在的输出路径。",
+      "depends_on": [],
+      "bytes": 2677,
+      "sha256": "05af1400262d9462910c5cb488e325772dc24592baffedc7172e98c5c260d68e"
+    },
+    {
+      "path": "versions/v001/source/audio_review.py",
+      "kind": "analysis_script",
+      "purpose": "20ms 音频包络及动作标记图生成工具（对应正式 v001 的冻结快照）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "frozen_v001_source",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "读取脚本中的输入输出配置后运行；不做语音识别。",
+      "depends_on": [
+        "versions/v001/source/timeline.json",
+        "versions/v001/source/requirements.txt",
+        "assets/audio/five-lines-17.6-29.3.wav"
+      ],
+      "bytes": 2191,
+      "sha256": "4581658e1d1c14e52a266ed2106ef1debf8b0c2ce731c400853bd3f8a69b6ec2"
+    },
+    {
+      "path": "versions/v001/source/finish.py",
+      "kind": "postproduction_script",
+      "purpose": "原声裁切、双遍响度处理和 AAC 合成脚本（对应正式 v001 的冻结快照）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "frozen_v001_source",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "python3 finish.py --silent 静音视频 --output-dir 新目录。",
+      "depends_on": [
+        "versions/v001/source/timeline.json",
+        "assets/source/Mili_Ga1ahad_and_Scientific_Witchery.mp4",
+        "assets/audio/five-lines-17.6-29.3.wav"
+      ],
+      "bytes": 2308,
+      "sha256": "8d8ad4c431167c17e348de115f3abd176ac5a27fb53fd3300b34859be1b94a6a"
+    },
+    {
+      "path": "versions/v001/source/index.html",
+      "kind": "source",
+      "purpose": "HTML/SVG 画布与字体、脚本入口（对应正式 v001 的冻结快照）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "frozen_v001_source",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "由 render.py 内嵌字体与脚本载入。",
+      "depends_on": [
+        "versions/v001/source/scene.js",
+        "versions/v001/source/lettering.js",
+        "assets/fonts/Z003-MediumItalic.otf"
+      ],
+      "bytes": 548,
+      "sha256": "f9fcdd3816515a17da817ad19323d70b0dee2a82907522b126ca2b630e2e3d6d"
+    },
+    {
+      "path": "versions/v001/source/lettering.js",
+      "kind": "glyph_data",
+      "purpose": "单线连笔字形数据，修正 t/x/T/B 并补 I（对应正式 v001 的冻结快照）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "frozen_v001_source",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "由 scene.js 组织描绘；保留历史来源。",
+      "depends_on": [
+        "context/old.md"
+      ],
+      "bytes": 2714,
+      "sha256": "f2c777f915755375925e334183179156e2e8f13808a8d7f46106544c51981144"
+    },
+    {
+      "path": "versions/v001/source/render.py",
+      "kind": "render_script",
+      "purpose": "系统 Chromium/Playwright 逐帧渲染静态图或静音视频（对应正式 v001 的冻结快照）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "frozen_v001_source",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "python3 render.py --output 新路径；静态设计稿添加 --stills。",
+      "depends_on": [
+        "versions/v001/source/index.html",
+        "versions/v001/source/scene.js",
+        "versions/v001/source/lettering.js",
+        "versions/v001/source/timeline.json",
+        "versions/v001/source/requirements.txt",
+        "assets/fonts/Z003-MediumItalic.otf"
+      ],
+      "bytes": 2560,
+      "sha256": "5c94be51c157ef7be6d8a72f8a7170231922cde6822393b74db0b669f738c4a4"
+    },
+    {
+      "path": "versions/v001/source/requirements.txt",
+      "kind": "dependency_manifest",
+      "purpose": "Python 包的精确版本：Playwright、Pillow（对应正式 v001 的冻结快照）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "frozen_v001_source",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "使用 pip install -r requirements.txt 安装；系统工具另见 toolchain.json。",
+      "depends_on": [],
+      "bytes": 34,
+      "sha256": "6fac60545c168c475ef17f9ed5028e64686a4fa9c212d90597bcf904f92736a1"
+    },
+    {
+      "path": "versions/v001/source/scene.js",
+      "kind": "source",
+      "purpose": "根据时间计算帽形、针线、裂剑、歌词及冲击的确定性动画（对应正式 v001 的冻结快照）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "frozen_v001_source",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "修改意象、排版或动作后重新渲染。",
+      "depends_on": [
+        "versions/v001/source/lettering.js",
+        "versions/v001/source/timeline.json"
+      ],
+      "bytes": 8852,
+      "sha256": "47c6fd004f3444bced95fe5144b0befeddf80c9ef852cb51a5008eee86157212"
+    },
+    {
+      "path": "versions/v001/source/timeline.json",
+      "kind": "timeline",
+      "purpose": "五句动作窗口、歌词退场、两帧红闪与音源裁切参数（对应正式 v001 的冻结快照）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "frozen_v001_source",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "制作节拍依据；尚未人工逐词听审。",
+      "depends_on": [
+        "assets/source/Mili_Ga1ahad_and_Scientific_Witchery.mp4"
+      ],
+      "bytes": 924,
+      "sha256": "75d2aa520ea8670d59530c7f57cc273fc67e9852601db8e7a2b9cddae4238a5d"
+    },
+    {
+      "path": "versions/v001/source/toolchain.json",
+      "kind": "tool_versions",
+      "purpose": "实际使用的 Python、FFmpeg、Chromium 和字体包版本（对应正式 v001 的冻结快照）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "frozen_v001_source",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "重建环境或定位版本差异时查阅。",
+      "depends_on": [],
+      "bytes": 583,
+      "sha256": "b9879e5514f06dafdb472c051d5486abdb02918ebb58af6ca66c5293a4107d13"
+    },
+    {
+      "path": "versions/v001/source/validate.py",
+      "kind": "validation_script",
+      "purpose": "全帧解码与图像检查、闪动识别、参数和响度检测及抽帧（对应正式 v001 的冻结快照）",
+      "source": "本轮依据六项反馈新编写并实际运行；lettering.js 审查复用旧对话字形数据，未批量执行旧命令",
+      "status": "frozen_v001_source",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "python3 validate.py --video 视频 --output 新目录；静音稿加 --silent。",
+      "depends_on": [
+        "versions/v001/source/requirements.txt"
+      ],
+      "bytes": 4926,
+      "sha256": "cc5b22846104aab7b24ec6f2746f0372f035b84c50554cc628960ea99495efb1"
+    },
+    {
+      "path": "versions/v001/validation/decode-loudness.log",
+      "kind": "validation_log",
+      "purpose": "正式视频完整解码及 EBU R128 响度测量原始日志",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "复核解码错误、综合响度和真峰值。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/source/validate.py"
+      ],
+      "bytes": 24079,
+      "sha256": "b03ec1d8211209baeac35f2fbb8ffffe84d934a1ff899e5a6a975c2bb8302d80"
+    },
+    {
+      "path": "versions/v001/validation/frame-audit.json",
+      "kind": "frame_audit",
+      "purpose": "全部 384 帧的图像信号测量记录",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "定位触边、空白及红闪；图像阈值检查不能代替审美判断。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/source/validate.py"
+      ],
+      "bytes": 57638,
+      "sha256": "e6024fd074e97c99323b1bbdaafd89cd404b2319b434ae0eaa58ee16abac0ba7"
+    },
+    {
+      "path": "versions/v001/validation/impact.jpg",
+      "kind": "contact_sheet",
+      "purpose": "实际视频第 300–319 帧连续冲击总览",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "逐格检查 see、两帧红闪、kill 落位与裂口变化。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/source/validate.py"
+      ],
+      "bytes": 493543,
+      "sha256": "971a10ed3f1f2233021ce27b61ee33b2f5802f335f9c2341422764dd4c88ccd8"
+    },
+    {
+      "path": "versions/v001/validation/keyframes/frame-000015.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 15 帧，0.500000 秒",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/validation/samples.json"
+      ],
+      "bytes": 205593,
+      "sha256": "e36443de8fd7ee962da3956acf4523339e4b887a7b9ba53abd16445d05cc439a"
+    },
+    {
+      "path": "versions/v001/validation/keyframes/frame-000060.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 60 帧，2.000000 秒",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/validation/samples.json"
+      ],
+      "bytes": 506544,
+      "sha256": "555f03d2f2a8d7c547ccedace71c1d4223dbb85dd6a561dc364d894d009c29d9"
+    },
+    {
+      "path": "versions/v001/validation/keyframes/frame-000078.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 78 帧，2.600000 秒",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/validation/samples.json"
+      ],
+      "bytes": 521488,
+      "sha256": "f3a90a6a5a5f742a8dc9034a4ddb19e1c4f0666056cb44cf589c2f1912beff4d"
+    },
+    {
+      "path": "versions/v001/validation/keyframes/frame-000120.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 120 帧，4.000000 秒",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/validation/samples.json"
+      ],
+      "bytes": 462401,
+      "sha256": "0104445f7e88e230c202b2a5d7637ca1cd7fd94da05f2d7afd51ad8310155773"
+    },
+    {
+      "path": "versions/v001/validation/keyframes/frame-000156.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 156 帧，5.200000 秒",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/validation/samples.json"
+      ],
+      "bytes": 559065,
+      "sha256": "900aa4afed006c0029b3337d0a619e85538109231bbd5be70221ff9badf18d25"
+    },
+    {
+      "path": "versions/v001/validation/keyframes/frame-000180.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 180 帧，6.000000 秒",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/validation/samples.json"
+      ],
+      "bytes": 445080,
+      "sha256": "1b97fc44a1e3bf768a8f18b358952458d20995e16c123b847dc862061d3fba37"
+    },
+    {
+      "path": "versions/v001/validation/keyframes/frame-000222.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 222 帧，7.400000 秒",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/validation/samples.json"
+      ],
+      "bytes": 556264,
+      "sha256": "c8288be27636828c7d49656e59f58d65969bda374f217899888412f5c07b6c89"
+    },
+    {
+      "path": "versions/v001/validation/keyframes/frame-000252.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 252 帧，8.400000 秒",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/validation/samples.json"
+      ],
+      "bytes": 541817,
+      "sha256": "5beba24f0e04edae1f1788917572183153aadae06fc39e246a9beca8d13ec904"
+    },
+    {
+      "path": "versions/v001/validation/keyframes/frame-000282.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 282 帧，9.400000 秒",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/validation/samples.json"
+      ],
+      "bytes": 446219,
+      "sha256": "b7ad9afdea5fe6e452449138e21e16a3633e178ac5a9970598052d2cf4d99e19"
+    },
+    {
+      "path": "versions/v001/validation/keyframes/frame-000305.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 305 帧，10.166667 秒",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/validation/samples.json"
+      ],
+      "bytes": 457247,
+      "sha256": "744334d7545ddacdb7f037534156834b6c9f7bb7f3caef85f38664d8b683cb18"
+    },
+    {
+      "path": "versions/v001/validation/keyframes/frame-000306.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 306 帧，10.200000 秒",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/validation/samples.json"
+      ],
+      "bytes": 192547,
+      "sha256": "c99a1f86fd887b35eebcfd0f027ee00548767f63227237610945be007026fb31"
+    },
+    {
+      "path": "versions/v001/validation/keyframes/frame-000307.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 307 帧，10.233333 秒",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/validation/samples.json"
+      ],
+      "bytes": 364469,
+      "sha256": "b040c6fb7ea74949e0808a86d519247e844aba4dbc2d1b79e8689b7fb86befe3"
+    },
+    {
+      "path": "versions/v001/validation/keyframes/frame-000308.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 308 帧，10.266667 秒",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/validation/samples.json"
+      ],
+      "bytes": 550370,
+      "sha256": "dcf2f405fec4b476841e9cc01bd7f9186d6570552db477042f38ed6cced383fa"
+    },
+    {
+      "path": "versions/v001/validation/keyframes/frame-000310.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 310 帧，10.333333 秒",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/validation/samples.json"
+      ],
+      "bytes": 544912,
+      "sha256": "f361f5c84098b6a612a78dead7d012586ea50f6300bd3ffcf719edce33c2658c"
+    },
+    {
+      "path": "versions/v001/validation/keyframes/frame-000321.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 321 帧，10.700000 秒",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/validation/samples.json"
+      ],
+      "bytes": 493076,
+      "sha256": "877e945c31091d9f6dbbacb322ebf7b21c40407b5d46262e52837a62837bc299"
+    },
+    {
+      "path": "versions/v001/validation/keyframes/frame-000366.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 366 帧，12.200000 秒",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/validation/samples.json"
+      ],
+      "bytes": 365536,
+      "sha256": "ab0f4c4248a372eef3763226f72e4197c35498e69ae0d54ef68a6a33bf6c6246"
+    },
+    {
+      "path": "versions/v001/validation/keyframes/frame-000383.png",
+      "kind": "keyframe",
+      "purpose": "实际视频第 383 帧，12.766667 秒",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "结合同目录上级 samples.json 定位；此图直接抽取，未重绘。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/validation/samples.json"
+      ],
+      "bytes": 363734,
+      "sha256": "25d4856320d6e5d055a1fff1773f31ee5ffb1ae1515b016cc324e8978af56811"
+    },
+    {
+      "path": "versions/v001/validation/media.json",
+      "kind": "media_metadata",
+      "purpose": "FFprobe 实测音视频编码、尺寸、时长和帧数",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "用于核实该视频输出规格。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/source/validate.py"
+      ],
+      "bytes": 485,
+      "sha256": "f01732fa552f53ba20df264aaef79d7862f2dd18cc6ae7ce8f0720ae329eaa04"
+    },
+    {
+      "path": "versions/v001/validation/overview.jpg",
+      "kind": "contact_sheet",
+      "purpose": "实际视频全片关键时点总览",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "对照 samples.json 和视频查看整体构图与段落。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/source/validate.py"
+      ],
+      "bytes": 294025,
+      "sha256": "81a75f4ad59021cea81dba6e76bf46771fc17a0a2d8c839f6d1ca23edd4646ed"
+    },
+    {
+      "path": "versions/v001/validation/samples.json",
+      "kind": "frame_index",
+      "purpose": "关键帧和总览的帧号、时间码、用途及哈希",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "按时间码回到视频并核对抽帧。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/source/validate.py"
+      ],
+      "bytes": 2600,
+      "sha256": "29dff3cabd3626ac1153f0d320c3d4ce8a53f8921bae489f36064770c878b645"
+    },
+    {
+      "path": "versions/v001/validation/summary.json",
+      "kind": "verification_summary",
+      "purpose": "解码、空白/触边、红闪及响度结果汇总",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "先读汇总；word_level_alignment 未验证。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/source/validate.py"
+      ],
+      "bytes": 389,
+      "sha256": "e51db8df50f8c4dbf286705015db77faf360e307ac711ded7eefb25d3ac5008b"
+    },
+    {
+      "path": "versions/v001/validation/transitions.jpg",
+      "kind": "contact_sheet",
+      "purpose": "实际视频 16 个转场时点总览",
+      "source": "本轮直接解码并分析 versions/v001/video.mp4",
+      "status": "verified_final_output",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "检查文字交叠、退场及连接连续性。",
+      "depends_on": [
+        "versions/v001/video.mp4",
+        "versions/v001/source/validate.py"
+      ],
+      "bytes": 393648,
+      "sha256": "9c805160f8fe10aa346b1b3137a351f9aa37d8cbd7164f3fded116e7c2cd8037"
+    },
+    {
+      "path": "versions/v001/video.mp4",
+      "kind": "final_video",
+      "purpose": "正式重做五句短片：12.8秒、1920×1080、30fps、H.264/AAC 原声",
+      "source": "本轮冻结源码渲染并用原曲声轨合成",
+      "status": "ready_for_user_review",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "最新观看版本；复现与限制见同目录 README.md。",
+      "depends_on": [
+        "versions/v001/production/silent.mp4",
+        "versions/v001/source/finish.py",
+        "assets/audio/five-lines-17.6-29.3.wav"
+      ],
+      "bytes": 2371827,
+      "sha256": "93234611f2ab70f744e9169bb8a75f12101fdb633de22c9092b0422b787cd684"
     }
   ],
   "missing": [
@@ -735,11 +2959,12 @@
       "description": "旧 index.html、render.py、finish.py 独立工程",
       "source_reference": "context/old.md 第 2807 行起、3199 行起及后续修改命令",
       "status": "not_recovered",
-      "recovery": "归档对话保留源码片段；逐段审查并恢复到 project/，重新验证渲染。",
+      "recovery": "旧独立工程仍未取回；已新编写可复现工程，取代当前制作需求，不能冒充恢复旧文件。",
       "related_versions": [
         "legacy-five-lines-mv",
         "legacy-five-lines-mv-v2"
-      ]
+      ],
+      "replacement_project": "project/v001/README.md"
     },
     {
       "id": "legacy_audio_checks",
@@ -753,8 +2978,11 @@
       ],
       "current_independent_checks": [
         "versions/legacy-upload-001/review/verification.json",
-        "versions/legacy-upload-001/review/decode-loudness.log"
-      ]
+        "versions/legacy-upload-001/review/decode-loudness.log",
+        "versions/v001/validation/summary.json",
+        "versions/v001/validation/decode-loudness.log"
+      ],
+      "replacement_audio": "assets/audio/five-lines-17.6-29.3.wav"
     },
     {
       "id": "reference_pv",

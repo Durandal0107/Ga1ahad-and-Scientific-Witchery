@@ -1,0 +1,2973 @@
+{
+  "method": "20ms mono RMS and sample-difference RMS; includes instruments, so not word-level alignment",
+  "cues": {
+    "fps": 30,
+    "duration": 12.8,
+    "audio_source": "assets/source/Mili_Ga1ahad_and_Scientific_Witchery.mp4",
+    "audio_in": 17.6,
+    "audio_duration": 11.7,
+    "first": {
+      "start": 0,
+      "write_end": 1.55,
+      "emphasis": 1.35,
+      "exit_start": 2.85,
+      "exit_end": 3.18
+    },
+    "second": {
+      "start": 2.55,
+      "write_end": 3.9,
+      "emphasis": 4.0,
+      "exit_start": 5.5,
+      "exit_end": 5.82
+    },
+    "third": {
+      "start": 5.62,
+      "from_bed": 6.18,
+      "darling": 6.93,
+      "exit_start": 8.3,
+      "exit_end": 8.62
+    },
+    "fourth": {
+      "start": 8.5,
+      "see": 8.94,
+      "complete": 9.53,
+      "exit_start": 10.2,
+      "exit_end": 10.47
+    },
+    "fifth": {
+      "flash": 10.2,
+      "flash_frames": 2,
+      "landing": 10.266666666666667,
+      "exit_start": 11.77,
+      "exit_end": 12.13
+    },
+    "timing_evidence": "Inherited source-subtitle anchors from old.md with waveform checks; not a verified word-level alignment."
+  },
+  "envelope": [
+    {
+      "time": 0.0,
+      "rms": 0.19806051890758672,
+      "high_frequency_difference_rms": 0.06378247660178832
+    },
+    {
+      "time": 0.02,
+      "rms": 0.23270534414901473,
+      "high_frequency_difference_rms": 0.07612252670180591
+    },
+    {
+      "time": 0.04,
+      "rms": 0.2414833939805181,
+      "high_frequency_difference_rms": 0.0639669038989032
+    },
+    {
+      "time": 0.06,
+      "rms": 0.24503789518405483,
+      "high_frequency_difference_rms": 0.06250251149588183
+    },
+    {
+      "time": 0.08,
+      "rms": 0.24907001543608398,
+      "high_frequency_difference_rms": 0.06205293792363666
+    },
+    {
+      "time": 0.1,
+      "rms": 0.22635023188150113,
+      "high_frequency_difference_rms": 0.048614515165053905
+    },
+    {
+      "time": 0.12,
+      "rms": 0.22701757716350646,
+      "high_frequency_difference_rms": 0.058549140996707924
+    },
+    {
+      "time": 0.14,
+      "rms": 0.2397857100241379,
+      "high_frequency_difference_rms": 0.045831359485595205
+    },
+    {
+      "time": 0.16,
+      "rms": 0.24225838555386597,
+      "high_frequency_difference_rms": 0.0412183709864735
+    },
+    {
+      "time": 0.18,
+      "rms": 0.2266389986901645,
+      "high_frequency_difference_rms": 0.06631127451741357
+    },
+    {
+      "time": 0.2,
+      "rms": 0.40264377771405385,
+      "high_frequency_difference_rms": 0.13363646079138133
+    },
+    {
+      "time": 0.22,
+      "rms": 0.5038573918381629,
+      "high_frequency_difference_rms": 0.10386445036248707
+    },
+    {
+      "time": 0.24,
+      "rms": 0.6467262616969687,
+      "high_frequency_difference_rms": 0.11057525775811058
+    },
+    {
+      "time": 0.26,
+      "rms": 0.46487166055216134,
+      "high_frequency_difference_rms": 0.09414080578908188
+    },
+    {
+      "time": 0.28,
+      "rms": 0.46862912716641747,
+      "high_frequency_difference_rms": 0.08315156024108623
+    },
+    {
+      "time": 0.3,
+      "rms": 0.4411006466684134,
+      "high_frequency_difference_rms": 0.07634992521981322
+    },
+    {
+      "time": 0.32,
+      "rms": 0.3873863129046166,
+      "high_frequency_difference_rms": 0.07897012885759967
+    },
+    {
+      "time": 0.34,
+      "rms": 0.33777648825904566,
+      "high_frequency_difference_rms": 0.0757882247966663
+    },
+    {
+      "time": 0.36,
+      "rms": 0.2591737960293245,
+      "high_frequency_difference_rms": 0.07266688360584353
+    },
+    {
+      "time": 0.38,
+      "rms": 0.3492364656236992,
+      "high_frequency_difference_rms": 0.08168251900887445
+    },
+    {
+      "time": 0.4,
+      "rms": 0.4312007138645939,
+      "high_frequency_difference_rms": 0.07667665980098563
+    },
+    {
+      "time": 0.42,
+      "rms": 0.30355207911920284,
+      "high_frequency_difference_rms": 0.08463495965528704
+    },
+    {
+      "time": 0.44,
+      "rms": 0.2872198389872211,
+      "high_frequency_difference_rms": 0.07979179195451656
+    },
+    {
+      "time": 0.46,
+      "rms": 0.25852358008298354,
+      "high_frequency_difference_rms": 0.08057420476692197
+    },
+    {
+      "time": 0.48,
+      "rms": 0.3802149756176068,
+      "high_frequency_difference_rms": 0.0838529967329499
+    },
+    {
+      "time": 0.5,
+      "rms": 0.2715730470525358,
+      "high_frequency_difference_rms": 0.10502209595557983
+    },
+    {
+      "time": 0.52,
+      "rms": 0.40310545782226986,
+      "high_frequency_difference_rms": 0.0984372860162158
+    },
+    {
+      "time": 0.54,
+      "rms": 0.26724106968089084,
+      "high_frequency_difference_rms": 0.08582152087215451
+    },
+    {
+      "time": 0.56,
+      "rms": 0.3567367081269059,
+      "high_frequency_difference_rms": 0.09821827709905878
+    },
+    {
+      "time": 0.58,
+      "rms": 0.25929755239431973,
+      "high_frequency_difference_rms": 0.09038573091567716
+    },
+    {
+      "time": 0.6,
+      "rms": 0.28723081184589716,
+      "high_frequency_difference_rms": 0.09212768865807659
+    },
+    {
+      "time": 0.62,
+      "rms": 0.3439897748256887,
+      "high_frequency_difference_rms": 0.07400761052926258
+    },
+    {
+      "time": 0.64,
+      "rms": 0.369595537256564,
+      "high_frequency_difference_rms": 0.08120644018388035
+    },
+    {
+      "time": 0.66,
+      "rms": 0.27773257938436147,
+      "high_frequency_difference_rms": 0.07362863746520683
+    },
+    {
+      "time": 0.68,
+      "rms": 0.30653694624911426,
+      "high_frequency_difference_rms": 0.072275043929937
+    },
+    {
+      "time": 0.7,
+      "rms": 0.29079625425964717,
+      "high_frequency_difference_rms": 0.06608033881002508
+    },
+    {
+      "time": 0.72,
+      "rms": 0.29050804940636626,
+      "high_frequency_difference_rms": 0.06819948116605529
+    },
+    {
+      "time": 0.74,
+      "rms": 0.27611234602653745,
+      "high_frequency_difference_rms": 0.08233920816173455
+    },
+    {
+      "time": 0.76,
+      "rms": 0.23262607666603533,
+      "high_frequency_difference_rms": 0.07224860540766635
+    },
+    {
+      "time": 0.78,
+      "rms": 0.4007490820734453,
+      "high_frequency_difference_rms": 0.08280585508220298
+    },
+    {
+      "time": 0.8,
+      "rms": 0.38039929849447146,
+      "high_frequency_difference_rms": 0.06177079215318483
+    },
+    {
+      "time": 0.82,
+      "rms": 0.4392137139101776,
+      "high_frequency_difference_rms": 0.04102764556391214
+    },
+    {
+      "time": 0.84,
+      "rms": 0.3030505973698356,
+      "high_frequency_difference_rms": 0.03235366059303971
+    },
+    {
+      "time": 0.86,
+      "rms": 0.2935407261292955,
+      "high_frequency_difference_rms": 0.035890066087921085
+    },
+    {
+      "time": 0.88,
+      "rms": 0.20151951248372935,
+      "high_frequency_difference_rms": 0.08407770705829724
+    },
+    {
+      "time": 0.9,
+      "rms": 0.3046466268454852,
+      "high_frequency_difference_rms": 0.10838872842147952
+    },
+    {
+      "time": 0.92,
+      "rms": 0.21279059550083215,
+      "high_frequency_difference_rms": 0.10529433070880083
+    },
+    {
+      "time": 0.94,
+      "rms": 0.37095630856483597,
+      "high_frequency_difference_rms": 0.07982128813207569
+    },
+    {
+      "time": 0.96,
+      "rms": 0.29195649033385224,
+      "high_frequency_difference_rms": 0.08107615129896759
+    },
+    {
+      "time": 0.98,
+      "rms": 0.3143770282790846,
+      "high_frequency_difference_rms": 0.07773359243057588
+    },
+    {
+      "time": 1.0,
+      "rms": 0.35763456165612023,
+      "high_frequency_difference_rms": 0.06741860620431815
+    },
+    {
+      "time": 1.02,
+      "rms": 0.2740878982849755,
+      "high_frequency_difference_rms": 0.06539347031378345
+    },
+    {
+      "time": 1.04,
+      "rms": 0.3498031741086705,
+      "high_frequency_difference_rms": 0.07814568465125256
+    },
+    {
+      "time": 1.06,
+      "rms": 0.20486143774181353,
+      "high_frequency_difference_rms": 0.0695847306916964
+    },
+    {
+      "time": 1.08,
+      "rms": 0.31783682759162646,
+      "high_frequency_difference_rms": 0.0605399072747861
+    },
+    {
+      "time": 1.1,
+      "rms": 0.2638022357773413,
+      "high_frequency_difference_rms": 0.09329974150353404
+    },
+    {
+      "time": 1.12,
+      "rms": 0.5437485864453228,
+      "high_frequency_difference_rms": 0.06789300717139451
+    },
+    {
+      "time": 1.14,
+      "rms": 0.6287292234650721,
+      "high_frequency_difference_rms": 0.0669358342026563
+    },
+    {
+      "time": 1.16,
+      "rms": 0.40445312772719744,
+      "high_frequency_difference_rms": 0.05910683057097618
+    },
+    {
+      "time": 1.18,
+      "rms": 0.374256763800469,
+      "high_frequency_difference_rms": 0.061492092366432875
+    },
+    {
+      "time": 1.2,
+      "rms": 0.48870161803410145,
+      "high_frequency_difference_rms": 0.05944025687173932
+    },
+    {
+      "time": 1.22,
+      "rms": 0.36710654565389994,
+      "high_frequency_difference_rms": 0.056271905902620545
+    },
+    {
+      "time": 1.24,
+      "rms": 0.3007436463640389,
+      "high_frequency_difference_rms": 0.053318789055599745
+    },
+    {
+      "time": 1.26,
+      "rms": 0.29977984289059484,
+      "high_frequency_difference_rms": 0.052363687369865394
+    },
+    {
+      "time": 1.28,
+      "rms": 0.355922229998314,
+      "high_frequency_difference_rms": 0.0745224113222622
+    },
+    {
+      "time": 1.3,
+      "rms": 0.30244180866672893,
+      "high_frequency_difference_rms": 0.06890039172006517
+    },
+    {
+      "time": 1.32,
+      "rms": 0.3258063646988251,
+      "high_frequency_difference_rms": 0.07685368824887065
+    },
+    {
+      "time": 1.34,
+      "rms": 0.3112725322399742,
+      "high_frequency_difference_rms": 0.04232207619461597
+    },
+    {
+      "time": 1.36,
+      "rms": 0.2737397666338539,
+      "high_frequency_difference_rms": 0.03971241615754085
+    },
+    {
+      "time": 1.38,
+      "rms": 0.25528964075698113,
+      "high_frequency_difference_rms": 0.03210159132785089
+    },
+    {
+      "time": 1.4,
+      "rms": 0.22901010586250672,
+      "high_frequency_difference_rms": 0.02802891116829031
+    },
+    {
+      "time": 1.42,
+      "rms": 0.17700383068601622,
+      "high_frequency_difference_rms": 0.02806105230645883
+    },
+    {
+      "time": 1.44,
+      "rms": 0.2107648862963705,
+      "high_frequency_difference_rms": 0.06192390816045872
+    },
+    {
+      "time": 1.46,
+      "rms": 0.29369182161539764,
+      "high_frequency_difference_rms": 0.0841180632902306
+    },
+    {
+      "time": 1.48,
+      "rms": 0.3339874017389034,
+      "high_frequency_difference_rms": 0.07403137088856328
+    },
+    {
+      "time": 1.5,
+      "rms": 0.28101640790968835,
+      "high_frequency_difference_rms": 0.07123452406182153
+    },
+    {
+      "time": 1.52,
+      "rms": 0.3240244367645803,
+      "high_frequency_difference_rms": 0.061447927321585175
+    },
+    {
+      "time": 1.54,
+      "rms": 0.25130079079968437,
+      "high_frequency_difference_rms": 0.050908876804062086
+    },
+    {
+      "time": 1.56,
+      "rms": 0.31599758556670354,
+      "high_frequency_difference_rms": 0.041093734017764866
+    },
+    {
+      "time": 1.58,
+      "rms": 0.3683085502767691,
+      "high_frequency_difference_rms": 0.053019447617249665
+    },
+    {
+      "time": 1.6,
+      "rms": 0.3381345661667122,
+      "high_frequency_difference_rms": 0.062292206822532274
+    },
+    {
+      "time": 1.62,
+      "rms": 0.2670377741480214,
+      "high_frequency_difference_rms": 0.04119004432049748
+    },
+    {
+      "time": 1.64,
+      "rms": 0.3530860463735478,
+      "high_frequency_difference_rms": 0.09012786505679392
+    },
+    {
+      "time": 1.66,
+      "rms": 0.536480316925276,
+      "high_frequency_difference_rms": 0.10150068308584184
+    },
+    {
+      "time": 1.68,
+      "rms": 0.4755572112754165,
+      "high_frequency_difference_rms": 0.08121348327644477
+    },
+    {
+      "time": 1.7,
+      "rms": 0.5516027196534448,
+      "high_frequency_difference_rms": 0.05726005137602718
+    },
+    {
+      "time": 1.72,
+      "rms": 0.3595061653885958,
+      "high_frequency_difference_rms": 0.061678278550914116
+    },
+    {
+      "time": 1.74,
+      "rms": 0.4087824972904071,
+      "high_frequency_difference_rms": 0.06907149356012546
+    },
+    {
+      "time": 1.76,
+      "rms": 0.5110079794991937,
+      "high_frequency_difference_rms": 0.06662610629917817
+    },
+    {
+      "time": 1.78,
+      "rms": 0.328994691441024,
+      "high_frequency_difference_rms": 0.06741775568348418
+    },
+    {
+      "time": 1.8,
+      "rms": 0.38665208510219734,
+      "high_frequency_difference_rms": 0.06710501285062073
+    },
+    {
+      "time": 1.82,
+      "rms": 0.3785573058132956,
+      "high_frequency_difference_rms": 0.08420894002433102
+    },
+    {
+      "time": 1.84,
+      "rms": 0.4417693064850548,
+      "high_frequency_difference_rms": 0.09910767546869725
+    },
+    {
+      "time": 1.86,
+      "rms": 0.33363617149405417,
+      "high_frequency_difference_rms": 0.09515197221397476
+    },
+    {
+      "time": 1.88,
+      "rms": 0.3657127969955755,
+      "high_frequency_difference_rms": 0.06354075495921319
+    },
+    {
+      "time": 1.9,
+      "rms": 0.3687251362791226,
+      "high_frequency_difference_rms": 0.059544036454712145
+    },
+    {
+      "time": 1.92,
+      "rms": 0.3156262169079909,
+      "high_frequency_difference_rms": 0.06726363312545391
+    },
+    {
+      "time": 1.94,
+      "rms": 0.2729036575979867,
+      "high_frequency_difference_rms": 0.09592422248748679
+    },
+    {
+      "time": 1.96,
+      "rms": 0.34593572938060446,
+      "high_frequency_difference_rms": 0.08454144586478683
+    },
+    {
+      "time": 1.98,
+      "rms": 0.25131114244359176,
+      "high_frequency_difference_rms": 0.08332020944905949
+    },
+    {
+      "time": 2.0,
+      "rms": 0.37273933192204567,
+      "high_frequency_difference_rms": 0.07406596196650439
+    },
+    {
+      "time": 2.02,
+      "rms": 0.4189143983343435,
+      "high_frequency_difference_rms": 0.12014139057817107
+    },
+    {
+      "time": 2.04,
+      "rms": 0.3838342850760171,
+      "high_frequency_difference_rms": 0.11677459957024647
+    },
+    {
+      "time": 2.06,
+      "rms": 0.3265082761937088,
+      "high_frequency_difference_rms": 0.09374805146218322
+    },
+    {
+      "time": 2.08,
+      "rms": 0.39682309002053306,
+      "high_frequency_difference_rms": 0.07631680533198203
+    },
+    {
+      "time": 2.1,
+      "rms": 0.3097895621178751,
+      "high_frequency_difference_rms": 0.07768621495393613
+    },
+    {
+      "time": 2.12,
+      "rms": 0.3317644002939605,
+      "high_frequency_difference_rms": 0.0861941776165952
+    },
+    {
+      "time": 2.14,
+      "rms": 0.2896989781117148,
+      "high_frequency_difference_rms": 0.075076406617182
+    },
+    {
+      "time": 2.16,
+      "rms": 0.29842673543423914,
+      "high_frequency_difference_rms": 0.06563987723010616
+    },
+    {
+      "time": 2.18,
+      "rms": 0.22455621232740974,
+      "high_frequency_difference_rms": 0.07536154457658881
+    },
+    {
+      "time": 2.2,
+      "rms": 0.28088436876823225,
+      "high_frequency_difference_rms": 0.0844334467757706
+    },
+    {
+      "time": 2.22,
+      "rms": 0.32680099551500347,
+      "high_frequency_difference_rms": 0.08358127117139205
+    },
+    {
+      "time": 2.24,
+      "rms": 0.261836892823239,
+      "high_frequency_difference_rms": 0.047394874246587664
+    },
+    {
+      "time": 2.26,
+      "rms": 0.3080298190857277,
+      "high_frequency_difference_rms": 0.042532972820703945
+    },
+    {
+      "time": 2.28,
+      "rms": 0.30579438118460234,
+      "high_frequency_difference_rms": 0.04273361647527028
+    },
+    {
+      "time": 2.3,
+      "rms": 0.28672211107627105,
+      "high_frequency_difference_rms": 0.040384378512795555
+    },
+    {
+      "time": 2.32,
+      "rms": 0.2799420399722452,
+      "high_frequency_difference_rms": 0.039922407905443574
+    },
+    {
+      "time": 2.34,
+      "rms": 0.29438881705107517,
+      "high_frequency_difference_rms": 0.035285332102688464
+    },
+    {
+      "time": 2.36,
+      "rms": 0.3668982121943494,
+      "high_frequency_difference_rms": 0.06501700769920761
+    },
+    {
+      "time": 2.38,
+      "rms": 0.307971738915144,
+      "high_frequency_difference_rms": 0.11025843058369725
+    },
+    {
+      "time": 2.4,
+      "rms": 0.4136857261966675,
+      "high_frequency_difference_rms": 0.11641217038805303
+    },
+    {
+      "time": 2.42,
+      "rms": 0.2825317179211576,
+      "high_frequency_difference_rms": 0.08925002478012033
+    },
+    {
+      "time": 2.44,
+      "rms": 0.35618569510900633,
+      "high_frequency_difference_rms": 0.07921748213883717
+    },
+    {
+      "time": 2.46,
+      "rms": 0.21846414912498321,
+      "high_frequency_difference_rms": 0.07151045933519677
+    },
+    {
+      "time": 2.48,
+      "rms": 0.4290723467181039,
+      "high_frequency_difference_rms": 0.07165028072481001
+    },
+    {
+      "time": 2.5,
+      "rms": 0.22259466565662955,
+      "high_frequency_difference_rms": 0.07951453822731126
+    },
+    {
+      "time": 2.52,
+      "rms": 0.3717258355914884,
+      "high_frequency_difference_rms": 0.057017324372256435
+    },
+    {
+      "time": 2.54,
+      "rms": 0.1945158900800483,
+      "high_frequency_difference_rms": 0.07623984896637809
+    },
+    {
+      "time": 2.56,
+      "rms": 0.4310034955828168,
+      "high_frequency_difference_rms": 0.11459797646252776
+    },
+    {
+      "time": 2.58,
+      "rms": 0.2638362552264421,
+      "high_frequency_difference_rms": 0.10209710313647835
+    },
+    {
+      "time": 2.6,
+      "rms": 0.24189630839072726,
+      "high_frequency_difference_rms": 0.058277715623119175
+    },
+    {
+      "time": 2.62,
+      "rms": 0.30156065651515906,
+      "high_frequency_difference_rms": 0.04546663312377482
+    },
+    {
+      "time": 2.64,
+      "rms": 0.192706316881877,
+      "high_frequency_difference_rms": 0.039228262103546116
+    },
+    {
+      "time": 2.66,
+      "rms": 0.23334447947647724,
+      "high_frequency_difference_rms": 0.04193611928661508
+    },
+    {
+      "time": 2.68,
+      "rms": 0.2828715181142985,
+      "high_frequency_difference_rms": 0.04694522892788393
+    },
+    {
+      "time": 2.7,
+      "rms": 0.29059053104535526,
+      "high_frequency_difference_rms": 0.049675401578498986
+    },
+    {
+      "time": 2.72,
+      "rms": 0.3400679479007621,
+      "high_frequency_difference_rms": 0.07994970235123611
+    },
+    {
+      "time": 2.74,
+      "rms": 0.3241016363987957,
+      "high_frequency_difference_rms": 0.10587001485021326
+    },
+    {
+      "time": 2.76,
+      "rms": 0.3953881633726517,
+      "high_frequency_difference_rms": 0.11975578494538718
+    },
+    {
+      "time": 2.78,
+      "rms": 0.38631055407549514,
+      "high_frequency_difference_rms": 0.09718669512845347
+    },
+    {
+      "time": 2.8,
+      "rms": 0.3678332526794998,
+      "high_frequency_difference_rms": 0.0668358124907226
+    },
+    {
+      "time": 2.82,
+      "rms": 0.3511611519184226,
+      "high_frequency_difference_rms": 0.06948382772643398
+    },
+    {
+      "time": 2.84,
+      "rms": 0.277425172495165,
+      "high_frequency_difference_rms": 0.05683585468461221
+    },
+    {
+      "time": 2.86,
+      "rms": 0.31673860560113176,
+      "high_frequency_difference_rms": 0.0544098348488931
+    },
+    {
+      "time": 2.88,
+      "rms": 0.3182718307907668,
+      "high_frequency_difference_rms": 0.06215052067489451
+    },
+    {
+      "time": 2.9,
+      "rms": 0.3321572355457063,
+      "high_frequency_difference_rms": 0.09019084618534633
+    },
+    {
+      "time": 2.92,
+      "rms": 0.3932451440496671,
+      "high_frequency_difference_rms": 0.08318472491877059
+    },
+    {
+      "time": 2.94,
+      "rms": 0.5418499590023875,
+      "high_frequency_difference_rms": 0.06783251705867036
+    },
+    {
+      "time": 2.96,
+      "rms": 0.38600552596812426,
+      "high_frequency_difference_rms": 0.060822263104973504
+    },
+    {
+      "time": 2.98,
+      "rms": 0.30746936118554125,
+      "high_frequency_difference_rms": 0.05675154468537057
+    },
+    {
+      "time": 3.0,
+      "rms": 0.42876135365311313,
+      "high_frequency_difference_rms": 0.0671263118791259
+    },
+    {
+      "time": 3.02,
+      "rms": 0.2951377869845537,
+      "high_frequency_difference_rms": 0.07896596661868671
+    },
+    {
+      "time": 3.04,
+      "rms": 0.22168781250792163,
+      "high_frequency_difference_rms": 0.07560982333283373
+    },
+    {
+      "time": 3.06,
+      "rms": 0.3690783898357883,
+      "high_frequency_difference_rms": 0.0773183797540334
+    },
+    {
+      "time": 3.08,
+      "rms": 0.376437163742374,
+      "high_frequency_difference_rms": 0.08755540760379212
+    },
+    {
+      "time": 3.1,
+      "rms": 0.550028731690775,
+      "high_frequency_difference_rms": 0.08360270797328129
+    },
+    {
+      "time": 3.12,
+      "rms": 0.37052169916445693,
+      "high_frequency_difference_rms": 0.09902237072969401
+    },
+    {
+      "time": 3.14,
+      "rms": 0.3649231723428727,
+      "high_frequency_difference_rms": 0.07578515633029645
+    },
+    {
+      "time": 3.16,
+      "rms": 0.4271392081586344,
+      "high_frequency_difference_rms": 0.05695745035622795
+    },
+    {
+      "time": 3.18,
+      "rms": 0.38977617384895785,
+      "high_frequency_difference_rms": 0.058503154670245264
+    },
+    {
+      "time": 3.2,
+      "rms": 0.24155926930395075,
+      "high_frequency_difference_rms": 0.05530702585228823
+    },
+    {
+      "time": 3.22,
+      "rms": 0.2760184407666706,
+      "high_frequency_difference_rms": 0.053464288603978824
+    },
+    {
+      "time": 3.24,
+      "rms": 0.37126619332929606,
+      "high_frequency_difference_rms": 0.05623074899470933
+    },
+    {
+      "time": 3.26,
+      "rms": 0.36634192083289474,
+      "high_frequency_difference_rms": 0.07241454322766555
+    },
+    {
+      "time": 3.28,
+      "rms": 0.44977769855282895,
+      "high_frequency_difference_rms": 0.11107250643037449
+    },
+    {
+      "time": 3.3,
+      "rms": 0.4051587575501065,
+      "high_frequency_difference_rms": 0.1258638625864956
+    },
+    {
+      "time": 3.32,
+      "rms": 0.40714659964587474,
+      "high_frequency_difference_rms": 0.09589797850725126
+    },
+    {
+      "time": 3.34,
+      "rms": 0.4403007809955937,
+      "high_frequency_difference_rms": 0.06436345410802922
+    },
+    {
+      "time": 3.36,
+      "rms": 0.37873931262756766,
+      "high_frequency_difference_rms": 0.07170071685983896
+    },
+    {
+      "time": 3.38,
+      "rms": 0.3387121980755374,
+      "high_frequency_difference_rms": 0.09454703867842965
+    },
+    {
+      "time": 3.4,
+      "rms": 0.4093920785278994,
+      "high_frequency_difference_rms": 0.08958005361422589
+    },
+    {
+      "time": 3.42,
+      "rms": 0.39105725079777237,
+      "high_frequency_difference_rms": 0.06380403906988165
+    },
+    {
+      "time": 3.44,
+      "rms": 0.28106973271277896,
+      "high_frequency_difference_rms": 0.07602324702251458
+    },
+    {
+      "time": 3.46,
+      "rms": 0.29399008475783717,
+      "high_frequency_difference_rms": 0.10892502489933
+    },
+    {
+      "time": 3.48,
+      "rms": 0.2778113260508945,
+      "high_frequency_difference_rms": 0.12201292340383886
+    },
+    {
+      "time": 3.5,
+      "rms": 0.3309950205813151,
+      "high_frequency_difference_rms": 0.08379279191417802
+    },
+    {
+      "time": 3.52,
+      "rms": 0.30044166639433584,
+      "high_frequency_difference_rms": 0.07030392581307067
+    },
+    {
+      "time": 3.54,
+      "rms": 0.30294846647285345,
+      "high_frequency_difference_rms": 0.06722681850868988
+    },
+    {
+      "time": 3.56,
+      "rms": 0.3338967273303541,
+      "high_frequency_difference_rms": 0.06823586578309292
+    },
+    {
+      "time": 3.58,
+      "rms": 0.2698925100456475,
+      "high_frequency_difference_rms": 0.07334086603887714
+    },
+    {
+      "time": 3.6,
+      "rms": 0.3648574045974424,
+      "high_frequency_difference_rms": 0.06690913414293884
+    },
+    {
+      "time": 3.62,
+      "rms": 0.31377857464878217,
+      "high_frequency_difference_rms": 0.07293953678738033
+    },
+    {
+      "time": 3.64,
+      "rms": 0.27653488615306,
+      "high_frequency_difference_rms": 0.0871941930037906
+    },
+    {
+      "time": 3.66,
+      "rms": 0.4855822460167628,
+      "high_frequency_difference_rms": 0.0999874172365781
+    },
+    {
+      "time": 3.68,
+      "rms": 0.3149894718291547,
+      "high_frequency_difference_rms": 0.06821204162416912
+    },
+    {
+      "time": 3.7,
+      "rms": 0.3383923195794068,
+      "high_frequency_difference_rms": 0.04036691616684493
+    },
+    {
+      "time": 3.72,
+      "rms": 0.3385672285022922,
+      "high_frequency_difference_rms": 0.03619885325961373
+    },
+    {
+      "time": 3.74,
+      "rms": 0.29048784937204825,
+      "high_frequency_difference_rms": 0.03985761991427266
+    },
+    {
+      "time": 3.76,
+      "rms": 0.24671645885013932,
+      "high_frequency_difference_rms": 0.04242656272159569
+    },
+    {
+      "time": 3.78,
+      "rms": 0.3025704581313137,
+      "high_frequency_difference_rms": 0.05986280185198288
+    },
+    {
+      "time": 3.8,
+      "rms": 0.23448194276765433,
+      "high_frequency_difference_rms": 0.07571688980542561
+    },
+    {
+      "time": 3.82,
+      "rms": 0.2752270648459853,
+      "high_frequency_difference_rms": 0.09878158335503746
+    },
+    {
+      "time": 3.84,
+      "rms": 0.3057022959837974,
+      "high_frequency_difference_rms": 0.12765663300814256
+    },
+    {
+      "time": 3.86,
+      "rms": 0.32079559879747394,
+      "high_frequency_difference_rms": 0.10859985227577397
+    },
+    {
+      "time": 3.88,
+      "rms": 0.2833140542380385,
+      "high_frequency_difference_rms": 0.07705670263933752
+    },
+    {
+      "time": 3.9,
+      "rms": 0.2234587825585215,
+      "high_frequency_difference_rms": 0.07978680959499657
+    },
+    {
+      "time": 3.92,
+      "rms": 0.2641358801403456,
+      "high_frequency_difference_rms": 0.10341135107156743
+    },
+    {
+      "time": 3.94,
+      "rms": 0.3497990942857094,
+      "high_frequency_difference_rms": 0.1016904956132167
+    },
+    {
+      "time": 3.96,
+      "rms": 0.3599805826055255,
+      "high_frequency_difference_rms": 0.07096421081168829
+    },
+    {
+      "time": 3.98,
+      "rms": 0.28965713371526236,
+      "high_frequency_difference_rms": 0.09249666228687432
+    },
+    {
+      "time": 4.0,
+      "rms": 0.577422139207971,
+      "high_frequency_difference_rms": 0.09596290007009231
+    },
+    {
+      "time": 4.02,
+      "rms": 0.4405797970888303,
+      "high_frequency_difference_rms": 0.12310254174135467
+    },
+    {
+      "time": 4.04,
+      "rms": 0.5480733509672571,
+      "high_frequency_difference_rms": 0.10117850786152713
+    },
+    {
+      "time": 4.06,
+      "rms": 0.38601467171689474,
+      "high_frequency_difference_rms": 0.07202869845526691
+    },
+    {
+      "time": 4.08,
+      "rms": 0.3643533361052246,
+      "high_frequency_difference_rms": 0.07290835893060688
+    },
+    {
+      "time": 4.1,
+      "rms": 0.33928629002831623,
+      "high_frequency_difference_rms": 0.07031396911146613
+    },
+    {
+      "time": 4.12,
+      "rms": 0.3072501323398121,
+      "high_frequency_difference_rms": 0.06870844534907362
+    },
+    {
+      "time": 4.14,
+      "rms": 0.292090411957477,
+      "high_frequency_difference_rms": 0.0701260650703751
+    },
+    {
+      "time": 4.16,
+      "rms": 0.3089977091190487,
+      "high_frequency_difference_rms": 0.06422844378465802
+    },
+    {
+      "time": 4.18,
+      "rms": 0.3774958832848804,
+      "high_frequency_difference_rms": 0.06877709294854542
+    },
+    {
+      "time": 4.2,
+      "rms": 0.39603887581836966,
+      "high_frequency_difference_rms": 0.06926850268316069
+    },
+    {
+      "time": 4.22,
+      "rms": 0.3048124365973537,
+      "high_frequency_difference_rms": 0.07260216773039256
+    },
+    {
+      "time": 4.24,
+      "rms": 0.29022318471315306,
+      "high_frequency_difference_rms": 0.06234043675907559
+    },
+    {
+      "time": 4.26,
+      "rms": 0.28789161296753246,
+      "high_frequency_difference_rms": 0.04790451057417315
+    },
+    {
+      "time": 4.28,
+      "rms": 0.2813989295210754,
+      "high_frequency_difference_rms": 0.059380138334310995
+    },
+    {
+      "time": 4.3,
+      "rms": 0.30762495981910704,
+      "high_frequency_difference_rms": 0.05114019325747707
+    },
+    {
+      "time": 4.32,
+      "rms": 0.3097043840797366,
+      "high_frequency_difference_rms": 0.042438790746634786
+    },
+    {
+      "time": 4.34,
+      "rms": 0.23831056773337622,
+      "high_frequency_difference_rms": 0.054171390273850976
+    },
+    {
+      "time": 4.36,
+      "rms": 0.29757736492287595,
+      "high_frequency_difference_rms": 0.06925701927095543
+    },
+    {
+      "time": 4.38,
+      "rms": 0.2555342164493886,
+      "high_frequency_difference_rms": 0.07495187626222244
+    },
+    {
+      "time": 4.4,
+      "rms": 0.24432718991987826,
+      "high_frequency_difference_rms": 0.0762212468303585
+    },
+    {
+      "time": 4.42,
+      "rms": 0.20999359921975508,
+      "high_frequency_difference_rms": 0.05659852531782881
+    },
+    {
+      "time": 4.44,
+      "rms": 0.25390836599045974,
+      "high_frequency_difference_rms": 0.06019651506482301
+    },
+    {
+      "time": 4.46,
+      "rms": 0.2308332801938711,
+      "high_frequency_difference_rms": 0.04568669582141929
+    },
+    {
+      "time": 4.48,
+      "rms": 0.23024068991270272,
+      "high_frequency_difference_rms": 0.04660568226907954
+    },
+    {
+      "time": 4.5,
+      "rms": 0.2835325589339488,
+      "high_frequency_difference_rms": 0.04439005580970767
+    },
+    {
+      "time": 4.52,
+      "rms": 0.2203868276919133,
+      "high_frequency_difference_rms": 0.06747057133448534
+    },
+    {
+      "time": 4.54,
+      "rms": 0.5608327585956714,
+      "high_frequency_difference_rms": 0.06432935710859454
+    },
+    {
+      "time": 4.56,
+      "rms": 0.5205426799263443,
+      "high_frequency_difference_rms": 0.07180570829387761
+    },
+    {
+      "time": 4.58,
+      "rms": 0.5700334961265667,
+      "high_frequency_difference_rms": 0.061782717673554935
+    },
+    {
+      "time": 4.6,
+      "rms": 0.33153376660003014,
+      "high_frequency_difference_rms": 0.053971908347538976
+    },
+    {
+      "time": 4.62,
+      "rms": 0.45215193771772205,
+      "high_frequency_difference_rms": 0.048725077884442546
+    },
+    {
+      "time": 4.64,
+      "rms": 0.451936956757071,
+      "high_frequency_difference_rms": 0.055294388272686255
+    },
+    {
+      "time": 4.66,
+      "rms": 0.46687286645120396,
+      "high_frequency_difference_rms": 0.05670775552308738
+    },
+    {
+      "time": 4.68,
+      "rms": 0.3438447721382577,
+      "high_frequency_difference_rms": 0.053696591577743404
+    },
+    {
+      "time": 4.7,
+      "rms": 0.4660469482328283,
+      "high_frequency_difference_rms": 0.05703051505747816
+    },
+    {
+      "time": 4.72,
+      "rms": 0.43182499108619143,
+      "high_frequency_difference_rms": 0.07148813624257487
+    },
+    {
+      "time": 4.74,
+      "rms": 0.31772169534853717,
+      "high_frequency_difference_rms": 0.07462769943403115
+    },
+    {
+      "time": 4.76,
+      "rms": 0.46818647460986396,
+      "high_frequency_difference_rms": 0.06552775126295662
+    },
+    {
+      "time": 4.78,
+      "rms": 0.4390169075639645,
+      "high_frequency_difference_rms": 0.05055554469804217
+    },
+    {
+      "time": 4.8,
+      "rms": 0.34111698652454825,
+      "high_frequency_difference_rms": 0.04880750346236303
+    },
+    {
+      "time": 4.82,
+      "rms": 0.3640626937941864,
+      "high_frequency_difference_rms": 0.05117783173567738
+    },
+    {
+      "time": 4.84,
+      "rms": 0.3195874366867476,
+      "high_frequency_difference_rms": 0.06618602182753776
+    },
+    {
+      "time": 4.86,
+      "rms": 0.30526235259473716,
+      "high_frequency_difference_rms": 0.053803866770911354
+    },
+    {
+      "time": 4.88,
+      "rms": 0.30280938238811067,
+      "high_frequency_difference_rms": 0.047001625675479816
+    },
+    {
+      "time": 4.9,
+      "rms": 0.34111942967818953,
+      "high_frequency_difference_rms": 0.0707131599357107
+    },
+    {
+      "time": 4.92,
+      "rms": 0.36796695478850816,
+      "high_frequency_difference_rms": 0.09483562264564474
+    },
+    {
+      "time": 4.94,
+      "rms": 0.31210516680258266,
+      "high_frequency_difference_rms": 0.08267456447721014
+    },
+    {
+      "time": 4.96,
+      "rms": 0.2622789196035212,
+      "high_frequency_difference_rms": 0.07454542538550618
+    },
+    {
+      "time": 4.98,
+      "rms": 0.2709226937973331,
+      "high_frequency_difference_rms": 0.06278085105226937
+    },
+    {
+      "time": 5.0,
+      "rms": 0.3071266534704483,
+      "high_frequency_difference_rms": 0.059822789869836385
+    },
+    {
+      "time": 5.02,
+      "rms": 0.2532973545676051,
+      "high_frequency_difference_rms": 0.06127946288549866
+    },
+    {
+      "time": 5.04,
+      "rms": 0.2486951494243703,
+      "high_frequency_difference_rms": 0.05644349863073904
+    },
+    {
+      "time": 5.06,
+      "rms": 0.21596567924930704,
+      "high_frequency_difference_rms": 0.054300280772569674
+    },
+    {
+      "time": 5.08,
+      "rms": 0.23084534615919397,
+      "high_frequency_difference_rms": 0.06599252163807195
+    },
+    {
+      "time": 5.1,
+      "rms": 0.35509316486362485,
+      "high_frequency_difference_rms": 0.07488750574937555
+    },
+    {
+      "time": 5.12,
+      "rms": 0.2817725859732199,
+      "high_frequency_difference_rms": 0.07628634180907419
+    },
+    {
+      "time": 5.14,
+      "rms": 0.37316953469024927,
+      "high_frequency_difference_rms": 0.07360112354548767
+    },
+    {
+      "time": 5.16,
+      "rms": 0.33113249496751107,
+      "high_frequency_difference_rms": 0.08212881143741566
+    },
+    {
+      "time": 5.18,
+      "rms": 0.26939402091133297,
+      "high_frequency_difference_rms": 0.06827981981649339
+    },
+    {
+      "time": 5.2,
+      "rms": 0.26968843880385307,
+      "high_frequency_difference_rms": 0.07694253943928367
+    },
+    {
+      "time": 5.22,
+      "rms": 0.2813124030103346,
+      "high_frequency_difference_rms": 0.0789567063455688
+    },
+    {
+      "time": 5.24,
+      "rms": 0.21787813604919726,
+      "high_frequency_difference_rms": 0.05310178175389904
+    },
+    {
+      "time": 5.26,
+      "rms": 0.2527248691862594,
+      "high_frequency_difference_rms": 0.07911129595624014
+    },
+    {
+      "time": 5.28,
+      "rms": 0.3133342407447405,
+      "high_frequency_difference_rms": 0.08630204042989223
+    },
+    {
+      "time": 5.3,
+      "rms": 0.3262460521258042,
+      "high_frequency_difference_rms": 0.07834821511145196
+    },
+    {
+      "time": 5.32,
+      "rms": 0.2693101481136806,
+      "high_frequency_difference_rms": 0.07012980802281159
+    },
+    {
+      "time": 5.34,
+      "rms": 0.2325966301257237,
+      "high_frequency_difference_rms": 0.054063812480312036
+    },
+    {
+      "time": 5.36,
+      "rms": 0.29419847280675815,
+      "high_frequency_difference_rms": 0.04972642996988861
+    },
+    {
+      "time": 5.38,
+      "rms": 0.22941739741835623,
+      "high_frequency_difference_rms": 0.05756758777962712
+    },
+    {
+      "time": 5.4,
+      "rms": 0.20986447300806657,
+      "high_frequency_difference_rms": 0.05962263109632948
+    },
+    {
+      "time": 5.42,
+      "rms": 0.1871025282437967,
+      "high_frequency_difference_rms": 0.057738954379355424
+    },
+    {
+      "time": 5.44,
+      "rms": 0.3973991737108577,
+      "high_frequency_difference_rms": 0.07903124111933026
+    },
+    {
+      "time": 5.46,
+      "rms": 0.5703420589863932,
+      "high_frequency_difference_rms": 0.06410733312367037
+    },
+    {
+      "time": 5.48,
+      "rms": 0.453769255973819,
+      "high_frequency_difference_rms": 0.052499581150199794
+    },
+    {
+      "time": 5.5,
+      "rms": 0.5634337689005027,
+      "high_frequency_difference_rms": 0.04266732786450066
+    },
+    {
+      "time": 5.52,
+      "rms": 0.5415281189185766,
+      "high_frequency_difference_rms": 0.04461577215469469
+    },
+    {
+      "time": 5.54,
+      "rms": 0.5952479540209324,
+      "high_frequency_difference_rms": 0.052779006517941346
+    },
+    {
+      "time": 5.56,
+      "rms": 0.339608464979999,
+      "high_frequency_difference_rms": 0.05889634496276477
+    },
+    {
+      "time": 5.58,
+      "rms": 0.36506513992332557,
+      "high_frequency_difference_rms": 0.05134376547654349
+    },
+    {
+      "time": 5.6,
+      "rms": 0.3474829091571731,
+      "high_frequency_difference_rms": 0.04882242417614108
+    },
+    {
+      "time": 5.62,
+      "rms": 0.42269744189064856,
+      "high_frequency_difference_rms": 0.08796204654938722
+    },
+    {
+      "time": 5.64,
+      "rms": 0.5407154744449006,
+      "high_frequency_difference_rms": 0.08994179916299908
+    },
+    {
+      "time": 5.66,
+      "rms": 0.37689934483004894,
+      "high_frequency_difference_rms": 0.081241246121378
+    },
+    {
+      "time": 5.68,
+      "rms": 0.39878230916136526,
+      "high_frequency_difference_rms": 0.06649530287063705
+    },
+    {
+      "time": 5.7,
+      "rms": 0.2311626026904238,
+      "high_frequency_difference_rms": 0.06349702909415772
+    },
+    {
+      "time": 5.72,
+      "rms": 0.39807415898015835,
+      "high_frequency_difference_rms": 0.05876782776253082
+    },
+    {
+      "time": 5.74,
+      "rms": 0.34992474466762913,
+      "high_frequency_difference_rms": 0.058541678417298626
+    },
+    {
+      "time": 5.76,
+      "rms": 0.31797311101825154,
+      "high_frequency_difference_rms": 0.05742177167044492
+    },
+    {
+      "time": 5.78,
+      "rms": 0.3852902218297424,
+      "high_frequency_difference_rms": 0.0699964922273465
+    },
+    {
+      "time": 5.8,
+      "rms": 0.25075369709698675,
+      "high_frequency_difference_rms": 0.08151766706174521
+    },
+    {
+      "time": 5.82,
+      "rms": 0.2648217044672353,
+      "high_frequency_difference_rms": 0.07915407944105426
+    },
+    {
+      "time": 5.84,
+      "rms": 0.37203907470580216,
+      "high_frequency_difference_rms": 0.07273207759555926
+    },
+    {
+      "time": 5.86,
+      "rms": 0.3415215955104295,
+      "high_frequency_difference_rms": 0.06254297124742687
+    },
+    {
+      "time": 5.88,
+      "rms": 0.35541848408834287,
+      "high_frequency_difference_rms": 0.049148021544169224
+    },
+    {
+      "time": 5.9,
+      "rms": 0.31692250018869683,
+      "high_frequency_difference_rms": 0.05172531806092704
+    },
+    {
+      "time": 5.92,
+      "rms": 0.2680014621082064,
+      "high_frequency_difference_rms": 0.036843383017522054
+    },
+    {
+      "time": 5.94,
+      "rms": 0.3023047524225366,
+      "high_frequency_difference_rms": 0.03684085090322581
+    },
+    {
+      "time": 5.96,
+      "rms": 0.26275177611606415,
+      "high_frequency_difference_rms": 0.03194046860930589
+    },
+    {
+      "time": 5.98,
+      "rms": 0.46890852953569123,
+      "high_frequency_difference_rms": 0.11470142323932343
+    },
+    {
+      "time": 6.0,
+      "rms": 0.6219481067615208,
+      "high_frequency_difference_rms": 0.0923575545526628
+    },
+    {
+      "time": 6.02,
+      "rms": 0.5933235237444061,
+      "high_frequency_difference_rms": 0.08585021837627463
+    },
+    {
+      "time": 6.04,
+      "rms": 0.6292489300545372,
+      "high_frequency_difference_rms": 0.06723428433733072
+    },
+    {
+      "time": 6.06,
+      "rms": 0.3799997370797648,
+      "high_frequency_difference_rms": 0.07718359610134197
+    },
+    {
+      "time": 6.08,
+      "rms": 0.6092578462519078,
+      "high_frequency_difference_rms": 0.06301834604419625
+    },
+    {
+      "time": 6.1,
+      "rms": 0.5622028625507087,
+      "high_frequency_difference_rms": 0.06881587338209584
+    },
+    {
+      "time": 6.12,
+      "rms": 0.2792192549913491,
+      "high_frequency_difference_rms": 0.05764676104216543
+    },
+    {
+      "time": 6.14,
+      "rms": 0.41333641221594625,
+      "high_frequency_difference_rms": 0.06470096058864097
+    },
+    {
+      "time": 6.16,
+      "rms": 0.2985437747183829,
+      "high_frequency_difference_rms": 0.07035209701911177
+    },
+    {
+      "time": 6.18,
+      "rms": 0.33818621272027366,
+      "high_frequency_difference_rms": 0.08278188320681917
+    },
+    {
+      "time": 6.2,
+      "rms": 0.3264514193365765,
+      "high_frequency_difference_rms": 0.07994605106356234
+    },
+    {
+      "time": 6.22,
+      "rms": 0.2752940747014961,
+      "high_frequency_difference_rms": 0.06253699641093427
+    },
+    {
+      "time": 6.24,
+      "rms": 0.30171178831629414,
+      "high_frequency_difference_rms": 0.07353994163627643
+    },
+    {
+      "time": 6.26,
+      "rms": 0.3425178408363846,
+      "high_frequency_difference_rms": 0.08207427046108075
+    },
+    {
+      "time": 6.28,
+      "rms": 0.310852134557773,
+      "high_frequency_difference_rms": 0.09713702115305885
+    },
+    {
+      "time": 6.3,
+      "rms": 0.3487875338809637,
+      "high_frequency_difference_rms": 0.0876923491216064
+    },
+    {
+      "time": 6.32,
+      "rms": 0.38198289338303065,
+      "high_frequency_difference_rms": 0.0547340256976547
+    },
+    {
+      "time": 6.34,
+      "rms": 0.31383922227885364,
+      "high_frequency_difference_rms": 0.07362607569759531
+    },
+    {
+      "time": 6.36,
+      "rms": 0.3194286917050407,
+      "high_frequency_difference_rms": 0.08051188129457348
+    },
+    {
+      "time": 6.38,
+      "rms": 0.3638389521481787,
+      "high_frequency_difference_rms": 0.07905357833831603
+    },
+    {
+      "time": 6.4,
+      "rms": 0.2917894777454055,
+      "high_frequency_difference_rms": 0.06384039053625606
+    },
+    {
+      "time": 6.42,
+      "rms": 0.28309020699596577,
+      "high_frequency_difference_rms": 0.06964923141336031
+    },
+    {
+      "time": 6.44,
+      "rms": 0.27756564281091234,
+      "high_frequency_difference_rms": 0.07632152441089085
+    },
+    {
+      "time": 6.46,
+      "rms": 0.2842846796910085,
+      "high_frequency_difference_rms": 0.07273331955402831
+    },
+    {
+      "time": 6.48,
+      "rms": 0.2840934877591014,
+      "high_frequency_difference_rms": 0.0608916233129546
+    },
+    {
+      "time": 6.5,
+      "rms": 0.2926172191615941,
+      "high_frequency_difference_rms": 0.05314280328185853
+    },
+    {
+      "time": 6.52,
+      "rms": 0.31789373261450665,
+      "high_frequency_difference_rms": 0.09244951962620977
+    },
+    {
+      "time": 6.54,
+      "rms": 0.31742928756133065,
+      "high_frequency_difference_rms": 0.09488415606623858
+    },
+    {
+      "time": 6.56,
+      "rms": 0.25984781680155594,
+      "high_frequency_difference_rms": 0.08781682780805425
+    },
+    {
+      "time": 6.58,
+      "rms": 0.336002977555797,
+      "high_frequency_difference_rms": 0.07105318505139627
+    },
+    {
+      "time": 6.6,
+      "rms": 0.19708148116354773,
+      "high_frequency_difference_rms": 0.05140636575338357
+    },
+    {
+      "time": 6.62,
+      "rms": 0.3586793739581126,
+      "high_frequency_difference_rms": 0.05066262500110941
+    },
+    {
+      "time": 6.64,
+      "rms": 0.3340529913584792,
+      "high_frequency_difference_rms": 0.06027953899659746
+    },
+    {
+      "time": 6.66,
+      "rms": 0.3828500397115348,
+      "high_frequency_difference_rms": 0.054103386299752906
+    },
+    {
+      "time": 6.68,
+      "rms": 0.3440425771144386,
+      "high_frequency_difference_rms": 0.054118810191162915
+    },
+    {
+      "time": 6.7,
+      "rms": 0.3940353834836999,
+      "high_frequency_difference_rms": 0.08506312745197785
+    },
+    {
+      "time": 6.72,
+      "rms": 0.3133899623228023,
+      "high_frequency_difference_rms": 0.08290621304176775
+    },
+    {
+      "time": 6.74,
+      "rms": 0.4098808552068858,
+      "high_frequency_difference_rms": 0.0822424640999704
+    },
+    {
+      "time": 6.76,
+      "rms": 0.28983490458896227,
+      "high_frequency_difference_rms": 0.06285499997330792
+    },
+    {
+      "time": 6.78,
+      "rms": 0.3437562518904244,
+      "high_frequency_difference_rms": 0.07026426699437191
+    },
+    {
+      "time": 6.8,
+      "rms": 0.32550787680838406,
+      "high_frequency_difference_rms": 0.07310309427475974
+    },
+    {
+      "time": 6.82,
+      "rms": 0.227664216854182,
+      "high_frequency_difference_rms": 0.06981673692811433
+    },
+    {
+      "time": 6.84,
+      "rms": 0.3533394830478486,
+      "high_frequency_difference_rms": 0.06769077421636047
+    },
+    {
+      "time": 6.86,
+      "rms": 0.22749579652955138,
+      "high_frequency_difference_rms": 0.05455309803078116
+    },
+    {
+      "time": 6.88,
+      "rms": 0.48348790677686027,
+      "high_frequency_difference_rms": 0.0848982021334798
+    },
+    {
+      "time": 6.9,
+      "rms": 0.5546008369804559,
+      "high_frequency_difference_rms": 0.07487694759086999
+    },
+    {
+      "time": 6.92,
+      "rms": 0.592059278867649,
+      "high_frequency_difference_rms": 0.07164002125542904
+    },
+    {
+      "time": 6.94,
+      "rms": 0.5023287416043377,
+      "high_frequency_difference_rms": 0.051775506657544906
+    },
+    {
+      "time": 6.96,
+      "rms": 0.32358251668351984,
+      "high_frequency_difference_rms": 0.04649483700237696
+    },
+    {
+      "time": 6.98,
+      "rms": 0.46235627409820357,
+      "high_frequency_difference_rms": 0.05421983966041028
+    },
+    {
+      "time": 7.0,
+      "rms": 0.5183386249080563,
+      "high_frequency_difference_rms": 0.06277521427026901
+    },
+    {
+      "time": 7.02,
+      "rms": 0.3441392856274084,
+      "high_frequency_difference_rms": 0.052199492935329335
+    },
+    {
+      "time": 7.04,
+      "rms": 0.3427014581702617,
+      "high_frequency_difference_rms": 0.04852166504594399
+    },
+    {
+      "time": 7.06,
+      "rms": 0.34256712527640565,
+      "high_frequency_difference_rms": 0.07135686319560045
+    },
+    {
+      "time": 7.08,
+      "rms": 0.36308364202777726,
+      "high_frequency_difference_rms": 0.09139949686096843
+    },
+    {
+      "time": 7.1,
+      "rms": 0.2897733873679336,
+      "high_frequency_difference_rms": 0.10114000794351498
+    },
+    {
+      "time": 7.12,
+      "rms": 0.27125366501836684,
+      "high_frequency_difference_rms": 0.07373108725278568
+    },
+    {
+      "time": 7.14,
+      "rms": 0.2460170035218192,
+      "high_frequency_difference_rms": 0.0755480422765603
+    },
+    {
+      "time": 7.16,
+      "rms": 0.23205974206296062,
+      "high_frequency_difference_rms": 0.08018520861693744
+    },
+    {
+      "time": 7.18,
+      "rms": 0.22206589102589666,
+      "high_frequency_difference_rms": 0.09305131161017871
+    },
+    {
+      "time": 7.2,
+      "rms": 0.2380865913275835,
+      "high_frequency_difference_rms": 0.09896703682513645
+    },
+    {
+      "time": 7.22,
+      "rms": 0.24001081170841557,
+      "high_frequency_difference_rms": 0.076637158344027
+    },
+    {
+      "time": 7.24,
+      "rms": 0.2034702136300064,
+      "high_frequency_difference_rms": 0.1167386705266641
+    },
+    {
+      "time": 7.26,
+      "rms": 0.28995859515189804,
+      "high_frequency_difference_rms": 0.08833769949551312
+    },
+    {
+      "time": 7.28,
+      "rms": 0.3609597180328418,
+      "high_frequency_difference_rms": 0.08617811678449858
+    },
+    {
+      "time": 7.3,
+      "rms": 0.30592982121316226,
+      "high_frequency_difference_rms": 0.060019185786054974
+    },
+    {
+      "time": 7.32,
+      "rms": 0.275726197838559,
+      "high_frequency_difference_rms": 0.053642765254348225
+    },
+    {
+      "time": 7.34,
+      "rms": 0.3687565436637539,
+      "high_frequency_difference_rms": 0.058011934011716275
+    },
+    {
+      "time": 7.36,
+      "rms": 0.33450821786238777,
+      "high_frequency_difference_rms": 0.07268931747444876
+    },
+    {
+      "time": 7.38,
+      "rms": 0.24041160712267062,
+      "high_frequency_difference_rms": 0.055822129049353963
+    },
+    {
+      "time": 7.4,
+      "rms": 0.25181226216443997,
+      "high_frequency_difference_rms": 0.04296600626422906
+    },
+    {
+      "time": 7.42,
+      "rms": 0.2800402827672955,
+      "high_frequency_difference_rms": 0.09139345831261032
+    },
+    {
+      "time": 7.44,
+      "rms": 0.602325118104368,
+      "high_frequency_difference_rms": 0.07463677701576754
+    },
+    {
+      "time": 7.46,
+      "rms": 0.4308197514389354,
+      "high_frequency_difference_rms": 0.07281998121868145
+    },
+    {
+      "time": 7.48,
+      "rms": 0.5268379579373794,
+      "high_frequency_difference_rms": 0.07542705676881488
+    },
+    {
+      "time": 7.5,
+      "rms": 0.43638740752307653,
+      "high_frequency_difference_rms": 0.07149442707620035
+    },
+    {
+      "time": 7.52,
+      "rms": 0.49203813471416363,
+      "high_frequency_difference_rms": 0.09016617465290228
+    },
+    {
+      "time": 7.54,
+      "rms": 0.5072394668969382,
+      "high_frequency_difference_rms": 0.09067848262420555
+    },
+    {
+      "time": 7.56,
+      "rms": 0.39380760721855146,
+      "high_frequency_difference_rms": 0.08133253140328439
+    },
+    {
+      "time": 7.58,
+      "rms": 0.42492715189816055,
+      "high_frequency_difference_rms": 0.06564296283799034
+    },
+    {
+      "time": 7.6,
+      "rms": 0.41397491814887943,
+      "high_frequency_difference_rms": 0.08008111502925257
+    },
+    {
+      "time": 7.62,
+      "rms": 0.4436931630728692,
+      "high_frequency_difference_rms": 0.09118481721084701
+    },
+    {
+      "time": 7.64,
+      "rms": 0.36438741148226866,
+      "high_frequency_difference_rms": 0.11106414128847232
+    },
+    {
+      "time": 7.66,
+      "rms": 0.34240832064278715,
+      "high_frequency_difference_rms": 0.07633467986293854
+    },
+    {
+      "time": 7.68,
+      "rms": 0.2842565029837161,
+      "high_frequency_difference_rms": 0.06899803523138774
+    },
+    {
+      "time": 7.7,
+      "rms": 0.29021910393538514,
+      "high_frequency_difference_rms": 0.07824856217531985
+    },
+    {
+      "time": 7.72,
+      "rms": 0.34866433663504653,
+      "high_frequency_difference_rms": 0.08959638968372477
+    },
+    {
+      "time": 7.74,
+      "rms": 0.26906511780050535,
+      "high_frequency_difference_rms": 0.08473203857831588
+    },
+    {
+      "time": 7.76,
+      "rms": 0.3036310272005273,
+      "high_frequency_difference_rms": 0.06732595030287054
+    },
+    {
+      "time": 7.78,
+      "rms": 0.3673049987444773,
+      "high_frequency_difference_rms": 0.08464814244808468
+    },
+    {
+      "time": 7.8,
+      "rms": 0.3936537082415316,
+      "high_frequency_difference_rms": 0.10082689645797327
+    },
+    {
+      "time": 7.82,
+      "rms": 0.33227964726716414,
+      "high_frequency_difference_rms": 0.08976020408115697
+    },
+    {
+      "time": 7.84,
+      "rms": 0.3733956176307713,
+      "high_frequency_difference_rms": 0.06708949782355311
+    },
+    {
+      "time": 7.86,
+      "rms": 0.3139693100991267,
+      "high_frequency_difference_rms": 0.07250858273024516
+    },
+    {
+      "time": 7.88,
+      "rms": 0.38227194688927846,
+      "high_frequency_difference_rms": 0.06709412524043523
+    },
+    {
+      "time": 7.9,
+      "rms": 0.33051866949754033,
+      "high_frequency_difference_rms": 0.09501150271624727
+    },
+    {
+      "time": 7.92,
+      "rms": 0.3654276836260105,
+      "high_frequency_difference_rms": 0.09341989698772887
+    },
+    {
+      "time": 7.94,
+      "rms": 0.24071965797261324,
+      "high_frequency_difference_rms": 0.07073264100114664
+    },
+    {
+      "time": 7.96,
+      "rms": 0.3432776137367841,
+      "high_frequency_difference_rms": 0.07759952383713405
+    },
+    {
+      "time": 7.98,
+      "rms": 0.22842685604119237,
+      "high_frequency_difference_rms": 0.08892523270302696
+    },
+    {
+      "time": 8.0,
+      "rms": 0.2898337337704473,
+      "high_frequency_difference_rms": 0.09893739870069802
+    },
+    {
+      "time": 8.02,
+      "rms": 0.3272236364234681,
+      "high_frequency_difference_rms": 0.0741075599948008
+    },
+    {
+      "time": 8.04,
+      "rms": 0.28438919257612844,
+      "high_frequency_difference_rms": 0.06731569665915774
+    },
+    {
+      "time": 8.06,
+      "rms": 0.2907710959286181,
+      "high_frequency_difference_rms": 0.06537291820198515
+    },
+    {
+      "time": 8.08,
+      "rms": 0.3538241489609631,
+      "high_frequency_difference_rms": 0.09422226735574361
+    },
+    {
+      "time": 8.1,
+      "rms": 0.2524626978778506,
+      "high_frequency_difference_rms": 0.08658691846788505
+    },
+    {
+      "time": 8.12,
+      "rms": 0.2959362579676701,
+      "high_frequency_difference_rms": 0.05093362182398712
+    },
+    {
+      "time": 8.14,
+      "rms": 0.3029420910879321,
+      "high_frequency_difference_rms": 0.06808865894413316
+    },
+    {
+      "time": 8.16,
+      "rms": 0.3543440020896103,
+      "high_frequency_difference_rms": 0.10289822696382188
+    },
+    {
+      "time": 8.18,
+      "rms": 0.276160690744937,
+      "high_frequency_difference_rms": 0.12308205986132659
+    },
+    {
+      "time": 8.2,
+      "rms": 0.2982647507820417,
+      "high_frequency_difference_rms": 0.09217430969331056
+    },
+    {
+      "time": 8.22,
+      "rms": 0.2633337951894191,
+      "high_frequency_difference_rms": 0.059903489970576936
+    },
+    {
+      "time": 8.24,
+      "rms": 0.29027518955339343,
+      "high_frequency_difference_rms": 0.06450582087049216
+    },
+    {
+      "time": 8.26,
+      "rms": 0.2570481555519442,
+      "high_frequency_difference_rms": 0.09122211596198962
+    },
+    {
+      "time": 8.28,
+      "rms": 0.3371197615700813,
+      "high_frequency_difference_rms": 0.1053176705005523
+    },
+    {
+      "time": 8.3,
+      "rms": 0.17398668489542873,
+      "high_frequency_difference_rms": 0.0687318730387279
+    },
+    {
+      "time": 8.32,
+      "rms": 0.27976041471910906,
+      "high_frequency_difference_rms": 0.0797246861320697
+    },
+    {
+      "time": 8.34,
+      "rms": 0.26198268101925704,
+      "high_frequency_difference_rms": 0.10612927229251683
+    },
+    {
+      "time": 8.36,
+      "rms": 0.32924105071631754,
+      "high_frequency_difference_rms": 0.1257199458712647
+    },
+    {
+      "time": 8.38,
+      "rms": 0.2662290870597627,
+      "high_frequency_difference_rms": 0.08529897634793054
+    },
+    {
+      "time": 8.4,
+      "rms": 0.26136563459591605,
+      "high_frequency_difference_rms": 0.05708010356988059
+    },
+    {
+      "time": 8.42,
+      "rms": 0.2655262092491212,
+      "high_frequency_difference_rms": 0.06739478472625747
+    },
+    {
+      "time": 8.44,
+      "rms": 0.3008348037407074,
+      "high_frequency_difference_rms": 0.10188619531710642
+    },
+    {
+      "time": 8.46,
+      "rms": 0.27898215721647956,
+      "high_frequency_difference_rms": 0.10794990952655906
+    },
+    {
+      "time": 8.48,
+      "rms": 0.2640514082728783,
+      "high_frequency_difference_rms": 0.08004238619367017
+    },
+    {
+      "time": 8.5,
+      "rms": 0.3039999887214475,
+      "high_frequency_difference_rms": 0.09394089171566566
+    },
+    {
+      "time": 8.52,
+      "rms": 0.27662525854234177,
+      "high_frequency_difference_rms": 0.10178306407365884
+    },
+    {
+      "time": 8.54,
+      "rms": 0.3101985607779076,
+      "high_frequency_difference_rms": 0.09946199944068934
+    },
+    {
+      "time": 8.56,
+      "rms": 0.38753234073378345,
+      "high_frequency_difference_rms": 0.07654110510995495
+    },
+    {
+      "time": 8.58,
+      "rms": 0.3389584552309997,
+      "high_frequency_difference_rms": 0.08754120055309261
+    },
+    {
+      "time": 8.6,
+      "rms": 0.35101065708150586,
+      "high_frequency_difference_rms": 0.09184111791467194
+    },
+    {
+      "time": 8.62,
+      "rms": 0.3942003118194687,
+      "high_frequency_difference_rms": 0.10275603311984637
+    },
+    {
+      "time": 8.64,
+      "rms": 0.3746896627763188,
+      "high_frequency_difference_rms": 0.10503741449152298
+    },
+    {
+      "time": 8.66,
+      "rms": 0.40147050319795363,
+      "high_frequency_difference_rms": 0.10759838967750181
+    },
+    {
+      "time": 8.68,
+      "rms": 0.44331002380864604,
+      "high_frequency_difference_rms": 0.10554180016244293
+    },
+    {
+      "time": 8.7,
+      "rms": 0.41504811193263547,
+      "high_frequency_difference_rms": 0.09693517728660772
+    },
+    {
+      "time": 8.72,
+      "rms": 0.5427330992622793,
+      "high_frequency_difference_rms": 0.07236833122871991
+    },
+    {
+      "time": 8.74,
+      "rms": 0.31408775397491234,
+      "high_frequency_difference_rms": 0.0685320440514052
+    },
+    {
+      "time": 8.76,
+      "rms": 0.3416905959247881,
+      "high_frequency_difference_rms": 0.06752534209103925
+    },
+    {
+      "time": 8.78,
+      "rms": 0.3341591750641337,
+      "high_frequency_difference_rms": 0.07156535551901226
+    },
+    {
+      "time": 8.8,
+      "rms": 0.3540646333073336,
+      "high_frequency_difference_rms": 0.07190620372073145
+    },
+    {
+      "time": 8.82,
+      "rms": 0.3467607856434471,
+      "high_frequency_difference_rms": 0.07013844024987403
+    },
+    {
+      "time": 8.84,
+      "rms": 0.26454074095629515,
+      "high_frequency_difference_rms": 0.0672952769615721
+    },
+    {
+      "time": 8.86,
+      "rms": 0.34365976062957637,
+      "high_frequency_difference_rms": 0.09319900669158449
+    },
+    {
+      "time": 8.88,
+      "rms": 0.5134103617561006,
+      "high_frequency_difference_rms": 0.08849430735774576
+    },
+    {
+      "time": 8.9,
+      "rms": 0.3759321848577023,
+      "high_frequency_difference_rms": 0.08379534351007101
+    },
+    {
+      "time": 8.92,
+      "rms": 0.4699150684762079,
+      "high_frequency_difference_rms": 0.06848978594169935
+    },
+    {
+      "time": 8.94,
+      "rms": 0.4864066146979093,
+      "high_frequency_difference_rms": 0.06818412843186705
+    },
+    {
+      "time": 8.96,
+      "rms": 0.46704934020096384,
+      "high_frequency_difference_rms": 0.06725895091468552
+    },
+    {
+      "time": 8.98,
+      "rms": 0.2677386174926004,
+      "high_frequency_difference_rms": 0.05163613378495773
+    },
+    {
+      "time": 9.0,
+      "rms": 0.30716033257938885,
+      "high_frequency_difference_rms": 0.0357703010157331
+    },
+    {
+      "time": 9.02,
+      "rms": 0.3133085174961212,
+      "high_frequency_difference_rms": 0.033893128496608374
+    },
+    {
+      "time": 9.04,
+      "rms": 0.17678736989850208,
+      "high_frequency_difference_rms": 0.063133416802366
+    },
+    {
+      "time": 9.06,
+      "rms": 0.3149446957762017,
+      "high_frequency_difference_rms": 0.0896759464125003
+    },
+    {
+      "time": 9.08,
+      "rms": 0.33771053799263223,
+      "high_frequency_difference_rms": 0.10507870704079007
+    },
+    {
+      "time": 9.1,
+      "rms": 0.29432804389804623,
+      "high_frequency_difference_rms": 0.08359340289499291
+    },
+    {
+      "time": 9.12,
+      "rms": 0.27584439606155775,
+      "high_frequency_difference_rms": 0.0547661342233138
+    },
+    {
+      "time": 9.14,
+      "rms": 0.20217801154294363,
+      "high_frequency_difference_rms": 0.055820893653510145
+    },
+    {
+      "time": 9.16,
+      "rms": 0.17666953242465502,
+      "high_frequency_difference_rms": 0.09975373276880987
+    },
+    {
+      "time": 9.18,
+      "rms": 0.35040722158423826,
+      "high_frequency_difference_rms": 0.11442524859103022
+    },
+    {
+      "time": 9.2,
+      "rms": 0.2189272105681191,
+      "high_frequency_difference_rms": 0.10055262183704165
+    },
+    {
+      "time": 9.22,
+      "rms": 0.21122736650110968,
+      "high_frequency_difference_rms": 0.11237300314704647
+    },
+    {
+      "time": 9.24,
+      "rms": 0.35829851270937046,
+      "high_frequency_difference_rms": 0.10737113368461407
+    },
+    {
+      "time": 9.26,
+      "rms": 0.3120527295118092,
+      "high_frequency_difference_rms": 0.10536018140424085
+    },
+    {
+      "time": 9.28,
+      "rms": 0.22706693737297998,
+      "high_frequency_difference_rms": 0.08610422834793328
+    },
+    {
+      "time": 9.3,
+      "rms": 0.24373635408383995,
+      "high_frequency_difference_rms": 0.070623871127785
+    },
+    {
+      "time": 9.32,
+      "rms": 0.22834656085764546,
+      "high_frequency_difference_rms": 0.0728573335338925
+    },
+    {
+      "time": 9.34,
+      "rms": 0.2831153995300041,
+      "high_frequency_difference_rms": 0.07128828649638692
+    },
+    {
+      "time": 9.36,
+      "rms": 0.21100339197715914,
+      "high_frequency_difference_rms": 0.07484442955606978
+    },
+    {
+      "time": 9.38,
+      "rms": 0.20183284867190657,
+      "high_frequency_difference_rms": 0.05878596676259922
+    },
+    {
+      "time": 9.4,
+      "rms": 0.31343926507467784,
+      "high_frequency_difference_rms": 0.08084893347030052
+    },
+    {
+      "time": 9.42,
+      "rms": 0.36450066425312155,
+      "high_frequency_difference_rms": 0.1129404041216272
+    },
+    {
+      "time": 9.44,
+      "rms": 0.34051840034533865,
+      "high_frequency_difference_rms": 0.14103111390211556
+    },
+    {
+      "time": 9.46,
+      "rms": 0.4391219787659151,
+      "high_frequency_difference_rms": 0.0826753334017172
+    },
+    {
+      "time": 9.48,
+      "rms": 0.21677127495823736,
+      "high_frequency_difference_rms": 0.060099030856408726
+    },
+    {
+      "time": 9.5,
+      "rms": 0.2860926701923152,
+      "high_frequency_difference_rms": 0.06136342083828097
+    },
+    {
+      "time": 9.52,
+      "rms": 0.2850317064745691,
+      "high_frequency_difference_rms": 0.05522869082517059
+    },
+    {
+      "time": 9.54,
+      "rms": 0.3263188149546637,
+      "high_frequency_difference_rms": 0.050444323293070546
+    },
+    {
+      "time": 9.56,
+      "rms": 0.30262105537879064,
+      "high_frequency_difference_rms": 0.04502246259918342
+    },
+    {
+      "time": 9.58,
+      "rms": 0.26779476308619693,
+      "high_frequency_difference_rms": 0.0593844638595464
+    },
+    {
+      "time": 9.6,
+      "rms": 0.34218544245644567,
+      "high_frequency_difference_rms": 0.08951509695986458
+    },
+    {
+      "time": 9.62,
+      "rms": 0.364729908084717,
+      "high_frequency_difference_rms": 0.12091923466702395
+    },
+    {
+      "time": 9.64,
+      "rms": 0.4235605050183908,
+      "high_frequency_difference_rms": 0.08582118283114841
+    },
+    {
+      "time": 9.66,
+      "rms": 0.4124127159244379,
+      "high_frequency_difference_rms": 0.06617242875846782
+    },
+    {
+      "time": 9.68,
+      "rms": 0.35207989128154155,
+      "high_frequency_difference_rms": 0.0658978361828929
+    },
+    {
+      "time": 9.7,
+      "rms": 0.34905014969941756,
+      "high_frequency_difference_rms": 0.09976781535686848
+    },
+    {
+      "time": 9.72,
+      "rms": 0.3739842058362647,
+      "high_frequency_difference_rms": 0.07749588572415586
+    },
+    {
+      "time": 9.74,
+      "rms": 0.32385205410994,
+      "high_frequency_difference_rms": 0.032715756137615064
+    },
+    {
+      "time": 9.76,
+      "rms": 0.29584649215468817,
+      "high_frequency_difference_rms": 0.07656691387374577
+    },
+    {
+      "time": 9.78,
+      "rms": 0.39997710645080803,
+      "high_frequency_difference_rms": 0.10456968050348128
+    },
+    {
+      "time": 9.8,
+      "rms": 0.5916946280437377,
+      "high_frequency_difference_rms": 0.1093500742102942
+    },
+    {
+      "time": 9.82,
+      "rms": 0.3721658117007646,
+      "high_frequency_difference_rms": 0.10653185678524152
+    },
+    {
+      "time": 9.84,
+      "rms": 0.3997721538155942,
+      "high_frequency_difference_rms": 0.07883846943344376
+    },
+    {
+      "time": 9.86,
+      "rms": 0.3454086909736246,
+      "high_frequency_difference_rms": 0.060729598475022066
+    },
+    {
+      "time": 9.88,
+      "rms": 0.3588722662464743,
+      "high_frequency_difference_rms": 0.0476183086917794
+    },
+    {
+      "time": 9.9,
+      "rms": 0.27640505272149335,
+      "high_frequency_difference_rms": 0.04546308324579836
+    },
+    {
+      "time": 9.92,
+      "rms": 0.2451365875335996,
+      "high_frequency_difference_rms": 0.0407862275805251
+    },
+    {
+      "time": 9.94,
+      "rms": 0.23530119180322115,
+      "high_frequency_difference_rms": 0.04291538298315135
+    },
+    {
+      "time": 9.96,
+      "rms": 0.3062825868929338,
+      "high_frequency_difference_rms": 0.06355739714625731
+    },
+    {
+      "time": 9.98,
+      "rms": 0.37711073468911704,
+      "high_frequency_difference_rms": 0.09170814461944082
+    },
+    {
+      "time": 10.0,
+      "rms": 0.2597224963836328,
+      "high_frequency_difference_rms": 0.08810056257706689
+    },
+    {
+      "time": 10.02,
+      "rms": 0.23436583315411674,
+      "high_frequency_difference_rms": 0.09745560194812583
+    },
+    {
+      "time": 10.04,
+      "rms": 0.22198199791982315,
+      "high_frequency_difference_rms": 0.1098731170019653
+    },
+    {
+      "time": 10.06,
+      "rms": 0.23828316943282787,
+      "high_frequency_difference_rms": 0.11239594001346759
+    },
+    {
+      "time": 10.08,
+      "rms": 0.23332060079380743,
+      "high_frequency_difference_rms": 0.10723564649815602
+    },
+    {
+      "time": 10.1,
+      "rms": 0.2191364216449191,
+      "high_frequency_difference_rms": 0.09236954098029004
+    },
+    {
+      "time": 10.12,
+      "rms": 0.23649023618732617,
+      "high_frequency_difference_rms": 0.08551581946385825
+    },
+    {
+      "time": 10.14,
+      "rms": 0.3551188187975229,
+      "high_frequency_difference_rms": 0.09531760305263179
+    },
+    {
+      "time": 10.16,
+      "rms": 0.2608643585016559,
+      "high_frequency_difference_rms": 0.10077207901263041
+    },
+    {
+      "time": 10.18,
+      "rms": 0.2606924713256823,
+      "high_frequency_difference_rms": 0.09165833529336426
+    },
+    {
+      "time": 10.2,
+      "rms": 0.21436289048598073,
+      "high_frequency_difference_rms": 0.06178264976891576
+    },
+    {
+      "time": 10.22,
+      "rms": 0.2184074730581605,
+      "high_frequency_difference_rms": 0.07050748484599668
+    },
+    {
+      "time": 10.24,
+      "rms": 0.21799884945440343,
+      "high_frequency_difference_rms": 0.0695033589670153
+    },
+    {
+      "time": 10.26,
+      "rms": 0.23721115880015853,
+      "high_frequency_difference_rms": 0.06448345018109378
+    },
+    {
+      "time": 10.28,
+      "rms": 0.23088199010575533,
+      "high_frequency_difference_rms": 0.060657506325973665
+    },
+    {
+      "time": 10.3,
+      "rms": 0.24913071029367115,
+      "high_frequency_difference_rms": 0.08409849697262646
+    },
+    {
+      "time": 10.32,
+      "rms": 0.432212049603375,
+      "high_frequency_difference_rms": 0.10988753752235722
+    },
+    {
+      "time": 10.34,
+      "rms": 0.5440310888138347,
+      "high_frequency_difference_rms": 0.10624011265330018
+    },
+    {
+      "time": 10.36,
+      "rms": 0.3516720849597866,
+      "high_frequency_difference_rms": 0.09000576929463346
+    },
+    {
+      "time": 10.38,
+      "rms": 0.24740610560872417,
+      "high_frequency_difference_rms": 0.07074369088100006
+    },
+    {
+      "time": 10.4,
+      "rms": 0.5684777252895911,
+      "high_frequency_difference_rms": 0.06589226070269985
+    },
+    {
+      "time": 10.42,
+      "rms": 0.35554435847460963,
+      "high_frequency_difference_rms": 0.06885710384505166
+    },
+    {
+      "time": 10.44,
+      "rms": 0.46549464997570617,
+      "high_frequency_difference_rms": 0.08787509464770968
+    },
+    {
+      "time": 10.46,
+      "rms": 0.27209589730323647,
+      "high_frequency_difference_rms": 0.06606515489221647
+    },
+    {
+      "time": 10.48,
+      "rms": 0.3900594477564228,
+      "high_frequency_difference_rms": 0.05982651387882435
+    },
+    {
+      "time": 10.5,
+      "rms": 0.4683907136636395,
+      "high_frequency_difference_rms": 0.09131159883058954
+    },
+    {
+      "time": 10.52,
+      "rms": 0.3434089808753224,
+      "high_frequency_difference_rms": 0.11436083708107689
+    },
+    {
+      "time": 10.54,
+      "rms": 0.47813947255568523,
+      "high_frequency_difference_rms": 0.11550446392424518
+    },
+    {
+      "time": 10.56,
+      "rms": 0.37068885040667593,
+      "high_frequency_difference_rms": 0.06515538765277329
+    },
+    {
+      "time": 10.58,
+      "rms": 0.3957339486820601,
+      "high_frequency_difference_rms": 0.05537074175309172
+    },
+    {
+      "time": 10.6,
+      "rms": 0.3391921688255425,
+      "high_frequency_difference_rms": 0.07119721632795196
+    },
+    {
+      "time": 10.62,
+      "rms": 0.3451366336935779,
+      "high_frequency_difference_rms": 0.11020537499770869
+    },
+    {
+      "time": 10.64,
+      "rms": 0.33690169323367497,
+      "high_frequency_difference_rms": 0.09871462640355523
+    },
+    {
+      "time": 10.66,
+      "rms": 0.3601135078012889,
+      "high_frequency_difference_rms": 0.07642626793665817
+    },
+    {
+      "time": 10.68,
+      "rms": 0.3819136935335671,
+      "high_frequency_difference_rms": 0.10351780551920406
+    },
+    {
+      "time": 10.7,
+      "rms": 0.35643333616206463,
+      "high_frequency_difference_rms": 0.12169894688688322
+    },
+    {
+      "time": 10.72,
+      "rms": 0.38690153309766073,
+      "high_frequency_difference_rms": 0.12334341084754019
+    },
+    {
+      "time": 10.74,
+      "rms": 0.3685898440003927,
+      "high_frequency_difference_rms": 0.08650850690083689
+    },
+    {
+      "time": 10.76,
+      "rms": 0.37730368968116673,
+      "high_frequency_difference_rms": 0.062083612432118726
+    },
+    {
+      "time": 10.78,
+      "rms": 0.32590863955476407,
+      "high_frequency_difference_rms": 0.05389356831835784
+    },
+    {
+      "time": 10.8,
+      "rms": 0.28955195258444005,
+      "high_frequency_difference_rms": 0.05081047281903894
+    },
+    {
+      "time": 10.82,
+      "rms": 0.27602487928879443,
+      "high_frequency_difference_rms": 0.051130109471155455
+    },
+    {
+      "time": 10.84,
+      "rms": 0.29490238169781435,
+      "high_frequency_difference_rms": 0.06775157552737243
+    },
+    {
+      "time": 10.86,
+      "rms": 0.2364895418497707,
+      "high_frequency_difference_rms": 0.09250736629023855
+    },
+    {
+      "time": 10.88,
+      "rms": 0.2976579560353137,
+      "high_frequency_difference_rms": 0.10655667051507943
+    },
+    {
+      "time": 10.9,
+      "rms": 0.38293549732035853,
+      "high_frequency_difference_rms": 0.0928855591538509
+    },
+    {
+      "time": 10.92,
+      "rms": 0.3200096231331066,
+      "high_frequency_difference_rms": 0.0773141471335095
+    },
+    {
+      "time": 10.94,
+      "rms": 0.2729694455564884,
+      "high_frequency_difference_rms": 0.06468656774908924
+    },
+    {
+      "time": 10.96,
+      "rms": 0.2994954861880954,
+      "high_frequency_difference_rms": 0.059299870287360716
+    },
+    {
+      "time": 10.98,
+      "rms": 0.2840635021208302,
+      "high_frequency_difference_rms": 0.05136600513916918
+    },
+    {
+      "time": 11.0,
+      "rms": 0.2526851501726639,
+      "high_frequency_difference_rms": 0.04759039294110236
+    },
+    {
+      "time": 11.02,
+      "rms": 0.219845545700465,
+      "high_frequency_difference_rms": 0.048834408801179174
+    },
+    {
+      "time": 11.04,
+      "rms": 0.3304477382905047,
+      "high_frequency_difference_rms": 0.08616710064802807
+    },
+    {
+      "time": 11.06,
+      "rms": 0.35845167687257967,
+      "high_frequency_difference_rms": 0.0984904029338286
+    },
+    {
+      "time": 11.08,
+      "rms": 0.33076703170293476,
+      "high_frequency_difference_rms": 0.0843043962255663
+    },
+    {
+      "time": 11.1,
+      "rms": 0.38588715116994515,
+      "high_frequency_difference_rms": 0.0674742848633105
+    },
+    {
+      "time": 11.12,
+      "rms": 0.3568119842506419,
+      "high_frequency_difference_rms": 0.06666714397935816
+    },
+    {
+      "time": 11.14,
+      "rms": 0.3371033547640249,
+      "high_frequency_difference_rms": 0.06530403793710737
+    },
+    {
+      "time": 11.16,
+      "rms": 0.3478929336693992,
+      "high_frequency_difference_rms": 0.05721373837026702
+    },
+    {
+      "time": 11.18,
+      "rms": 0.28083599423546146,
+      "high_frequency_difference_rms": 0.041009309713554105
+    },
+    {
+      "time": 11.2,
+      "rms": 0.23731811523099022,
+      "high_frequency_difference_rms": 0.04812528471639635
+    },
+    {
+      "time": 11.22,
+      "rms": 0.3893807793484407,
+      "high_frequency_difference_rms": 0.09922831702569428
+    },
+    {
+      "time": 11.24,
+      "rms": 0.5540723966623561,
+      "high_frequency_difference_rms": 0.08511854669889632
+    },
+    {
+      "time": 11.26,
+      "rms": 0.38723525078862964,
+      "high_frequency_difference_rms": 0.08682155686263324
+    },
+    {
+      "time": 11.28,
+      "rms": 0.3423044576879334,
+      "high_frequency_difference_rms": 0.0645831434524699
+    },
+    {
+      "time": 11.3,
+      "rms": 0.5504421411969729,
+      "high_frequency_difference_rms": 0.060138803390243155
+    },
+    {
+      "time": 11.32,
+      "rms": 0.5429070445721859,
+      "high_frequency_difference_rms": 0.05823746643698537
+    },
+    {
+      "time": 11.34,
+      "rms": 0.4113602619647822,
+      "high_frequency_difference_rms": 0.05704264463500517
+    },
+    {
+      "time": 11.36,
+      "rms": 0.313064845251852,
+      "high_frequency_difference_rms": 0.051980916412178745
+    },
+    {
+      "time": 11.38,
+      "rms": 0.30411913038599453,
+      "high_frequency_difference_rms": 0.04096559595202719
+    },
+    {
+      "time": 11.4,
+      "rms": 0.3984061838402811,
+      "high_frequency_difference_rms": 0.054755112545300896
+    },
+    {
+      "time": 11.42,
+      "rms": 0.47352093125449507,
+      "high_frequency_difference_rms": 0.060931068276766906
+    },
+    {
+      "time": 11.44,
+      "rms": 0.39425262426586777,
+      "high_frequency_difference_rms": 0.06926409202011118
+    },
+    {
+      "time": 11.46,
+      "rms": 0.3263846564137155,
+      "high_frequency_difference_rms": 0.0504299071736991
+    },
+    {
+      "time": 11.48,
+      "rms": 0.32174331068734185,
+      "high_frequency_difference_rms": 0.048041123922143526
+    },
+    {
+      "time": 11.5,
+      "rms": 0.29772037362226594,
+      "high_frequency_difference_rms": 0.05620523802632155
+    },
+    {
+      "time": 11.52,
+      "rms": 0.28701786151786346,
+      "high_frequency_difference_rms": 0.062301174448304346
+    },
+    {
+      "time": 11.54,
+      "rms": 0.34937318795158945,
+      "high_frequency_difference_rms": 0.05840789163354274
+    },
+    {
+      "time": 11.56,
+      "rms": 0.3965422796532715,
+      "high_frequency_difference_rms": 0.05011224334855633
+    },
+    {
+      "time": 11.58,
+      "rms": 0.3313167932289425,
+      "high_frequency_difference_rms": 0.07947325531092349
+    },
+    {
+      "time": 11.6,
+      "rms": 0.38108088280585745,
+      "high_frequency_difference_rms": 0.08096419880831629
+    },
+    {
+      "time": 11.62,
+      "rms": 0.24317867945947638,
+      "high_frequency_difference_rms": 0.08657766209332003
+    },
+    {
+      "time": 11.64,
+      "rms": 0.34024192495566385,
+      "high_frequency_difference_rms": 0.07465591974641797
+    },
+    {
+      "time": 11.66,
+      "rms": 0.30183097667931447,
+      "high_frequency_difference_rms": 0.06290119736047978
+    },
+    {
+      "time": 11.68,
+      "rms": 0.19931474909818936,
+      "high_frequency_difference_rms": 0.05572409312391463
+    }
+  ]
+}

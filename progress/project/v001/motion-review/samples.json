@@ -1,0 +1,148 @@
+{
+  "source_sha256": "69639a6c512293f2c07d345664a8193f558c80129b4ec183673c012cb55cc630",
+  "fps": 30,
+  "frame_number_origin": 0,
+  "keyframes": [
+    {
+      "path": "keyframes/frame-000015.png",
+      "frame": 15,
+      "time_seconds": 0.5
+    },
+    {
+      "path": "keyframes/frame-000060.png",
+      "frame": 60,
+      "time_seconds": 2.0
+    },
+    {
+      "path": "keyframes/frame-000078.png",
+      "frame": 78,
+      "time_seconds": 2.6
+    },
+    {
+      "path": "keyframes/frame-000120.png",
+      "frame": 120,
+      "time_seconds": 4.0
+    },
+    {
+      "path": "keyframes/frame-000156.png",
+      "frame": 156,
+      "time_seconds": 5.2
+    },
+    {
+      "path": "keyframes/frame-000180.png",
+      "frame": 180,
+      "time_seconds": 6.0
+    },
+    {
+      "path": "keyframes/frame-000222.png",
+      "frame": 222,
+      "time_seconds": 7.4
+    },
+    {
+      "path": "keyframes/frame-000252.png",
+      "frame": 252,
+      "time_seconds": 8.4
+    },
+    {
+      "path": "keyframes/frame-000282.png",
+      "frame": 282,
+      "time_seconds": 9.4
+    },
+    {
+      "path": "keyframes/frame-000305.png",
+      "frame": 305,
+      "time_seconds": 10.166666666666666
+    },
+    {
+      "path": "keyframes/frame-000306.png",
+      "frame": 306,
+      "time_seconds": 10.2
+    },
+    {
+      "path": "keyframes/frame-000307.png",
+      "frame": 307,
+      "time_seconds": 10.233333333333333
+    },
+    {
+      "path": "keyframes/frame-000308.png",
+      "frame": 308,
+      "time_seconds": 10.266666666666667
+    },
+    {
+      "path": "keyframes/frame-000310.png",
+      "frame": 310,
+      "time_seconds": 10.333333333333334
+    },
+    {
+      "path": "keyframes/frame-000321.png",
+      "frame": 321,
+      "time_seconds": 10.7
+    },
+    {
+      "path": "keyframes/frame-000366.png",
+      "frame": 366,
+      "time_seconds": 12.2
+    },
+    {
+      "path": "keyframes/frame-000383.png",
+      "frame": 383,
+      "time_seconds": 12.766666666666667
+    }
+  ],
+  "sheets": {
+    "overview.jpg": [
+      15,
+      60,
+      78,
+      120,
+      156,
+      180,
+      222,
+      252,
+      282,
+      305,
+      308,
+      321
+    ],
+    "transitions.jpg": [
+      75,
+      81,
+      87,
+      90,
+      93,
+      96,
+      102,
+      108,
+      162,
+      168,
+      174,
+      180,
+      246,
+      252,
+      258,
+      264
+    ],
+    "impact.jpg": [
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319
+    ]
+  }
+}

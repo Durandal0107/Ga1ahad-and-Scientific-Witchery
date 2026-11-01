@@ -1,0 +1,16 @@
+{
+  "decoded_frames": 384,
+  "no_empty_frames": true,
+  "red_flash_frames": [
+    306,
+    307
+  ],
+  "foreground_touches_edge": [],
+  "audio": {
+    "status": "measured",
+    "integrated_lufs": -13.9,
+    "true_peak_dbtp": -6.6,
+    "word_level_alignment": "not_verified"
+  },
+  "limits": "Image sampling and signal checks do not establish exact sung word timing or artistic approval."
+}

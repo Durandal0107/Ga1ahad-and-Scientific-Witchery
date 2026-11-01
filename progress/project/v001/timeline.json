@@ -1,0 +1,43 @@
+{
+  "fps": 30,
+  "duration": 12.8,
+  "audio_source": "assets/source/Mili_Ga1ahad_and_Scientific_Witchery.mp4",
+  "audio_in": 17.6,
+  "audio_duration": 11.7,
+  "first": {
+    "start": 0,
+    "write_end": 1.55,
+    "emphasis": 1.35,
+    "exit_start": 2.85,
+    "exit_end": 3.18
+  },
+  "second": {
+    "start": 2.55,
+    "write_end": 3.9,
+    "emphasis": 4.0,
+    "exit_start": 5.5,
+    "exit_end": 5.82
+  },
+  "third": {
+    "start": 5.62,
+    "from_bed": 6.18,
+    "darling": 6.93,
+    "exit_start": 8.3,
+    "exit_end": 8.62
+  },
+  "fourth": {
+    "start": 8.5,
+    "see": 8.94,
+    "complete": 9.53,
+    "exit_start": 10.2,
+    "exit_end": 10.47
+  },
+  "fifth": {
+    "flash": 10.2,
+    "flash_frames": 2,
+    "landing": 10.266666666666667,
+    "exit_start": 11.77,
+    "exit_end": 12.13
+  },
+  "timing_evidence": "Inherited source-subtitle anchors from old.md with waveform checks; not a verified word-level alignment."
+}

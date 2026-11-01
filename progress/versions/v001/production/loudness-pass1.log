@@ -1,0 +1,28 @@
+Input #0, wav, from '/workspace/Ga1ahad-and-Scientific-Witchery/progress/assets/audio/five-lines-17.6-29.3.wav':
+  Metadata:
+    encoder         : Lavf61.7.103
+  Duration: 00:00:11.70, bitrate: 2304 kb/s
+  Stream #0:0: Audio: pcm_s24le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s32 (24 bit), 2304 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s24le (native) -> pcm_s16le (native))
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf61.7.103
+  Stream #0:0: Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s
+      Metadata:
+        encoder         : Lavc61.19.101 pcm_s16le
+[Parsed_loudnorm_3 @ 0x7f865c003600]
+{
+	"input_i" : "-6.99",
+	"input_tp" : "0.30",
+	"input_lra" : "3.10",
+	"input_thresh" : "-17.11",
+	"output_i" : "-14.02",
+	"output_tp" : "-6.87",
+	"output_lra" : "0.40",
+	"output_thresh" : "-24.09",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.02"
+}
+[out#0/null @ 0x5620d53d6380] video:0KiB audio:9600KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:12.80 bitrate=N/A speed=34.7x

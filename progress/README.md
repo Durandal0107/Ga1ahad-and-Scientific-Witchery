@@ -20,9 +20,10 @@
 | [references/prompts.md](references/prompts.md) | 早期 10 秒模板；其固定时长不直接适用于当前任务。 |
 | [assets/source/Mili_Ga1ahad_and_Scientific_Witchery.mp4](assets/source/Mili_Ga1ahad_and_Scientific_Witchery.mp4) | 原始音乐视频，与根目录源文件逐字节一致。 |
 | `assets/fonts/` | 旧工程使用过的三种字体及 [许可](assets/fonts/LICENSE.txt)，从当前环境取得；未证明与旧环境二进制一致。 |
-| `project/` | 后续当前可编辑工程、脚本、依赖清单/锁文件及配置；尚未恢复，不是现有工程链接。 |
+| [project/v001/README.md](project/v001/README.md) | 新编写的可编辑工程、脚本、时间轴、依赖、设计稿、运动稿及修正记录；不是取回的旧独立工程。 |
+| [assets/audio/five-lines-17.6-29.3.wav](assets/audio/five-lines-17.6-29.3.wav) | 从原始视频 17.600–29.300 秒新提取的无损原声片段，供后期处理使用。 |
 | [planning/legacy-upload-001-revision-plan.md](planning/legacy-upload-001-revision-plan.md) | 针对用户上传上一版短片的修改方向、画面定位和建议分镜。 |
-| `versions/` | 已归档用户提供的 [上一版评审片](versions/legacy-upload-001/README.md) 及 13 张关键帧；后续新制作使用 vNNN。 |
+| `versions/` | 最新重做 [v001](versions/v001/README.md) 及 17 张实际成片关键帧；保留用户提供的 [上一版评审片](versions/legacy-upload-001/README.md)。 |
 | [validation/onboarding/README.md](validation/onboarding/README.md) | 已有工具验证样片、参数、当前版本信息和验证记录，不是 MV 设计版本。 |
 | [tools/catalog.py](tools/catalog.py) | 更新和检查清单，仅使用 Python 标准库。 |
 | [templates/version-README.md](templates/version-README.md) | 版本说明模板，包含修改、复现、验证及待办。 |
@@ -43,10 +44,11 @@
 
 ## 视频版本索引
 
-已收到一份用户提供的上一版 MV，作为修改基准归档；本轮未制作新版本。原始音乐视频与工具验证样片不占用制作版本号。
+最新重做版本为 v001：12.8 秒、1080p、30 fps，含原声。原始音乐视频与工具验证样片不占用制作版本号。
 
 | 版本 | 日期（北京时间） | 修改概要 | 视频 | 关键帧、工程与说明 | 状态 |
 | --- | --- | --- | --- | --- | --- |
+| v001 | 2026-11-01 | 帽形/针线与裂剑、连续牵引转场、歌词退场、两帧红闪后 kill 直接落位 | [新版视频](versions/v001/video.mp4) | [关键帧、源码与验证](versions/v001/README.md) | 已制作，待用户评审 |
 | legacy-upload-001 | 2026-11-01 | 用户上传的旧版，附本轮分析 | [视频](versions/legacy-upload-001/video.mp4) | [关键帧与说明](versions/legacy-upload-001/README.md)；工程待恢复 | 已归档，待修改 |
 
 ## 历史版本（文件待恢复）
@@ -62,6 +64,7 @@
 
 - 已归档原始音乐视频、两份风格资料、旧对话、当前可用字体和媒体工具验证资料。
 - 当前范围是前五句歌词的确认短片，六项最新修改目标见 `requirements.md`。
-- 尖帽/针/剑组合、约 2 帧红闪、镜头滞后等属于候选方案，尚未逐项确认。
+- 用户随后要求“重做并上传”“继续完成动画”；本轮选择帽形/针/剑与两帧红闪方案实施，等待对成片的评价。历史建议中的镜头滞后未单独采用。
 - 用户已提供上一版短片，视频与本轮抽取的关键帧已存档；[修改方向](planning/legacy-upload-001-revision-plan.md) 将六项反馈落实到五句的具体动作。
-- 旧独立工程、其他历史视频、原关键帧、参考 PV 和截图仍待恢复；可从对话代码重建工程。本轮为评审分析，未制作新 MV。
+- 新工程与正式成片已完成，全部 384 帧解码通过，图像检测无空白或触边，红闪为 306/307 帧；声音为 −13.9 LUFS、−6.6 dBTP。时间点基于继承字幕和波形，未完成人工逐词听审。
+- 旧独立工程、其他历史视频、原关键帧、参考 PV 和截图仍待恢复；新工程是重新制作，不代表旧文件已找回。
