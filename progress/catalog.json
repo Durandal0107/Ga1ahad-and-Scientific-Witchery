@@ -16,8 +16,8 @@
       ],
       "usage": "先阅读本文件，再读取 requirements.md 和 catalog.json。",
       "depends_on": [],
-      "bytes": 7579,
-      "sha256": "cfbb5005d4da95f573bb2caf97f52ea846482ba50f14d33211aca10e80677a7b"
+      "bytes": 8033,
+      "sha256": "cb588c8f3d0a075aa6fb82cbb7d24c710bb8aac94a9a5f72effc34051c8b4004"
     },
     {
       "path": "requirements.md",
@@ -33,8 +33,8 @@
         "context/old.md",
         "references/line-art.md"
       ],
-      "bytes": 17685,
-      "sha256": "7b44f3809c5ddcca5fc640ba3587dddae3f969ab6c961ef12866a838aca5f42c"
+      "bytes": 19391,
+      "sha256": "d98ced6296e82fd0ca050f814c9d965625b6584a638595ea3ec0dcdc04e63c84"
     },
     {
       "path": "context/old.md",
@@ -2923,6 +2923,23 @@
       ],
       "bytes": 2371827,
       "sha256": "93234611f2ab70f744e9169bb8a75f12101fdb633de22c9092b0422b787cd684"
+    },
+    {
+      "path": "planning/v001-composition-discussion.md",
+      "kind": "review_discussion",
+      "purpose": "v001 最新用户反馈及构图、动作、背景配色讨论，明确区分要求与未确认建议",
+      "source": "当前用户对 v001 的观看反馈，结合实际成片总览；方案由助手提出",
+      "status": "discussion_pending_user_direction",
+      "related_versions": [
+        "v001"
+      ],
+      "usage": "下轮制作前阅读；用户只要求讨论，具体色彩、镜头及动作幅度未确认。",
+      "depends_on": [
+        "versions/v001/validation/overview.jpg",
+        "requirements.md"
+      ],
+      "bytes": 3162,
+      "sha256": "d85e2750793a121795339bd6a4de227d811f4746fa0b2890acd71026087a46fc"
     }
   ],
   "missing": [

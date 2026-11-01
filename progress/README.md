@@ -23,6 +23,7 @@
 | [project/v001/README.md](project/v001/README.md) | 新编写的可编辑工程、脚本、时间轴、依赖、设计稿、运动稿及修正记录；不是取回的旧独立工程。 |
 | [assets/audio/five-lines-17.6-29.3.wav](assets/audio/five-lines-17.6-29.3.wav) | 从原始视频 17.600–29.300 秒新提取的无损原声片段，供后期处理使用。 |
 | [planning/legacy-upload-001-revision-plan.md](planning/legacy-upload-001-revision-plan.md) | 针对用户上传上一版短片的修改方向、画面定位和建议分镜。 |
+| [planning/v001-composition-discussion.md](planning/v001-composition-discussion.md) | v001 最新反馈：双方距离过远、动作过小及黑色背景；保留待讨论构图、动作与配色建议。 |
 | `versions/` | 最新重做 [v001](versions/v001/README.md) 及 17 张实际成片关键帧；保留用户提供的 [上一版评审片](versions/legacy-upload-001/README.md)。 |
 | [validation/onboarding/README.md](validation/onboarding/README.md) | 已有工具验证样片、参数、当前版本信息和验证记录，不是 MV 设计版本。 |
 | [tools/catalog.py](tools/catalog.py) | 更新和检查清单，仅使用 Python 标准库。 |
@@ -48,7 +49,7 @@
 
 | 版本 | 日期（北京时间） | 修改概要 | 视频 | 关键帧、工程与说明 | 状态 |
 | --- | --- | --- | --- | --- | --- |
-| v001 | 2026-11-01 | 帽形/针线与裂剑、连续牵引转场、歌词退场、两帧红闪后 kill 直接落位 | [新版视频](versions/v001/video.mp4) | [关键帧、源码与验证](versions/v001/README.md) | 已制作，待用户评审 |
+| v001 | 2026-11-01 | 帽形/针线与裂剑、连续牵引转场、歌词退场、两帧红闪后 kill 直接落位 | [新版视频](versions/v001/video.mp4) | [关键帧、源码与验证](versions/v001/README.md) | 用户不满意距离、动作幅度及黑底，讨论下一轮调整 |
 | legacy-upload-001 | 2026-11-01 | 用户上传的旧版，附本轮分析 | [视频](versions/legacy-upload-001/video.mp4) | [关键帧与说明](versions/legacy-upload-001/README.md)；工程待恢复 | 已归档，待修改 |
 
 ## 历史版本（文件待恢复）
@@ -62,6 +63,7 @@
 
 ## 接续状态
 
+- 最新反馈：帽子与剑相隔太远、移动幅度小，黑色背景不好看；本轮先讨论，尚未制作新版本。具体方案见 [构图讨论](planning/v001-composition-discussion.md)。
 - 已归档原始音乐视频、两份风格资料、旧对话、当前可用字体和媒体工具验证资料。
 - 当前范围是前五句歌词的确认短片，六项最新修改目标见 `requirements.md`。
 - 用户随后要求“重做并上传”“继续完成动画”；本轮选择帽形/针/剑与两帧红闪方案实施，等待对成片的评价。历史建议中的镜头滞后未单独采用。
